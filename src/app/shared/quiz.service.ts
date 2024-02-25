@@ -56,9 +56,9 @@ export class QuizService {
   }
 
   //---------------- Http Methods---------------
-  getQuestions() {
-    let questionList = this.serverRoutes.getQuestionList()
-    let randomIndex = this.getRandomIndex(questionList.length);
+  getQuestions(category: string) {
+    let questionList = this.serverRoutes.getQuestionList(category)
+    //let randomIndex = this.getRandomIndex(questionList.length);
     //let fewQuestionList = randomIndex.map(index => questionList[index]);
     let fewQuestionList = questionList
     return of(fewQuestionList);

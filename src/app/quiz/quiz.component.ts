@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { Router } from "@angular/router";
+import { ActivatedRoute, Router } from "@angular/router";
 import { QuizService } from "../shared/quiz.service";
 
 @Component({
@@ -9,8 +9,18 @@ import { QuizService } from "../shared/quiz.service";
 })
 export class QuizComponent implements OnInit {
   public progressBarPercentage: Number;
+  category: string;
 
-  constructor(private router: Router, public quizService: QuizService) { }
+  constructor(private router: Router,
+    private route: ActivatedRoute, 
+    public quizService: QuizService) {
+      
+    // Access the route parameter
+    this.category = this.route.snapshot.paramMap.get('category');
+    console.log('Category:', this.category);
+    localStorage.setItem("seconds", '0');
+    localStorage.setItem("qnProgress", '0');
+  }
 
   ngOnInit() {
 
@@ -23,7 +33,8 @@ export class QuizComponent implements OnInit {
       this.quizService.qns = JSON.parse(localStorage.getItem("qns"));
       this.progressBarPercentage = 1;
 
-      if (this.quizService.qnProgress == this.quizService.qns.length) {
+      if (this.quizService.qns && 
+        this.quizService.qnProgress == this.quizService.qns.length) {
         this.router.navigate(["/result"]);
       } else {
         this.startTimer();
@@ -33,7 +44,7 @@ export class QuizComponent implements OnInit {
 
       this.quizService.seconds = 0;
       this.quizService.qnProgress = 0;
-      this.quizService.getQuestions().subscribe((data: any) => {
+      this.quizService.getQuestions(this.category).subscribe((data: any) => {
         this.quizService.qns = data;
         this.startTimer();
       });

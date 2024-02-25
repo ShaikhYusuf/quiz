@@ -1,11 +1,37 @@
-import { IQuestion, QuestionCollection } from './questionColllection';
+import { QuestionCollectionAlgorithm } from './questionCollectionAlgo';
+import { QuestionCollectionDataStructure } from './questionCollectionDS';
+import { QuestionCollectionDatabaseManagement } from './questionCollectionDbms';
+import { QuestionCollectionObjectOrientedProgramming } from './questionCollectionOOP';
+import { QuestionCollectionOperatingSystems } from './questionCollectionOS';
+import { IQuestion, QuestionCollectionProgramming } from './questionCollectionProg';
+import { QuestionCollectionSoftwareEngineering } from './questionCollectionSWEngg';
+import { QuestionCollectionSoftwareTesting } from './questionCollectionSWTesting';
 
 export class QuestionList {
-  private questionCollection: QuestionCollection;
+  private questionCollection: QuestionCollectionProgramming;
   private questionList: IQuestion[];
   private currentQuestionIndex = 0;
-  constructor() {
-    this.questionCollection = new QuestionCollection();
+  constructor(category: string) {
+    if (category == 'prog') {
+      this.questionCollection = new QuestionCollectionProgramming();
+    } else if (category == 'algo') {
+      this.questionCollection = new QuestionCollectionAlgorithm();
+    } else if (category == 'dbms') {
+      this.questionCollection = new QuestionCollectionDatabaseManagement();
+    } else if (category == 'ds') {
+      this.questionCollection = new QuestionCollectionDataStructure();
+    } else if (category == 'oop') {
+      this.questionCollection = new QuestionCollectionObjectOrientedProgramming();
+    } else if (category == 'os') {
+      this.questionCollection = new QuestionCollectionOperatingSystems();
+    } else if (category == 'swengg') {
+      this.questionCollection = new QuestionCollectionSoftwareEngineering();
+    } else if (category == 'swtest') {
+      this.questionCollection = new QuestionCollectionSoftwareTesting();
+    } else {
+      this.questionCollection = new QuestionCollectionProgramming();
+    }
+     
     this.questionList = this.questionCollection.get();
     this.questionList = this.shuffleArray([...this.questionList]).slice(0, 50);
     //this.questionList.forEach(eachQuestion => this.randomizeOptions(eachQuestion));

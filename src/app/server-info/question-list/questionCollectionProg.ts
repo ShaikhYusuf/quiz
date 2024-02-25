@@ -5,7 +5,7 @@ export interface IQuestion {
   answer: number
 };
 
-export class QuestionCollection {
+export class QuestionCollectionProgramming {
 
   get(): IQuestion[] {
     let questionList = [

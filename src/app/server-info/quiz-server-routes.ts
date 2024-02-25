@@ -1,10 +1,10 @@
 import { Participant, ParticipantList } from "./participants/participant";
-import { IQuestion } from './question-list/questionColllection';
+import { IQuestion } from './question-list/questionCollectionProg';
 import { QuestionList } from './question-list/question-list';
 
 export class QuizServerRoutes {
     private participantList: ParticipantList = new ParticipantList();
-    private questionList: QuestionList = new QuestionList();
+    
 
     registerParticipant(inParticipantName: string, inParticipantEmail: string) {
         let foundParticipant = this.participantList.add(inParticipantName, inParticipantEmail);
@@ -16,8 +16,9 @@ export class QuizServerRoutes {
         return participantList;
     }
 
-    getQuestionList() {
-        let questionOnlyList: IQuestion[] = this.questionList.getList(0);
+    getQuestionList(category: string) {
+        let questionList: QuestionList = new QuestionList(category);
+        let questionOnlyList: IQuestion[] = questionList.getList(0);
         return questionOnlyList;
     }
 

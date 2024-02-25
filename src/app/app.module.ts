@@ -1,11 +1,9 @@
-import { BrowserModule } from '@angular/platform-browser';
+
 import { NgModule } from '@angular/core';
-import { RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { MatTableModule } from '@angular/material/table';
-
-
 
 import { AppComponent } from './app.component';
 import { RegisterComponent } from './register/register.component';
@@ -17,17 +15,22 @@ import { QuizService } from './shared/quiz.service';
 import { AuthGuard } from './auth/auth.guard';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
-
+import { BrowserModule } from '@angular/platform-browser';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
+  
   declarations: [
     AppComponent,
+    HomeComponent,
     RegisterComponent,
     NavbarComponent,
     QuizComponent,
     ResultComponent,
     DashboardComponent
-  ],
+    
+  ],     
+  
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes),
@@ -35,8 +38,11 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
     HttpClientModule,
     NoopAnimationsModule,
     MatTableModule
-  ],
+    
+  ],    
+                                                        
+                                                                                                                                   
   providers: [QuizService, AuthGuard],
   bootstrap: [AppComponent]
-})
-export class AppModule { }
+})                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+export class AppModule { }                                                                                                                                                                           

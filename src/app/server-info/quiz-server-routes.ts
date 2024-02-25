@@ -22,6 +22,12 @@ export class QuizServerRoutes {
         return questionOnlyList;
     }
 
+    getCompleteQuestionList(category: string) {
+        let questionList: QuestionList = new QuestionList(category);
+        let questionOnlyList: IQuestion[] = questionList.getCompleteList();
+        return questionOnlyList;
+    }
+
     updateScore(
         inParticipantId: number,
         inParticipantscore: number,

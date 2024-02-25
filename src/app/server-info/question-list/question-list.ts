@@ -9,6 +9,7 @@ import { QuestionCollectionSoftwareTesting } from './questionCollectionSWTesting
 
 export class QuestionList {
   private questionCollection: QuestionCollectionProgramming;
+  private questionCompleteList: IQuestion[];
   private questionList: IQuestion[];
   private currentQuestionIndex = 0;
   constructor(category: string) {
@@ -32,8 +33,8 @@ export class QuestionList {
       this.questionCollection = new QuestionCollectionProgramming();
     }
      
-    this.questionList = this.questionCollection.get();
-    this.questionList = this.shuffleArray([...this.questionList]).slice(0, 50);
+    this.questionCompleteList = this.questionCollection.get();
+    this.questionList = this.shuffleArray([...this.questionCompleteList]).slice(0, 50);
     //this.questionList.forEach(eachQuestion => this.randomizeOptions(eachQuestion));
     const shuffledJsonData = this.questionList.map((question: any) => {
       // Shuffle the optionList
@@ -65,6 +66,10 @@ export class QuestionList {
 
   getList(inCount: number): IQuestion[] {
     return this.questionList;
+  }
+
+  getCompleteList(): IQuestion[] {
+    return this.questionCompleteList;
   }
 
   getCurrent(): IQuestion {

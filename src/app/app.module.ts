@@ -17,12 +17,14 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
 import { HomeComponent } from './home/home.component';
+import { LearnComponent } from './learn/learn.component';
 
 @NgModule({
   
   declarations: [
     AppComponent,
     HomeComponent,
+    LearnComponent,
     RegisterComponent,
     NavbarComponent,
     QuizComponent,

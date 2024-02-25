@@ -64,6 +64,12 @@ export class QuizService {
     return of(fewQuestionList);
   }
 
+  getCompleteQuestionList(category: string) {
+    let questionList = this.serverRoutes.getCompleteQuestionList(category)
+    return of(questionList);
+  }
+
+
   // getAnswers() {
   //   var body = this.qns.map(x => x.Id);
   //   return this.http.post(this.rootUrl + "/answers", body);

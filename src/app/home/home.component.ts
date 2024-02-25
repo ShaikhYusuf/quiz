@@ -28,7 +28,16 @@ export class HomeComponent implements OnInit {
   }
 
   learn (index: number) {
-    
+    switch(index) {
+      case 0: this.router.navigate(['/learn/algo']); break;
+      case 1: this.router.navigate(['/learn/dbms']); break;
+      case 2: this.router.navigate(['/learn/ds']); break;
+      case 3: this.router.navigate(['/learn/oop']); break;
+      case 4: this.router.navigate(['/learn/os']); break;
+      case 5: this.router.navigate(['/learn/prog']); break;
+      case 6: this.router.navigate(['/learn/swengg']); break;
+      case 7: this.router.navigate(['/learn/swtest']); break;
+    }
   }
 
   quiz(index: number) {

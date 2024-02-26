@@ -1,4 +1,5 @@
 import { QuestionCollectionAlgorithm } from './questionCollectionAlgo';
+import { QuestionCollectionComputerArchitecture } from './questionCollectionCompArch';
 import { QuestionCollectionDataStructure } from './questionCollectionDS';
 import { QuestionCollectionDatabaseManagement } from './questionCollectionDbms';
 import { QuestionCollectionObjectOrientedProgramming } from './questionCollectionOOP';
@@ -29,6 +30,8 @@ export class QuestionList {
       this.questionCollection = new QuestionCollectionSoftwareEngineering();
     } else if (category == 'swtest') {
       this.questionCollection = new QuestionCollectionSoftwareTesting();
+    } else if (category == 'comparch') {
+        this.questionCollection = new QuestionCollectionComputerArchitecture();
     } else {
       this.questionCollection = new QuestionCollectionProgramming();
     }

@@ -17,7 +17,8 @@ export class HomeComponent implements OnInit {
     { title: 'Operating System' },
     { title: 'Programming' },
     { title: 'Software Engineering' },
-    { title: 'Software Testing' }
+    { title: 'Software Testing' },
+    { title: 'Computer Architecture & Organization' }
   ];
 
   constructor(private router: Router) {
@@ -37,6 +38,7 @@ export class HomeComponent implements OnInit {
       case 5: this.router.navigate(['/learn/prog']); break;
       case 6: this.router.navigate(['/learn/swengg']); break;
       case 7: this.router.navigate(['/learn/swtest']); break;
+      case 8: this.router.navigate(['/learn/comparch']); break;
     }
   }
 
@@ -50,6 +52,7 @@ export class HomeComponent implements OnInit {
       case 5: this.router.navigate(['/subject/prog']); break;
       case 6: this.router.navigate(['/subject/swengg']); break;
       case 7: this.router.navigate(['/subject/swtest']); break;
+      case 8: this.router.navigate(['/subject/comparch']); break;
     }
     
   }

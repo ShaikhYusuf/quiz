@@ -1,4 +1,52 @@
-.quiz-font {
-    font-family: 'Noto Nastaliq Urdu', serif;
-    font-size: 20px;
+.mat-mdc-card-title {
+  font-family: 'Noto Nastaliq Urdu', sans-serif !important;
+}
+
+mat-card {
+  margin-bottom: 20px;
+}
+
+.mat-card-title {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.mat-card-content {
+  font-size: 1rem;
+  padding: 15px;
+}
+
+.answer {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+mat-list-item {
+  width: 100%; /* Ensures the list item takes up the full width */
+  padding: 15px;
+  margin: 5px 0;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  color: #000;
+  box-sizing: border-box;
+  font-size: 1.3rem;
+}
+
+mat-list-item:hover {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+mat-list-item.selected {
+  background-color: #26a69a !important;
+  color: #ffffff !important;
+}
+
+.urdu-options {
+  --mdc-list-list-item-label-text-font: 'Noto Nastaliq Urdu', sans-serif !important;
+  direction: rtl;
+  unicode-bidi: embed;
 }

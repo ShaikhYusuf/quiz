@@ -1,29 +1,40 @@
-import { Component, OnInit } from "@angular/core";
-import { QuizService } from "../shared/quiz.service";
-import { Router } from "@angular/router";
+import { Component } from '@angular/core';
+import { QuizService } from '../quiz.service';
+import { Router } from '@angular/router';
+import { CommonModule } from '@angular/common';
+import { NavbarComponent } from '../navbar/navbar.component';
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
+import { MatInputModule } from '@angular/material/input';
+import { MatIconModule } from '@angular/material/icon';
+import { EncryptionService } from '../encryption.service';
 
 @Component({
-  selector: "app-result",
-  templateUrl: "./result.component.html",
-  styleUrls: ["./result.component.css"]
+  selector: 'app-result',
+  standalone: true,
+  imports: [CommonModule, NavbarComponent, MatCardModule, MatButtonModule, MatInputModule, MatIconModule],
+  templateUrl: './result.component.html',
+  styleUrl: './result.component.css'
 })
-export class ResultComponent implements OnInit {
+export class ResultComponent {
   public isResultSubmitted: Boolean;
 
-  constructor(public quizService: QuizService, private router: Router) {
+  constructor(public quizService: QuizService, 
+    public encryptionService: EncryptionService, 
+    private router: Router) {
     this.isResultSubmitted = false;
   }
 
   ngOnInit() {
     if (
-      parseInt(localStorage.getItem("qnProgress")) ==
+      parseInt(localStorage.getItem("qnProgress")!) ==
       this.quizService.qns.length
     ) {
-      this.quizService.seconds = parseInt(localStorage.getItem("seconds"));
+      this.quizService.seconds = parseInt(localStorage.getItem("seconds")!);
       this.quizService.qnProgress = parseInt(
-        localStorage.getItem("qnProgress")
+        localStorage.getItem("qnProgress")!
       );
-      this.quizService.qns = JSON.parse(localStorage.getItem("qns"));
+      this.quizService.qns = JSON.parse(localStorage.getItem("qns")!);
 
       this.quizService.correctAnswerCount = 0;
       this.quizService.qns.forEach(eachQuestion => {
@@ -48,14 +59,32 @@ export class ResultComponent implements OnInit {
   }
 
   OnSubmit() {
-    this.quizService.submitScore().subscribe(() => {
+    this.quizService.submitScore().subscribe(async (data: any) => {
       //this.restart();
       this.isResultSubmitted = true;
+        try {
+          const encryptedData = await this.encryptionService.encryptResults(data);
+          console.log('Encrypted Data:', encryptedData);
+    
+          // Send the encrypted data via email or other methods
+          this.sendEmail(encryptedData);
+        } catch (error) {
+          console.error('Error encrypting data:', error);
+        }
     });
   }
 
-  OnDashboard() {
-    this.router.navigate(["/dashboard"]);
+  sendEmail(encryptedData: string) {
+    // Define the mailto link with pre-filled email data
+    const email = "zy.innovator@gmail.com";
+    const subject = "Quiz Results - My Body Gift of God";
+    const body = `Hello,\n\nHere are the encrypted quiz results:\n\n${encodeURIComponent(encryptedData)}`;
+
+    // Create a mailto link and open it in the default email client
+    const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${body}`;
+
+    // Open the default mail client (e.g., Gmail) with pre-filled fields
+    window.location.href = mailtoLink;
   }
 
   restart() {
@@ -66,3 +95,4 @@ export class ResultComponent implements OnInit {
     this.router.navigate(["/quiz"]);
   }
 }
+

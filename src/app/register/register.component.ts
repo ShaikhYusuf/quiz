@@ -1,16 +1,33 @@
-import { Component, OnInit } from '@angular/core';
-import { QuizService } from '../shared/quiz.service';
+import { Component } from '@angular/core';
+import { QuizService } from '../quiz.service';
 import { Router } from '@angular/router';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms'; 
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
+import { MatFormFieldModule, MatLabel } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-register',
+  standalone: true,
+  imports: [CommonModule, FormsModule, MatCardModule, MatButtonModule, MatLabel,  MatFormFieldModule, MatInputModule],
   templateUrl: './register.component.html',
-  styleUrls: ['./register.component.css']
+  styleUrl: './register.component.css'
 })
-export class RegisterComponent implements OnInit {
-
+export class RegisterComponent {
   emailPattern = "^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$";
-  constructor(private quizService : QuizService,private route : Router) { }
+
+  constructor(
+    private quizService : QuizService,
+    private route : Router,
+    private activatedRoute: ActivatedRoute) { 
+      activatedRoute.url.subscribe((urlSegments) => {
+      const languageCode = urlSegments[0].path; // 'en' or 'ur'
+      quizService.setLanguage(languageCode.toLowerCase());
+    });
+  }
 
   ngOnInit() {
   }
@@ -26,4 +43,7 @@ export class RegisterComponent implements OnInit {
     );
   }
 
+  navigateToReview(): void {
+    this.route.navigate(['/revise']);  // Navigate to the /review route
+  }
 }

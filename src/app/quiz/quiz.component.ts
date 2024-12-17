@@ -1,40 +1,37 @@
-import { Component, OnInit } from "@angular/core";
-import { ActivatedRoute, Router } from "@angular/router";
-import { QuizService } from "../shared/quiz.service";
+import { Component, ViewEncapsulation } from '@angular/core';
+import { Router } from '@angular/router';
+import { QuizService } from '../quiz.service';
+import { CommonModule } from '@angular/common';
+import { NavbarComponent } from '../navbar/navbar.component';
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { MatListModule } from '@angular/material/list';
 
 @Component({
-  selector: "app-quiz",
-  templateUrl: "./quiz.component.html",
-  styleUrls: ["./quiz.component.css"]
+  selector: 'app-quiz',
+  standalone: true,
+  imports: [CommonModule, NavbarComponent, MatCardModule, MatListModule, MatButtonModule, MatProgressBarModule],
+  templateUrl: './quiz.component.html',
+  styleUrl: './quiz.component.css'
 })
-export class QuizComponent implements OnInit {
+export class QuizComponent {
   public progressBarPercentage: Number;
-  category: string;
 
-  constructor(private router: Router,
-    private route: ActivatedRoute, 
-    public quizService: QuizService) {
-      
-    // Access the route parameter
-    this.category = this.route.snapshot.paramMap.get('category');
-    console.log('Category:', this.category);
-    localStorage.setItem("seconds", '0');
-    localStorage.setItem("qnProgress", '0');
+  constructor(private router: Router, public quizService: QuizService) { 
+    this.progressBarPercentage = 0;
   }
 
   ngOnInit() {
 
-    if (parseInt(localStorage.getItem("seconds")) > 0) {
-      this.quizService.seconds = parseInt(localStorage.getItem("seconds"));
-      this.quizService.qnProgress = parseInt(
-        localStorage.getItem("qnProgress")
-      );
+    if (parseInt(localStorage.getItem("seconds")!) > 0) {
+      this.quizService.seconds = parseInt(localStorage.getItem("seconds")!);
+      this.quizService.qnProgress = parseInt(localStorage.getItem("qnProgress")!);
 
-      this.quizService.qns = JSON.parse(localStorage.getItem("qns"));
+      this.quizService.qns = JSON.parse(localStorage.getItem("qns")!);
       this.progressBarPercentage = 1;
 
-      if (this.quizService.qns && 
-        this.quizService.qnProgress == this.quizService.qns.length) {
+      if (this.quizService.qns && this.quizService.qnProgress == this.quizService.qns.length) {
         this.router.navigate(["/result"]);
       } else {
         this.startTimer();
@@ -44,7 +41,7 @@ export class QuizComponent implements OnInit {
 
       this.quizService.seconds = 0;
       this.quizService.qnProgress = 0;
-      this.quizService.getQuestions(this.category).subscribe((data: any) => {
+      this.quizService.getQuestions().subscribe((data: any) => {
         this.quizService.qns = data;
         this.startTimer();
       });
@@ -58,7 +55,7 @@ export class QuizComponent implements OnInit {
     }, 1000);
   }
 
-  Answer(qID, choice) {
+  Answer(choice: any) {
     this.quizService.qns[this.quizService.qnProgress].choice = choice;
     localStorage.setItem("qns", JSON.stringify(this.quizService.qns));
     this.quizService.qnProgress++;
@@ -71,4 +68,5 @@ export class QuizComponent implements OnInit {
       this.router.navigate(["/result"]);
     }
   }
+  
 }

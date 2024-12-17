@@ -24,8 +24,8 @@ export class RegisterComponent {
     private route : Router,
     private activatedRoute: ActivatedRoute) { 
       activatedRoute.url.subscribe((urlSegments) => {
-      const languageCode = urlSegments[0].path; // 'en' or 'ur'
-      quizService.setLanguage(languageCode.toLowerCase());
+      const subjectCode = urlSegments[0].path; 
+      quizService.setSubject(subjectCode.toLowerCase());
     });
   }
 

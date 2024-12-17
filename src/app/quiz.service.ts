@@ -18,7 +18,7 @@ export class QuizService {
   timer: any;
   qnProgress: number;
   correctAnswerCount: number;
-  language: string
+  subject: string
 
   //---------------- Helper Methods---------------
   constructor(
@@ -29,15 +29,15 @@ export class QuizService {
     this.seconds = 0;
     this.qnProgress = 0;
     this.correctAnswerCount = 0;
-    this.language = 'en';
+    this.subject = 'python';
   }
 
-  setLanguage(language: string){
-    this.language = language;
+  setSubject(subject: string){
+    this.subject = subject;
   }
 
-  getLanguage(){
-    return this.language;
+  getSubject(){
+    return this.subject;
   }
 
   displayTimeElapsed() {
@@ -70,7 +70,7 @@ export class QuizService {
 
   //---------------- Http Methods---------------
   getQuestions(): Observable<IQuestion[]> {
-    return this.questionCollection.get(this.language).pipe(
+    return this.questionCollection.get(this.subject).pipe(
       map((questions) => {
         const randomQuestions = this.getRandomQuestions(
           questions,

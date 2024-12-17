@@ -10,8 +10,14 @@ export const routes: Routes = [
     { path: 'quiz', component: QuizComponent, canActivate: [AuthGuard] },
     { path: 'result', component: ResultComponent, canActivate: [AuthGuard] },
     { path: 'revise', component: QuestionDisplayComponent }, 
-    { path: 'review', component: QuestionDisplayComponent }, 
-    { path: 'en', component: RegisterComponent }, // Route for English
-    { path: 'ur', component: RegisterComponent }, // Route for Urdu
-    { path: '', redirectTo: '/en', pathMatch: 'full' }
+    { path: 'python', component: RegisterComponent }, 
+    { path: 'algo', component: RegisterComponent },
+    { path: 'arch', component: RegisterComponent },
+    { path: 'dbms', component: RegisterComponent },
+    { path: 'ds', component: RegisterComponent },
+    { path: 'oop', component: RegisterComponent },
+    { path: 'os', component: RegisterComponent },
+    { path: 'sw-engg', component: RegisterComponent },
+    { path: 'sw-testing', component: RegisterComponent },
+    { path: '', redirectTo: '/python', pathMatch: 'full' }
 ];

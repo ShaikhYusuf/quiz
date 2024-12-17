@@ -15,53 +15,34 @@ import { forkJoin } from 'rxjs';
   styleUrl: './question-display.component.css'
 })
 export class QuestionDisplayComponent {
-  questionsEnglish!: IQuestion[];
-  questionsUrdu!: IQuestion[];
+  questionsSubject!: IQuestion[];
   baseQuestions: IQuestion[];
 
   constructor(
     private activatedRoute: ActivatedRoute, 
     public quizService: QuizService) {
-      this.questionsEnglish = [];
-      this.questionsUrdu = [];
+      this.questionsSubject = [];
       this.baseQuestions = [];
     }
 
   ngOnInit() {
     this.activatedRoute.url.subscribe((urlSegments) => {
-      const lastPath = urlSegments[0]?.path; // 'revise' or 'review'
-      if (lastPath === 'review') {
-        forkJoin({
-          englishQuestions: this.quizService.getAllQuestions('en'),
-          urduQuestions: this.quizService.getAllQuestions('ur')
-        }).subscribe(({ englishQuestions, urduQuestions }) => {
-          this.questionsEnglish = englishQuestions;
-          this.questionsUrdu = urduQuestions;
-          this.baseQuestions = englishQuestions; 
+      const lastPath = urlSegments[0]?.path; // 'revise'
+      if (lastPath === 'revise') {
+        this.questionsSubject = [];
+        const selectedLanguage = this.quizService.getSubject();
+        this.quizService.getAllQuestions(selectedLanguage).subscribe(data => {
+          this.questionsSubject = data;
+          this.baseQuestions = this.questionsSubject;
         });
         
-      } else {
-        this.questionsEnglish = [];
-        this.questionsUrdu = [];
-        const selectedLanguage = this.quizService.getLanguage();
-        if (selectedLanguage === 'en') {
-          this.quizService.getAllQuestions('en').subscribe(data => {
-            this.questionsEnglish = data;
-            this.baseQuestions = this.questionsEnglish;
-          });
-        } else if (selectedLanguage === 'ur') {
-          this.quizService.getAllQuestions('ur').subscribe(data => {
-            this.questionsUrdu = data;
-            this.baseQuestions = this.questionsUrdu;
-          });
-        }
       }
     });
   }
     
   
-  getCorrectAnswerClass(indexQuestion: number, currentIndex: number, language: string): string {
-    const question = language === 'english' ? this.questionsEnglish[indexQuestion] : this.questionsUrdu[indexQuestion];
+  getCorrectAnswerClass(indexQuestion: number, currentIndex: number): string {
+    const question =  this.questionsSubject[indexQuestion];
     const answerIndex = question.answer - 1;
 
     return currentIndex == answerIndex ? 'correct-answer' : '';

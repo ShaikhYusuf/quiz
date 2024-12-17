@@ -11,12 +11,13 @@
   .logo-container {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
   
   .logo {
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
   }
   
   /* Full-width input fields */

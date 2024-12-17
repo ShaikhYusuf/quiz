@@ -44,9 +44,3 @@
     background-color: #f1f1f1; /* Hover effect for better UX */
   }
 
-  .question-column .urdu-options {
-    --mdc-list-list-item-label-text-font: 'Noto Nastaliq Urdu', sans-serif !important;
-    direction: rtl;
-    unicode-bidi: embed;
-  }
-  

@@ -1,18 +1,18 @@
 [
   {
     "Id": 1,
-    "question": "Which of the following best describes time complexity analysis?",
+    "question": "What does time complexity analysis primarily measure?",
     "options": [
-      "It measures the amount of time an algorithm takes to execute.",
-      "It measures the space an algorithm consumes during execution.",
-      "It measures the number of iterations in an algorithm.",
-      "It measures the number of comparisons in an algorithm."
+      "The amount of time an algorithm takes to execute as input size grows.",
+      "The space required by an algorithm during execution.",
+      "The total number of iterations in a loop.",
+      "The number of memory accesses during execution."
     ],
-    "answer": 1
+    "answer": 0
   },
   {
     "Id": 2,
-    "question": "What is the time complexity of an algorithm with a loop of n iterations, each containing a constant time operation?",
+    "question": "What is the time complexity of a loop with n iterations where each operation takes constant time?",
     "options": [
       "O(n)",
       "O(1)",
@@ -23,18 +23,18 @@
   },
   {
     "Id": 3,
-    "question": "Which of the following statements is true regarding logarithmic time complexity?",
+    "question": "Which of the following best describes logarithmic time complexity?",
     "options": [
-      "It grows linearly with the input size.",
-      "It grows exponentially with the input size.",
+      "It increases linearly with the input size.",
+      "It grows exponentially as the input increases.",
       "It decreases as the input size increases.",
-      "It grows slowly with the input size."
+      "It grows very slowly compared to the input size."
     ],
     "answer": 3
   },
   {
     "Id": 4,
-    "question": "What is the time complexity of an algorithm that has nested loops, one iterating n times and the other iterating m times?",
+    "question": "If an algorithm has nested loops, one iterating n times and the other iterating m times, what is its time complexity?",
     "options": [
       "O(n)",
       "O(m)",
@@ -45,29 +45,29 @@
   },
   {
     "Id": 5,
-    "question": "Which of the following is an example of constant time complexity?",
+    "question": "Which of the following operations has constant time complexity, O(1)?",
     "options": [
-      "Linear search",
-      "Binary search",
-      "Accessing an element in an array",
-      "Bubble sort"
+      "Linear search in an unsorted array",
+      "Binary search in a sorted array",
+      "Accessing an element in an array by index",
+      "Inserting an element in a sorted array"
     ],
     "answer": 2
   },
   {
     "Id": 6,
-    "question": "Space complexity analysis measures:",
+    "question": "What does space complexity analysis measure?",
     "options": [
-      "The amount of time an algorithm takes to execute.",
-      "The space an algorithm consumes during execution.",
-      "The number of iterations in an algorithm.",
-      "The number of comparisons in an algorithm."
+      "The total time taken by an algorithm to execute.",
+      "The amount of memory an algorithm uses during execution.",
+      "The number of iterations required by the algorithm.",
+      "The number of arithmetic operations performed by the algorithm."
     ],
     "answer": 1
   },
   {
     "Id": 7,
-    "question": "What is the space complexity of an algorithm that creates an array of size n?",
+    "question": "What is the space complexity of creating an array of size n?",
     "options": [
       "O(n)",
       "O(1)",
@@ -78,1027 +78,1028 @@
   },
   {
     "Id": 8,
-    "question": "Which of the following data structures typically has the highest space complexity?",
+    "question": "Which data structure typically requires the most space?",
     "options": [
       "Arrays",
       "Linked lists",
       "Stacks",
       "Queues"
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "Id": 9,
-    "question": "What is the space complexity of an algorithm that has a recursive function with a depth of n?",
+    "question": "What is the space complexity of a recursive function with a recursion depth of n?",
     "options": [
       "O(n)",
       "O(log n)",
       "O(n^2)",
       "O(1)"
     ],
-    "answer": 1
+    "answer": 0
   },
   {
     "Id": 10,
-    "question": "Which of the following is an example of linear space complexity?",
+    "question": "Which sorting algorithm uses linear space complexity?",
     "options": [
-      "Binary search",
-      "Quick sort",
-      "Merge sort",
-      "Selection sort"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 11,
-    "question": "What does Big O notation represent in asymptotic analysis?",
-    "options": [
-      "Upper bound",
-      "Lower bound",
-      "Exact bound",
-      "None of the above"
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 12,
-    "question": "Which notation represents the best-case time complexity of an algorithm?",
-    "options": [
-      "Big O",
-      "Big Omega",
-      "Big Theta",
-      "All of the above"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 13,
-    "question": "If a function f(n) is bounded both from above and below by g(n), which notation represents this relationship?",
-    "options": [
-      "Big O",
-      "Big Omega",
-      "Big Theta",
-      "None of the above"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 14,
-    "question": "What is the tightest upper bound of a function f(n) if f(n) = O(g(n))?",
-    "options": [
-      "Big O",
-      "Big Omega",
-      "Big Theta",
-      "None of the above"
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 15,
-    "question": "Which notation represents the worst-case time complexity of an algorithm?",
-    "options": [
-      "Big O",
-      "Big Omega",
-      "Big Theta",
-      "All of the above"
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 16,
-    "question": "Which case analysis provides a guarantee on the performance of an algorithm?",
-    "options": [
-      "Worst-case analysis",
-      "Best-case analysis",
-      "Average-case analysis",
-      "None of the above"
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 17,
-    "question": "In which case is the input that causes the algorithm to run slowest?",
-    "options": [
-      "Worst case",
-      "Best case",
-      "Average case",
-      "None of the above"
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 18,
-    "question": "Which case analysis is often used when dealing with randomized algorithms?",
-    "options": [
-      "Worst-case analysis",
-      "Best-case analysis",
-      "Average-case analysis",
-      "None of the above"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 19,
-    "question": "Which case analysis is often used to evaluate the performance of an algorithm when the input is not skewed?",
-    "options": [
-      "Worst-case analysis",
-      "Best-case analysis",
-      "Average-case analysis",
-      "None of the above"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 20,
-    "question": "Which case analysis provides an upper bound on the performance of an algorithm?",
-    "options": [
-      "Worst-case analysis",
-      "Best-case analysis",
-      "Average-case analysis",
-      "None of the above"
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 21,
-    "question": "What is the time complexity of a linear search algorithm?",
-    "options": [
-      "O(1)",
-      "O(log n)",
-      "O(n)",
-      "O(n^2)"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 22,
-    "question": "Which sorting algorithm typically has the worst-case time complexity of O(n^2)?",
-    "options": [
-      "Merge sort",
       "Quick sort",
       "Bubble sort",
+      "Merge sort",
       "Insertion sort"
     ],
     "answer": 2
   },
-  {
-    "Id": 23,
-    "question": "Which of the following statements about time complexity analysis is false?",
-    "options": [
-      "It ignores constant factors.",
-      "It provides an exact measurement of execution time.",
-      "It measures the growth rate of an algorithm.",
-      "It helps in comparing the efficiency of algorithms."
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 24,
-    "question": "What is the time complexity of a binary search algorithm on a sorted array?",
-    "options": [
-      "O(1)",
-      "O(log n)",
-      "O(n)",
-      "O(n^2)"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 25,
-    "question": "Which of the following algorithms has the best time complexity for searching an element in a sorted array?",
-    "options": [
-      "Linear search",
-      "Binary search",
-      "Bubble sort",
-      "Selection sort"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 26,
-    "question": "What is the space complexity of a recursive algorithm that has a depth of log n?",
-    "options": [
-      "O(1)",
-      "O(log n)",
-      "O(n)",
-      "O(n^2)"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 27,
-    "question": "Which data structure typically has the lowest space complexity for storing elements?",
-    "options": [
-      "Arrays",
-      "Linked lists",
-      "Hash tables",
-      "Stacks"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 28,
-    "question": "Which of the following statements about space complexity analysis is true?",
-    "options": [
-      "It measures the amount of time an algorithm takes to execute.",
-      "It measures the space an algorithm consumes during execution.",
-      "It measures the number of iterations in an algorithm.",
-      "It measures the number of comparisons in an algorithm."
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 29,
-    "question": "What is the space complexity of an algorithm that creates a matrix of size n x n?",
-    "options": [
-      "O(1)",
-      "O(n)",
-      "O(n^2)",
-      "O(log n)"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 30,
-    "question": "Which of the following sorting algorithms typically has the highest space complexity?",
-    "options": [
-      "Merge sort",
-      "Quick sort",
-      "Bubble sort",
-      "Insertion sort"
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 31,
-    "question": "Which notation provides a lower bound on the growth rate of a function?",
-    "options": [
-      "Big O",
-      "Big Omega",
-      "Big Theta",
-      "All of the above"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 32,
-    "question": "Which of the following statements about Big Theta notation is true?",
-    "options": [
-      "It represents the worst-case scenario.",
-      "It provides both upper and lower bounds.",
-      "It is the same as Big O notation.",
-      "It is used for average-case analysis."
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 33,
-    "question": "If f(n) = Θ(g(n)), what can be said about the growth rate of f(n)?",
-    "options": [
-      "It grows faster than g(n).",
-      "It grows slower than g(n).",
-      "It grows at the same rate as g(n).",
-      "It is not bounded by g(n)."
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 34,
-    "question": "Which notation represents the average-case time complexity of an algorithm?",
-    "options": [
-      "Big O",
-      "Big Omega",
-      "Big Theta",
-      "None of the above"
-    ],
-    "answer": 3
-  },
-  {
-    "Id": 35,
-    "question": "Which of the following functions grows faster asymptotically: n^2 or 2^n?",
-    "options": [
-      "n^2",
-      "2^n",
-      "Both grow at the same rate",
-      "None of the above"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 36,
-    "question": "Which of the following is true about best-case analysis?",
-    "options": [
-      "It provides an upper bound on the performance of an algorithm.",
-      "It considers the input that makes the algorithm run the fastest.",
-      "It is often used to analyze the performance of randomized algorithms.",
-      "It is not useful in practice."
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 37,
-    "question": "Which of the following sorting algorithms exhibits O(n) time complexity in the best-case scenario?",
-    "options": [
-      "Merge sort",
-      "Quick sort",
-      "Bubble sort",
-      "Insertion sort"
-    ],
-    "answer": 3
-  },
-  {
-    "Id": 38,
-    "question": "Which case analysis provides a lower bound on the performance of an algorithm?",
-    "options": [
-      "Worst-case analysis",
-      "Best-case analysis",
-      "Average-case analysis",
-      "None of the above"
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 39,
-    "question": "Which of the following statements about average-case analysis is true?",
-    "options": [
-      "It provides a guarantee on the performance of an algorithm.",
-      "It is useful when the input distribution is not known.",
-      "It always gives the same result as worst-case analysis.",
-      "It is only applicable to deterministic algorithms."
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 40,
-    "question": "Which case analysis is used to analyze the performance of an algorithm on typical inputs?",
-    "options": [
-      "Worst-case analysis",
-      "Best-case analysis",
-      "Average-case analysis",
-      "None of the above"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 41,
-    "question": "What is the time complexity of the following code snippet?\\nfor i in range(n):\\n    for j in range(n):\\n        print(i, j)\\n",
-    "options": [
-      "O(1)",
-      "O(n)",
-      "O(n^2)",
-      "O(log n)"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 42,
-    "question": "Which of the following statements about time complexity analysis is correct?",
-    "options": [
-      "It measures the exact runtime of an algorithm.",
-      "It considers the number of steps an algorithm takes relative to the size of its input.",
-      "It focuses on the best-case scenario only.",
-      "It is not influenced by the programming language used to implement the algorithm."
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 43,
-    "question": "What is the time complexity of finding the maximum element in an unsorted array of size n?",
-    "options": [
-      "O(1)",
-      "O(n)",
-      "O(n log n)",
-      "O(n^2)"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 44,
-    "question": "Which of the following algorithms has a time complexity of O(log n)?",
-    "options": [
-      "Linear search",
-      "Bubble sort",
-      "Merge sort",
-      "Selection sort"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 45,
-    "question": "In time complexity analysis, which term describes the fastest growing function?",
-    "options": [
-      "Constant",
-      "Logarithmic",
-      "Linear",
-      "Exponential"
-    ],
-    "answer": 3
-  },
-  {
-    "Id": 46,
-    "question": "What is the space complexity of the following code snippet?\\ndef some_function(n):\\n    data = [0] * n\\n    return data",
-    "options": [
-      "O(1)",
-      "O(n)",
-      "O(n^2)",
-      "O(log n)"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 47,
-    "question": "Which of the following statements about space complexity analysis is correct?",
-    "options": [
-      "It measures the exact memory usage of an algorithm.",
-      "It ignores the memory used by input parameters.",
-      "It is unrelated to time complexity analysis.",
-      "It is only concerned with the maximum memory used by an algorithm."
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 48,
-    "question": "What is the space complexity of a recursive Fibonacci function?",
-    "options": [
-      "O(1)",
-      "O(n)",
-      "O(log n)",
-      "O(2^n)"
-    ],
-    "answer": 3
-  },
-  {
-    "Id": 49,
-    "question": "Which data structure typically has a space complexity of O(n)?",
-    "options": [
-      "Hash table",
-      "Stack",
-      "Linked list",
-      "Array"
-    ],
-    "answer": 3
-  },
-  {
-    "Id": 50,
-    "question": "What is the space complexity of a depth-first search (DFS) algorithm on a graph with n vertices?",
-    "options": [
-      "O(1)",
-      "O(n)",
-      "O(n^2)",
-      "O(log n)"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 51,
-    "question": "Which of the following best describes Big O notation?",
-    "options": [
-      "It represents the average-case performance of an algorithm.",
-      "It provides a lower bound on the growth rate of a function.",
-      "It is used to express the tightest upper bound of an algorithm's runtime.",
-      "It is equivalent to Big Theta notation."
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 52,
-    "question": "If f(n) = O(g(n)), which of the following statements is true?",
-    "options": [
-      "f(n) grows slower than or at the same rate as g(n).",
-      "f(n) grows faster than or at the same rate as g(n).",
-      "f(n) grows strictly slower than g(n).",
-      "f(n) and g(n) have no relationship."
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 53,
-    "question": "Which notation is used to denote the average-case time complexity of an algorithm?",
-    "options": [
-      "Big O",
-      "Big Omega",
-      "Big Theta",
-      "None of the above"
-    ],
-    "answer": 3
-  },
-  {
-    "Id": 54,
-    "question": "Which of the following functions grows faster asymptotically: n! or 2^n?",
-    "options": [
-      "n!",
-      "2^n",
-      "Both grow at the same rate",
-      "None of the above"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 55,
-    "question": "If f(n) = Ω(g(n)), what can be said about the growth rate of f(n)?",
-    "options": [
-      "It grows slower than or at the same rate as g(n).",
-      "It grows faster than or at the same rate as g(n).",
-      "It grows strictly slower than g(n).",
-      "It grows strictly faster than g(n)."
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 56,
-    "question": "Which of the following algorithms has the best-case time complexity of O(1)?",
-    "options": [
-      "Linear search",
-      "Binary search",
-      "Bubble sort",
-      "Merge sort"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 57,
-    "question": "In which case is the input that causes the algorithm to run fastest?",
-    "options": [
-      "Worst case",
-      "Best case",
-      "Average case",
-      "None of the above"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 58,
-    "question": "Which of the following sorting algorithms exhibits O(n^2) time complexity in the worst-case scenario?",
-    "options": [
-      "Merge sort",
-      "Quick sort",
-      "Bubble sort",
-      "Insertion sort"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 59,
-    "question": "What is the time complexity of the following code snippet?\\nfor i in range(n):\\n    for j in range(i):\\n        print(i, j)",
-    "options": [
-      "O(1)",
-      "O(n)",
-      "O(n^2)",
-      "O(log n)"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 60,
-    "question": "What is the time complexity of finding duplicates in an unsorted array of size n?",
-    "options": [
-      "O(1)",
-      "O(n)",
-      "O(n log n)",
-      "O(n^2)"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 61,
-    "question": "Which of the following algorithms has a time complexity of O(1)?",
-    "options": [
-      "Insertion sort",
-      "Selection sort",
-      "Heap sort",
-      "Constant-time algorithm"
-    ],
-    "answer": 3
-  },
-  {
-    "Id": 62,
-    "question": "In time complexity analysis, which term describes the slowest growing function?",
-    "options": [
-      "Constant",
-      "Logarithmic",
-      "Linear",
-      "Exponential"
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 63,
-    "question": "What is the space complexity of the following code snippet?\\ndef some_function(n):\\n    data = [0] * (2*n)\\n    return data",
-    "options": [
-      "O(1)",
-      "O(n)",
-      "O(n^2)",
-      "O(log n)"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 64,
-    "question": "What is the space complexity of a recursive function that calculates the factorial of a number?",
-    "options": [
-      "O(1)",
-      "O(n)",
-      "O(log n)",
-      "O(n!)"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 65,
-    "question": "Which data structure typically has a space complexity of O(log n)?",
-    "options": [
-      "Stack",
-      "Linked list",
-      "Binary tree",
-      "Queue"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 66,
-    "question": "What is the space complexity of a breadth-first search (BFS) algorithm on a graph with n vertices?",
-    "options": [
-      "O(1)",
-      "O(n)",
-      "O(n^2)",
-      "O(log n)"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 67,
-    "question": "Which of the following best describes Big Omega notation?",
-    "options": [
-      "It represents the average-case performance of an algorithm.",
-      "It provides an upper bound on the growth rate of a function.",
-      "It is used to express the tightest lower bound of an algorithm's runtime.",
-      "It is equivalent to Big Theta notation."
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 68,
-    "question": "If f(n) = Ω(g(n)), which of the following statements is true?",
-    "options": [
-      "f(n) grows slower than or at the same rate as g(n).",
-      "f(n) grows faster than or at the same rate as g(n).",
-      "f(n) grows strictly slower than g(n).",
-      "f(n) and g(n) have no relationship."
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 69,
-    "question": "Which notation is used to denote the worst-case time complexity of an algorithm?",
-    "options": [
-      "Big O",
-      "Big Omega",
-      "Big Theta",
-      "None of the above"
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 70,
-    "question": "Which of the following functions grows faster asymptotically: n^3 or 3^n?",
-    "options": [
-      "n^3",
-      "3^n",
-      "Both grow at the same rate",
-      "None of the above"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 71,
-    "question": "Which of the following algorithms has the best-case time complexity of O(n)?",
-    "options": [
-      "Quick sort",
-      "Merge sort",
-      "Bubble sort",
-      "Linear search"
-    ],
-    "answer": 3
-  },
-  {
-    "Id": 72,
-    "question": "Which of the following sorting algorithms exhibits O(n log n) time complexity in the worst-case scenario?",
-    "options": [
-      "Quick sort",
-      "Merge sort",
-      "Bubble sort",
-      "Insertion sort"
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 73,
-    "question": "Which case analysis is often used to analyze the performance of an algorithm on random inputs?",
-    "options": [
-      "Worst-case analysis",
-      "Best-case analysis",
-      "Average-case analysis",
-      "None of the above"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 74,
-    "question": "What is the time complexity of the following code snippet?\\nfor i in range(n):\\n    print(\"Hello, World!\")\\n",
-    "options": [
-      "O(1)",
-      "O(n)",
-      "O(n log n)",
-      "O(log n)"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 75,
-    "question": "What is the time complexity of a linear search algorithm on an unsorted array?",
-    "options": [
-      "O(1)",
-      "O(log n)",
-      "O(n)",
-      "O(n^2)"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 76,
-    "question": "Which of the following algorithms has the best-case time complexity of O(n log n)?",
-    "options": [
-      "Quick sort",
-      "Bubble sort",
-      "Insertion sort",
-      "Selection sort"
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 77,
-    "question": "In time complexity analysis, what does the term \"logarithmic\" represent?",
-    "options": [
-      "The time taken increases exponentially with the input size.",
-      "The time taken increases linearly with the input size.",
-      "The time taken increases logarithmically with the input size.",
-      "The time taken remains constant regardless of the input size."
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 78,
-    "question": "What is the space complexity of the following code snippet?\\ndef some_function(n):\\n    data = []\\n    for i in range(n):\\n        data.append(i)\\n    return data",
-    "options": [
-      "O(1)",
-      "O(n)",
-      "O(n^2)",
-      "O(log n)"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 79,
-    "question": "What is the space complexity of a recursive algorithm with a depth of n?",
-    "options": [
-      "O(1)",
-      "O(n)",
-      "O(log n)",
-      "O(n!)"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 80,
-    "question": "Which data structure typically has the highest space complexity for storing n elements?",
-    "options": [
-      "Array",
-      "Linked list",
-      "Stack",
-      "Queue"
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 81,
-    "question": "What is the space complexity of a binary search algorithm?",
-    "options": [
-      "O(1)",
-      "O(log n)",
-      "O(n)",
-      "O(n log n)"
-    ],
-    "answer": 14
-  },
-  {
-    "Id": 82,
-    "question": "Which of the following notations provides the tightest bound for an algorithm's time complexity?",
-    "options": [
-      "Big O",
-      "Big Omega",
-      "Big Theta",
-      "None of the above"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 83,
-    "question": "If f(n) = Θ(g(n)), what can be inferred about the growth rates of f(n) and g(n)?",
-    "options": [
-      "f(n) grows faster than g(n).",
-      "f(n) and g(n) grow at the same rate.",
-      "f(n) grows slower than g(n).",
-      "There is no relationship between the growth rates of f(n) and g(n)."
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 84,
-    "question": "Which of the following notations represents the best-case time complexity of an algorithm?",
-    "options": [
-      "Big O",
-      "Big Omega",
-      "Big Theta",
-      "None of the above"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 85,
-    "question": "What does it mean if f(n) = O(g(n))?",
-    "options": [
-      "f(n) grows faster than g(n).",
-      "f(n) and g(n) grow at the same rate.",
-      "f(n) grows slower than g(n).",
-      "There is no relationship between the growth rates of f(n) and g(n)."
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 86,
-    "question": "In which case does an algorithm perform at its peak efficiency?",
-    "options": [
-      "Worst case",
-      "Best case",
-      "Average case",
-      "None of the above"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 87,
-    "question": "Which case analysis is most commonly used for analyzing the performance of an algorithm?",
-    "options": [
-      "Worst case",
-      "Best case",
-      "Average case",
-      "None of the above"
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 88,
-    "question": "Which of the following sorting algorithms typically has the best-case time complexity of O(n log n)?",
-    "options": [
-      "Bubble sort",
-      "Insertion sort",
-      "Merge sort",
-      "Quick sort"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 89,
-    "question": "Which case analysis is useful for determining the expected performance of an algorithm when inputs are randomly distributed?",
-    "options": [
-      "Worst case",
-      "Best case",
-      "Average case",
-      "None of the above"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 90,
-    "question": "What does the worst-case analysis of an algorithm provide?",
-    "options": [
-      "An upper bound on the algorithm's performance.",
-      "A lower bound on the algorithm's performance.",
-      "An average estimate of the algorithm's performance.",
-      "None of the above."
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 91,
-    "question": "What defines a brute force algorithm?",
-    "options": [
-      "It is an algorithm that makes use of randomization.",
-      "It is an algorithm that relies on the principle of divide and conquer.",
-      "It is an algorithm that exhaustively searches through all possible solutions.",
-      "It is an algorithm that uses heuristics to find the optimal solution."
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 92,
-    "question": "Which problem-solving strategy is often associated with brute force algorithms?",
-    "options": [
-      "Minimizing recursion depth",
-      "Eliminating redundant computations",
-      "Exhaustive search",
-      "Dynamic programming"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 93,
-    "question": "Which of the following problems is typically solved using a brute force approach?",
-    "options": [
-      "Shortest path problem",
-      "Travelling Salesman Problem (TSP)",
-      "Knapsack problem",
-      "Matrix chain multiplication"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 94,
-    "question": "What is the time complexity of a brute force solution for the traveling salesman problem (TSP) with n cities?",
-    "options": [
-      "O(n)",
-      "O(n log n)",
-      "O(n!)",
-      "O(2^n)"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 95,
-    "question": "In brute force algorithms, what is the primary drawback?",
-    "options": [
-      "Limited applicability",
-      "High space complexity",
-      "Exponential time complexity",
-      "Lack of determinism"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 96,
-    "question": "Which technique does a divide and conquer algorithm employ?",
-    "options": [
-      "Iterative improvement",
-      "Dynamic programming",
-      "Recursion",
-      "Greedy selection"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 97,
-    "question": "Which problem-solving approach involves breaking down a problem into subproblems of the same type?",
-    "options": [
-      "Divide and conquer",
-      "Greedy algorithms",
-      "Dynamic programming",
-      "Backtracking"
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 98,
-    "question": "Which of the following algorithms uses the divide and conquer strategy?",
-    "options": [
-      "Breadth-first search (BFS)",
-      "Depth-first search (DFS)",
-      "Binary search",
-      "Topological sort"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 99,
-    "question": "What is the time complexity of merge sort, a divide and conquer algorithm, in the worst-case scenario?",
-    "options": [
-      "O(n)",
-      "O(n log n)",
-      "O(n^2)",
-      "O(2^n)"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 100,
-    "question": "Which problem can be efficiently solved using the divide and conquer approach?",
-    "options": [
-      "Knapsack problem",
-      "Longest common subsequence problem",
-      "Graph coloring problem",
-      "Maximum flow problem"
-    ],
-    "answer": 1
-  },
+
+    {
+      "Id": 11,
+      "question": "What does Big O notation represent in asymptotic analysis?",
+      "options": [
+        "An upper bound on the growth rate of a function.",
+        "A lower bound on the growth rate of a function.",
+        "An exact bound on the growth rate of a function.",
+        "The average growth rate of a function."
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 12,
+      "question": "Which notation represents the best-case time complexity of an algorithm?",
+      "options": [
+        "Big O (O)",
+        "Big Omega (Ω)",
+        "Big Theta (Θ)",
+        "Little O (o)"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 13,
+      "question": "If a function f(n) is bounded both from above and below by g(n), which notation represents this relationship?",
+      "options": [
+        "Big O (O)",
+        "Big Omega (Ω)",
+        "Big Theta (Θ)",
+        "Little o (o)"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 14,
+      "question": "What does the Big O notation provide when f(n) = O(g(n))?",
+      "options": [
+        "The tightest upper bound of a function.",
+        "The tightest lower bound of a function.",
+        "The average-case performance.",
+        "The exact growth rate of a function."
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 15,
+      "question": "Which notation is used to represent the worst-case time complexity of an algorithm?",
+      "options": [
+        "Big O (O)",
+        "Big Omega (Ω)",
+        "Big Theta (Θ)",
+        "Little O (o)"
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 16,
+      "question": "Which case analysis provides a performance guarantee for an algorithm?",
+      "options": [
+        "Worst-case analysis",
+        "Best-case analysis",
+        "Average-case analysis",
+        "Amortized analysis"
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 17,
+      "question": "In which case does the input cause the algorithm to run slowest?",
+      "options": [
+        "Worst case",
+        "Best case",
+        "Average case",
+        "Amortized case"
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 18,
+      "question": "Which case analysis is often used for evaluating the performance of randomized algorithms?",
+      "options": [
+        "Worst-case analysis",
+        "Best-case analysis",
+        "Average-case analysis",
+        "Amortized analysis"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 19,
+      "question": "Which case analysis evaluates an algorithm's performance for typical, non-skewed inputs?",
+      "options": [
+        "Worst-case analysis",
+        "Best-case analysis",
+        "Average-case analysis",
+        "Amortized analysis"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 20,
+      "question": "Which case analysis provides an upper bound on the performance of an algorithm?",
+      "options": [
+        "Worst-case analysis",
+        "Best-case analysis",
+        "Average-case analysis",
+        "Amortized analysis"
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 21,
+      "question": "What is the time complexity of a linear search algorithm?",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n^2)"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 22,
+      "question": "Which sorting algorithm typically has the worst-case time complexity of O(n^2)?",
+      "options": [
+        "Merge sort",
+        "Quick sort",
+        "Bubble sort",
+        "Insertion sort"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 23,
+      "question": "Which of the following statements about time complexity analysis is false?",
+      "options": [
+        "It ignores constant factors.",
+        "It provides an exact measurement of execution time.",
+        "It measures the growth rate of an algorithm.",
+        "It helps in comparing the efficiency of algorithms."
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 24,
+      "question": "What is the time complexity of a binary search algorithm on a sorted array?",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n^2)"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 25,
+      "question": "Which of the following algorithms has the best time complexity for searching an element in a sorted array?",
+      "options": [
+        "Linear search",
+        "Binary search",
+        "Bubble sort",
+        "Selection sort"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 26,
+      "question": "What is the space complexity of a recursive algorithm that has a depth of log n?",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n^2)"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 27,
+      "question": "Which data structure typically has the lowest space complexity for storing elements?",
+      "options": [
+        "Arrays",
+        "Linked lists",
+        "Hash tables",
+        "Stacks"
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 28,
+      "question": "Which of the following statements about space complexity analysis is true?",
+      "options": [
+        "It measures the amount of time an algorithm takes to execute.",
+        "It measures the space an algorithm consumes during execution.",
+        "It measures the number of iterations in an algorithm.",
+        "It measures the number of comparisons in an algorithm."
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 29,
+      "question": "What is the space complexity of an algorithm that creates a matrix of size n x n?",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(n^2)",
+        "O(log n)"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 30,
+      "question": "Which of the following sorting algorithms typically has the highest space complexity?",
+      "options": [
+        "Merge sort",
+        "Quick sort",
+        "Bubble sort",
+        "Insertion sort"
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 31,
+      "question": "Which notation provides a lower bound on the growth rate of a function?",
+      "options": [
+        "Big O",
+        "Big Omega",
+        "Big Theta",
+        "All of the above"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 32,
+      "question": "Which of the following statements about Big Theta notation is true?",
+      "options": [
+        "It represents the worst-case scenario.",
+        "It provides both upper and lower bounds.",
+        "It is the same as Big O notation.",
+        "It is used for average-case analysis."
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 33,
+      "question": "If f(n) = Θ(g(n)), what can be said about the growth rate of f(n)?",
+      "options": [
+        "It grows faster than g(n).",
+        "It grows slower than g(n).",
+        "It grows at the same rate as g(n).",
+        "It is not bounded by g(n)."
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 34,
+      "question": "Which notation represents the average-case time complexity of an algorithm?",
+      "options": [
+        "Big O",
+        "Big Omega",
+        "Big Theta",
+        "None of the above"
+      ],
+      "answer": 3
+    },
+    {
+      "Id": 35,
+      "question": "Which of the following functions grows faster asymptotically: n^2 or 2^n?",
+      "options": [
+        "n^2",
+        "2^n",
+        "Both grow at the same rate",
+        "None of the above"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 36,
+      "question": "Which of the following is true about best-case analysis?",
+      "options": [
+        "It provides an upper bound on the performance of an algorithm.",
+        "It considers the input that makes the algorithm run the fastest.",
+        "It is often used to analyze the performance of randomized algorithms.",
+        "It is not useful in practice."
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 37,
+      "question": "Which of the following sorting algorithms exhibits O(n) time complexity in the best-case scenario?",
+      "options": [
+        "Merge sort",
+        "Quick sort",
+        "Bubble sort",
+        "Insertion sort"
+      ],
+      "answer": 3
+    },
+    {
+      "Id": 38,
+      "question": "Which case analysis provides a lower bound on the performance of an algorithm?",
+      "options": [
+        "Worst-case analysis",
+        "Best-case analysis",
+        "Average-case analysis",
+        "None of the above"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 39,
+      "question": "Which of the following statements about average-case analysis is true?",
+      "options": [
+        "It provides a guarantee on the performance of an algorithm.",
+        "It is useful when the input distribution is not known.",
+        "It always gives the same result as worst-case analysis.",
+        "It is only applicable to deterministic algorithms."
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 40,
+      "question": "Which case analysis is used to analyze the performance of an algorithm on typical inputs?",
+      "options": [
+        "Worst-case analysis",
+        "Best-case analysis",
+        "Average-case analysis",
+        "None of the above"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 41,
+      "question": "What is the time complexity of the following code snippet?\nfor i in range(n):\n    for j in range(n):\n        print(i, j)",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(n^2)",
+        "O(log n)"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 42,
+      "question": "Which of the following statements about time complexity analysis is correct?",
+      "options": [
+        "It measures the exact runtime of an algorithm.",
+        "It considers the number of steps an algorithm takes relative to the size of its input.",
+        "It focuses on the best-case scenario only.",
+        "It is not influenced by the programming language used to implement the algorithm."
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 43,
+      "question": "What is the time complexity of finding the maximum element in an unsorted array of size n?",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(n log n)",
+        "O(n^2)"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 44,
+      "question": "Which of the following algorithms has a time complexity of O(log n)?",
+      "options": [
+        "Linear search",
+        "Bubble sort",
+        "Merge sort",
+        "Selection sort"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 45,
+      "question": "In time complexity analysis, which term describes the fastest growing function?",
+      "options": [
+        "Constant",
+        "Logarithmic",
+        "Linear",
+        "Exponential"
+      ],
+      "answer": 3
+    },
+    {
+      "Id": 46,
+      "question": "What is the space complexity of the following code snippet?\ndef some_function(n):\n    data = [0] * n\n    return data",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(n^2)",
+        "O(log n)"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 47,
+      "question": "Which of the following statements about space complexity analysis is correct?",
+      "options": [
+        "It measures the exact memory usage of an algorithm.",
+        "It ignores the memory used by input parameters.",
+        "It is unrelated to time complexity analysis.",
+        "It is only concerned with the maximum memory used by an algorithm."
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 48,
+      "question": "What is the space complexity of a recursive Fibonacci function?",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(2^n)"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 49,
+      "question": "Which data structure typically has a space complexity of O(n)?",
+      "options": [
+        "Hash table",
+        "Stack",
+        "Linked list",
+        "Array"
+      ],
+      "answer": 3
+    },
+    {
+      "Id": 50,
+      "question": "What is the space complexity of a depth-first search (DFS) algorithm on a graph with n vertices?",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(n^2)",
+        "O(log n)"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 51,
+      "question": "Which of the following best describes Big O notation?",
+      "options": [
+        "It represents the average-case performance of an algorithm.",
+        "It provides a lower bound on the growth rate of a function.",
+        "It is used to express the tightest upper bound of an algorithm's runtime.",
+        "It is equivalent to Big Theta notation."
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 52,
+      "question": "If f(n) = O(g(n)), which of the following statements is true?",
+      "options": [
+        "f(n) grows slower than or at the same rate as g(n).",
+        "f(n) grows faster than or at the same rate as g(n).",
+        "f(n) grows strictly slower than g(n).",
+        "f(n) and g(n) have no relationship."
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 53,
+      "question": "Which notation is used to denote the average-case time complexity of an algorithm?",
+      "options": [
+        "Big O",
+        "Big Omega",
+        "Big Theta",
+        "None of the above"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 54,
+      "question": "Which of the following functions grows faster asymptotically: n! or 2^n?",
+      "options": [
+        "n!",
+        "2^n",
+        "Both grow at the same rate",
+        "None of the above"
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 55,
+      "question": "If f(n) = Ω(g(n)), what can be said about the growth rate of f(n)?",
+      "options": [
+        "It grows slower than or at the same rate as g(n).",
+        "It grows faster than or at the same rate as g(n).",
+        "It grows strictly slower than g(n).",
+        "It grows strictly faster than g(n)."
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 56,
+      "question": "Which of the following algorithms has the best-case time complexity of O(1)?",
+      "options": [
+        "Linear search",
+        "Binary search",
+        "Bubble sort",
+        "Merge sort"
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 57,
+      "question": "In which case is the input that causes the algorithm to run fastest?",
+      "options": [
+        "Worst case",
+        "Best case",
+        "Average case",
+        "None of the above"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 58,
+      "question": "Which of the following sorting algorithms exhibits O(n^2) time complexity in the worst-case scenario?",
+      "options": [
+        "Merge sort",
+        "Quick sort",
+        "Bubble sort",
+        "Insertion sort"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 59,
+      "question": "What is the time complexity of the following code snippet?\nfor i in range(n):\n    for j in range(i):\n        print(i, j)",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(n^2)",
+        "O(log n)"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 60,
+      "question": "What is the time complexity of finding duplicates in an unsorted array of size n?",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(n log n)",
+        "O(n^2)"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 61,
+      "question": "Which of the following algorithms has a time complexity of O(1)?",
+      "options": [
+        "Insertion sort",
+        "Selection sort",
+        "Heap sort",
+        "Constant-time algorithm"
+      ],
+      "answer": 3
+    },
+    {
+      "Id": 62,
+      "question": "In time complexity analysis, which term describes the slowest growing function?",
+      "options": [
+        "Constant",
+        "Logarithmic",
+        "Linear",
+        "Exponential"
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 63,
+      "question": "What is the space complexity of the following code snippet?\ndef some_function(n):\n    data = [0] * (2*n)\n    return data",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(n^2)",
+        "O(log n)"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 64,
+      "question": "What is the space complexity of a recursive function that calculates the factorial of a number?",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n!)"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 65,
+      "question": "Which data structure typically has a space complexity of O(log n)?",
+      "options": [
+        "Stack",
+        "Linked list",
+        "Binary tree",
+        "Queue"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 66,
+      "question": "What is the space complexity of a breadth-first search (BFS) algorithm on a graph with n vertices?",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(n^2)",
+        "O(log n)"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 67,
+      "question": "Which of the following best describes Big Omega notation?",
+      "options": [
+        "It represents the average-case performance of an algorithm.",
+        "It provides an upper bound on the growth rate of a function.",
+        "It is used to express the tightest lower bound of an algorithm's runtime.",
+        "It is equivalent to Big Theta notation."
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 68,
+      "question": "If f(n) = Ω(g(n)), which of the following statements is true?",
+      "options": [
+        "f(n) grows slower than or at the same rate as g(n).",
+        "f(n) grows faster than or at the same rate as g(n).",
+        "f(n) grows strictly slower than g(n).",
+        "f(n) and g(n) have no relationship."
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 69,
+      "question": "Which notation is used to denote the worst-case time complexity of an algorithm?",
+      "options": [
+        "Big O",
+        "Big Omega",
+        "Big Theta",
+        "None of the above"
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 70,
+      "question": "Which of the following functions grows faster asymptotically: n^3 or 3^n?",
+      "options": [
+        "n^3",
+        "3^n",
+        "Both grow at the same rate",
+        "None of the above"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 71,
+      "question": "Which of the following algorithms has the best-case time complexity of O(n)?",
+      "options": [
+        "Quick sort",
+        "Merge sort",
+        "Bubble sort",
+        "Linear search"
+      ],
+      "answer": 3
+    },
+    {
+      "Id": 72,
+      "question": "Which of the following sorting algorithms exhibits O(n log n) time complexity in the worst-case scenario?",
+      "options": [
+        "Quick sort",
+        "Merge sort",
+        "Bubble sort",
+        "Insertion sort"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 73,
+      "question": "Which case analysis is often used to analyze the performance of an algorithm on random inputs?",
+      "options": [
+        "Worst-case analysis",
+        "Best-case analysis",
+        "Average-case analysis",
+        "None of the above"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 74,
+      "question": "What is the time complexity of the following code snippet?\nfor i in range(n):\n    print(\"Hello, World!\")\n",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(n log n)",
+        "O(log n)"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 75,
+      "question": "What is the time complexity of a linear search algorithm on an unsorted array?",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n^2)"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 76,
+      "question": "Which of the following algorithms has the best-case time complexity of O(n log n)?",
+      "options": [
+        "Quick sort",
+        "Bubble sort",
+        "Insertion sort",
+        "Selection sort"
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 77,
+      "question": "In time complexity analysis, what does the term \"logarithmic\" represent?",
+      "options": [
+        "The time taken increases exponentially with the input size.",
+        "The time taken increases linearly with the input size.",
+        "The time taken increases logarithmically with the input size.",
+        "The time taken remains constant regardless of the input size."
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 78,
+      "question": "What is the space complexity of the following code snippet?\ndef some_function(n):\n    data = []\n    for i in range(n):\n        data.append(i)\n    return data",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(n^2)",
+        "O(log n)"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 79,
+      "question": "What is the space complexity of a recursive algorithm with a depth of n?",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n!)"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 80,
+      "question": "Which data structure typically has the highest space complexity for storing n elements?",
+      "options": [
+        "Array",
+        "Linked list",
+        "Stack",
+        "Queue"
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 81,
+      "question": "What is the space complexity of a binary search algorithm?",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n log n)"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 82,
+      "question": "Which of the following notations provides the tightest bound for an algorithm's time complexity?",
+      "options": [
+        "Big O",
+        "Big Omega",
+        "Big Theta",
+        "None of the above"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 83,
+      "question": "If f(n) = Θ(g(n)), what can be inferred about the growth rates of f(n) and g(n)?",
+      "options": [
+        "f(n) grows faster than g(n).",
+        "f(n) and g(n) grow at the same rate.",
+        "f(n) grows slower than g(n).",
+        "There is no relationship between the growth rates of f(n) and g(n)."
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 84,
+      "question": "Which of the following notations represents the best-case time complexity of an algorithm?",
+      "options": [
+        "Big O",
+        "Big Omega",
+        "Big Theta",
+        "None of the above"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 85,
+      "question": "What does it mean if f(n) = O(g(n))?",
+      "options": [
+        "f(n) grows faster than g(n).",
+        "f(n) and g(n) grow at the same rate.",
+        "f(n) grows slower than g(n).",
+        "There is no relationship between the growth rates of f(n) and g(n)."
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 86,
+      "question": "In which case does an algorithm perform at its peak efficiency?",
+      "options": [
+        "Worst case",
+        "Best case",
+        "Average case",
+        "None of the above"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 87,
+      "question": "Which case analysis is most commonly used for analyzing the performance of an algorithm?",
+      "options": [
+        "Worst case",
+        "Best case",
+        "Average case",
+        "None of the above"
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 88,
+      "question": "Which of the following sorting algorithms typically has the best-case time complexity of O(n log n)?",
+      "options": [
+        "Bubble sort",
+        "Insertion sort",
+        "Merge sort",
+        "Quick sort"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 89,
+      "question": "Which case analysis is useful for determining the expected performance of an algorithm when inputs are randomly distributed?",
+      "options": [
+        "Worst case",
+        "Best case",
+        "Average case",
+        "None of the above"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 90,
+      "question": "What does the worst-case analysis of an algorithm provide?",
+      "options": [
+        "An upper bound on the algorithm's performance.",
+        "A lower bound on the algorithm's performance.",
+        "An average estimate of the algorithm's performance.",
+        "None of the above."
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 91,
+      "question": "What defines a brute force algorithm?",
+      "options": [
+        "It is an algorithm that makes use of randomization.",
+        "It is an algorithm that relies on the principle of divide and conquer.",
+        "It is an algorithm that exhaustively searches through all possible solutions.",
+        "It is an algorithm that uses heuristics to find the optimal solution."
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 92,
+      "question": "Which problem-solving strategy is often associated with brute force algorithms?",
+      "options": [
+        "Minimizing recursion depth",
+        "Eliminating redundant computations",
+        "Exhaustive search",
+        "Dynamic programming"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 93,
+      "question": "Which of the following problems is typically solved using a brute force approach?",
+      "options": [
+        "Shortest path problem",
+        "Travelling Salesman Problem (TSP)",
+        "Knapsack problem",
+        "Matrix chain multiplication"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 94,
+      "question": "What is the time complexity of a brute force solution for the traveling salesman problem (TSP) with n cities?",
+      "options": [
+        "O(n)",
+        "O(n log n)",
+        "O(n!)",
+        "O(2^n)"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 95,
+      "question": "In brute force algorithms, what is the primary drawback?",
+      "options": [
+        "Limited applicability",
+        "High space complexity",
+        "Exponential time complexity",
+        "Lack of determinism"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 96,
+      "question": "Which technique does a divide and conquer algorithm employ?",
+      "options": [
+        "Iterative improvement",
+        "Dynamic programming",
+        "Recursion",
+        "Greedy selection"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 97,
+      "question": "Which problem-solving approach involves breaking down a problem into subproblems of the same type?",
+      "options": [
+        "Divide and conquer",
+        "Greedy algorithms",
+        "Dynamic programming",
+        "Backtracking"
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 98,
+      "question": "Which of the following algorithms uses the divide and conquer strategy?",
+      "options": [
+        "Breadth-first search (BFS)",
+        "Depth-first search (DFS)",
+        "Binary search",
+        "Topological sort"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 99,
+      "question": "What is the time complexity of merge sort, a divide and conquer algorithm, in the worst-case scenario?",
+      "options": [
+        "O(n)",
+        "O(n log n)",
+        "O(n^2)",
+        "O(2^n)"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 100,
+      "question": "Which problem can be efficiently solved using the divide and conquer approach?",
+      "options": [
+        "Knapsack problem",
+        "Longest common subsequence problem",
+        "Graph coloring problem",
+        "Maximum flow problem"
+      ],
+      "answer": 1
+    },
   {
     "Id": 101,
     "question": "What is the main characteristic of a greedy algorithm?",

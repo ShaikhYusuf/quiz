@@ -1,10 +1,10 @@
 [
   {
     "Id": 1,
-    "question": "What is true about cache memory?",
+    "question": "What is a key characteristic of cache memory?",
     "options": [
       "It is faster than main memory.",
-      "It has larger capacity than RAM.",
+      "It has a larger capacity than RAM.",
       "It is a type of secondary storage.",
       "It is volatile in nature."
     ],
@@ -12,7 +12,7 @@
   },
   {
     "Id": 2,
-    "question": "Where is cache memory located?",
+    "question": "Where is cache memory typically located in a computer system?",
     "options": [
       "Close to the CPU.",
       "Close to the secondary storage.",
@@ -23,7 +23,7 @@
   },
   {
     "Id": 3,
-    "question": "What is the purpose of cache memory?",
+    "question": "What is the primary purpose of cache memory in a computer system?",
     "options": [
       "To store frequently accessed data.",
       "To store permanent data.",
@@ -34,7 +34,7 @@
   },
   {
     "Id": 4,
-    "question": "Which level of cache memory is closest to the CPU?",
+    "question": "Which level of cache memory is closest to the processor?",
     "options": [
       "L1",
       "L2",
@@ -45,7 +45,7 @@
   },
   {
     "Id": 5,
-    "question": "Cache memory operates on the principle of:",
+    "question": "Cache memory operates based on which principle?",
     "options": [
       "Locality of reference.",
       "Random access.",
@@ -56,7 +56,7 @@
   },
   {
     "Id": 6,
-    "question": "What does RAM stand for?",
+    "question": "What is the full form of RAM?",
     "options": [
       "Random Access Method",
       "Read And Modify",
@@ -67,18 +67,18 @@
   },
   {
     "Id": 7,
-    "question": "What is true about RAM?",
+    "question": "Which of the following statements is true about RAM?",
     "options": [
       "It is non-volatile.",
       "It is slower than cache memory.",
-      "It has smaller capacity than cache memory.",
+      "It has a smaller capacity than cache memory.",
       "It is directly accessible by the CPU."
     ],
     "answer": 1
   },
   {
     "Id": 8,
-    "question": "What is RAM used for?",
+    "question": "What is the primary use of RAM in a computer?",
     "options": [
       "Storing data permanently.",
       "Storing data temporarily during program execution.",
@@ -89,7 +89,7 @@
   },
   {
     "Id": 9,
-    "question": "What is the speed of RAM compared to secondary storage?",
+    "question": "How does the speed of RAM compare to that of secondary storage?",
     "options": [
       "Faster",
       "Slower",
@@ -100,7 +100,7 @@
   },
   {
     "Id": 10,
-    "question": "Which of the following is a type of RAM?",
+    "question": "Which of the following is a type of Random Access Memory (RAM)?",
     "options": [
       "DDR4",
       "SATA",
@@ -2751,7 +2751,7 @@
   },
   {
     "Id": 251,
-    "question": "In the write-back stage of the instruction pipeline, what happens?",
+    "question": "What happens during the write-back stage of the instruction pipeline?",
     "options": [
       "The results of the operation are written back to memory.",
       "Instructions are fetched from memory.",
@@ -2762,7 +2762,7 @@
   },
   {
     "Id": 252,
-    "question": "Which of the following components controls the flow of instructions in a pipeline processor?",
+    "question": "Which component controls the flow of instructions in a pipelined processor?",
     "options": [
       "ALU (Arithmetic Logic Unit)",
       "Control unit",
@@ -2773,7 +2773,7 @@
   },
   {
     "Id": 253,
-    "question": "What is data forwarding in a data pipeline?",
+    "question": "What does data forwarding mean in a pipelined processor?",
     "options": [
       "Sending data to an external storage device.",
       "Redirecting data from one stage of the pipeline to another without storing it in memory.",
@@ -2784,18 +2784,18 @@
   },
   {
     "Id": 254,
-    "question": "What is the fundamental idea behind pipeline processing?",
+    "question": "What is the fundamental concept behind pipeline processing?",
     "options": [
-      "Sequential execution of instructions",
-      "Parallel execution of instructions",
-      "Random execution of instructions",
-      "Serial execution of instructions"
+      "Sequential execution of instructions.",
+      "Parallel execution of instructions.",
+      "Random execution of instructions.",
+      "Serial execution of instructions."
     ],
     "answer": 1
   },
   {
     "Id": 255,
-    "question": "Which of the following statements best describes pipelining?",
+    "question": "Which statement best describes the concept of pipelining in processors?",
     "options": [
       "It allows instructions to be executed in any order.",
       "It breaks down the execution of instructions into smaller stages.",
@@ -2808,16 +2808,16 @@
     "Id": 256,
     "question": "How does pipelining improve CPU performance?",
     "options": [
-      "By increasing the clock frequency of the CPU",
-      "By reducing the number of clock cycles needed to execute instructions",
-      "By decreasing the number of instructions executed per clock cycle",
-      "By eliminating the need for cache memory"
+      "By increasing the clock frequency of the CPU.",
+      "By reducing the number of clock cycles needed to execute instructions.",
+      "By decreasing the number of instructions executed per clock cycle.",
+      "By eliminating the need for cache memory."
     ],
     "answer": 1
   },
   {
     "Id": 257,
-    "question": "Which of the following is NOT a stage typically found in a pipeline?",
+    "question": "Which of the following is NOT typically a stage in a processor pipeline?",
     "options": [
       "Fetch",
       "Execute",
@@ -2828,29 +2828,29 @@
   },
   {
     "Id": 258,
-    "question": "What is the primary advantage of pipelining?",
+    "question": "What is the primary benefit of pipelining in CPU design?",
     "options": [
-      "It simplifies the design of the CPU",
-      "It reduces the cost of manufacturing CPUs",
-      "It increases the speed of instruction execution",
-      "It decreases the complexity of instruction sets"
+      "It simplifies the design of the CPU.",
+      "It reduces the cost of manufacturing CPUs.",
+      "It increases the speed of instruction execution.",
+      "It decreases the complexity of instruction sets."
     ],
     "answer": 2
   },
   {
     "Id": 259,
-    "question": "What is the function of the fetch stage in an instruction pipeline?",
+    "question": "What is the purpose of the fetch stage in an instruction pipeline?",
     "options": [
-      "To decode instructions into microoperations",
-      "To load instructions from memory into the pipeline",
-      "To execute arithmetic and logical operations",
-      "To write the results of operations back to memory"
+      "To decode instructions into microoperations.",
+      "To load instructions from memory into the pipeline.",
+      "To execute arithmetic and logical operations.",
+      "To write the results of operations back to memory."
     ],
     "answer": 1
   },
   {
     "Id": 260,
-    "question": "During which stage of the instruction pipeline are instructions decoded?",
+    "question": "In which stage of the instruction pipeline are instructions decoded?",
     "options": [
       "Fetch",
       "Decode",
@@ -2861,12 +2861,12 @@
   },
   {
     "Id": 261,
-    "question": "In the write-back stage of an instruction pipeline, what happens?",
+    "question": "What occurs during the write-back stage of an instruction pipeline?",
     "options": [
-      "The results of the operation are written back to memory",
-      "Instructions are fetched from memory",
-      "Arithmetic and logical operations are performed",
-      "Instructions are decoded into microoperations"
+      "The results of the operation are written back to memory.",
+      "Instructions are fetched from memory.",
+      "Arithmetic and logical operations are performed.",
+      "Instructions are decoded into microoperations."
     ],
     "answer": 0
   },
@@ -2883,18 +2883,18 @@
   },
   {
     "Id": 263,
-    "question": "Which best describes the purpose of a data pipeline?",
+    "question": "Which statement best describes the purpose of a data pipeline?",
     "options": [
-      "To store program instructions temporarily",
-      "To manage interrupts generated by peripheral devices",
-      "To process data efficiently by dividing it into smaller tasks and executing them in parallel",
-      "To execute program instructions sequentially without interruption"
+      "To store program instructions temporarily.",
+      "To manage interrupts generated by peripheral devices.",
+      "To process data efficiently by dividing it into smaller tasks and executing them in parallel.",
+      "To execute program instructions sequentially without interruption."
     ],
     "answer": 2
   },
   {
     "Id": 264,
-    "question": "Which component is NOT commonly found in a data pipeline?",
+    "question": "Which component is NOT typically found in a data pipeline?",
     "options": [
       "ALU (Arithmetic Logic Unit)",
       "Memory unit",
@@ -2905,7 +2905,7 @@
   },
   {
     "Id": 265,
-    "question": "Which of the following statements is true about pipeline processing?",
+    "question": "Which statement is true about pipeline processing?",
     "options": [
       "It decreases the overall throughput of the CPU.",
       "It executes instructions one at a time.",
@@ -2916,7 +2916,7 @@
   },
   {
     "Id": 266,
-    "question": "What is the primary purpose of pipeline processing?",
+    "question": "What is the primary goal of pipeline processing?",
     "options": [
       "To reduce the clock frequency of the CPU.",
       "To increase the complexity of instruction sets.",
@@ -2927,7 +2927,7 @@
   },
   {
     "Id": 267,
-    "question": "In pipeline processing, what does a stage represent?",
+    "question": "In pipeline processing, what does each stage represent?",
     "options": [
       "A specific portion of the CPU's cache memory.",
       "A segment of the program's code.",
@@ -2938,7 +2938,7 @@
   },
   {
     "Id": 268,
-    "question": "How does pipeline processing contribute to overall system performance?",
+    "question": "How does pipeline processing improve overall system performance?",
     "options": [
       "By increasing the latency of instruction execution.",
       "By reducing the need for memory access.",
@@ -2962,10 +2962,10 @@
     "Id": 270,
     "question": "What is a class in object-oriented programming?",
     "options": [
-      "A blueprint for creating objects",
-      "A built-in function",
-      "A variable declaration",
-      "A loop construct"
+      "A blueprint for creating objects.",
+      "A built-in function.",
+      "A variable declaration.",
+      "A loop construct."
     ],
     "answer": 0
   },
@@ -3853,10 +3853,10 @@
     "Id": 351,
     "question": "What is branch prediction in the context of speculative execution?",
     "options": [
-      "Executing instructions before the branch is resolved",
-      "Predicting the outcome of conditional branches",
-      "Reordering instructions for parallel execution",
-      "Speculatively executing instructions from multiple branches"
+      "Executing instructions before the branch decision is made",
+      "Predicting the outcome of conditional branches to reduce delays",
+      "Reordering instructions for better parallel execution",
+      "Executing instructions from multiple branches simultaneously"
     ],
     "answer": 1
   },
@@ -3864,21 +3864,21 @@
     "Id": 352,
     "question": "What is the primary advantage of superscalar processors?",
     "options": [
-      "They execute instructions in a single clock cycle",
-      "They have a smaller instruction set",
-      "They exploit instruction-level parallelism",
-      "They have fewer pipeline stages"
+      "They can execute multiple instructions in parallel",
+      "They have a simpler instruction set architecture",
+      "They use fewer pipeline stages to reduce latency",
+      "They execute each instruction in a single clock cycle"
     ],
     "answer": 2
   },
   {
     "Id": 353,
-    "question": "Which of the following techniques is commonly used in superscalar processors to improve performance?",
+    "question": "Which technique is commonly used in superscalar processors to improve performance?",
     "options": [
-      "Loop unrolling",
-      "Branch prediction",
-      "Cache prefetching",
-      "Register renaming"
+      "Loop unrolling to minimize control flow",
+      "Branch prediction to improve instruction flow",
+      "Cache prefetching to reduce memory latency",
+      "Register renaming to avoid false dependencies"
     ],
     "answer": 3
   },
@@ -3887,9 +3887,9 @@
     "question": "In superscalar processors, what is the purpose of the execution units?",
     "options": [
       "To fetch instructions from memory",
-      "To decode instructions into micro-operations",
-      "To execute instructions in parallel",
-      "To reorder instructions for efficient execution"
+      "To decode instructions into simpler operations",
+      "To execute multiple instructions in parallel",
+      "To reorder instructions for better pipeline efficiency"
     ],
     "answer": 2
   },
@@ -3897,32 +3897,32 @@
     "Id": 355,
     "question": "How does instruction dispatch occur in superscalar processors?",
     "options": [
-      "Instructions are fetched from memory",
-      "Instructions are executed out of order",
-      "Instructions are decoded into micro-operations",
-      "Instructions are sent to execution units for processing"
+      "Instructions are fetched from memory sequentially",
+      "Instructions are executed out of order to maximize performance",
+      "Instructions are decoded into micro-operations before execution",
+      "Instructions are directly sent to execution units for parallel processing"
     ],
     "answer": 3
   },
   {
     "Id": 356,
-    "question": "Which of the following factors limits the degree of instruction-level parallelism achievable in superscalar processors?",
+    "question": "Which factor limits the degree of instruction-level parallelism (ILP) in superscalar processors?",
     "options": [
-      "Clock frequency",
-      "Number of available registers",
-      "Dependency between instructions",
-      "Size of the instruction cache"
+      "Clock frequency limitations",
+      "Availability of registers for parallel execution",
+      "Dependency between instructions that limits parallel execution",
+      "Size of the instruction cache affecting throughput"
     ],
     "answer": 2
   },
   {
     "Id": 357,
-    "question": "Which of the following is a key characteristic of VLIW processors?",
+    "question": "Which of the following is a key characteristic of VLIW (Very Long Instruction Word) processors?",
     "options": [
-      "They rely heavily on hardware-based parallelism",
-      "They execute instructions in a single clock cycle",
-      "They have a smaller number of available registers",
-      "They exploit instruction-level parallelism"
+      "They heavily rely on hardware to achieve parallelism",
+      "They execute instructions in parallel with minimal hardware support",
+      "They have a simplified, smaller instruction set",
+      "They are designed to exploit instruction-level parallelism through compilers"
     ],
     "answer": 3
   },
@@ -3930,10 +3930,10 @@
     "Id": 358,
     "question": "How does a VLIW processor handle instruction dependencies?",
     "options": [
-      "By executing instructions out of order",
-      "By using speculative execution",
-      "By reordering instructions at compile time",
-      "By dynamically allocating resources"
+      "By executing instructions out of order dynamically",
+      "By using speculative execution to guess outcomes",
+      "By reordering instructions during compile time for better efficiency",
+      "By allocating resources dynamically during execution"
     ],
     "answer": 2
   },
@@ -3941,9 +3941,9 @@
     "Id": 359,
     "question": "Which of the following factors contributes to the complexity of VLIW processors?",
     "options": [
-      "Limited hardware resources",
-      "Dependence on branch prediction",
-      "Difficulty in optimizing compiler output",
+      "Limited hardware resources to manage parallelism",
+      "Heavy reliance on branch prediction mechanisms",
+      "Challenges in optimizing compiler output for efficient instruction scheduling",
       "Inability to exploit instruction-level parallelism"
     ],
     "answer": 2
@@ -3952,10 +3952,10 @@
     "Id": 360,
     "question": "What is the primary purpose of speculative execution?",
     "options": [
-      "To simplify instruction decoding",
-      "To improve instruction-level parallelism",
-      "To reduce the number of pipeline stages",
-      "To increase the clock frequency"
+      "To simplify instruction decoding by eliminating dependencies",
+      "To improve instruction-level parallelism by executing ahead of time",
+      "To reduce the number of pipeline stages and minimize stalls",
+      "To increase the clock frequency by reducing idle time"
     ],
     "answer": 1
   },
@@ -5171,7 +5171,7 @@
   },
   {
     "Id": 471,
-    "question": "Which of the following is a potential advantage of RISC architectures?",
+    "question": "Which of the following is a key advantage of RISC (Reduced Instruction Set Computing) architectures?",
     "options": [
       "Enhanced support for complex instructions",
       "Lower hardware complexity and cost",
@@ -5182,7 +5182,7 @@
   },
   {
     "Id": 472,
-    "question": "What is a possible disadvantage of RISC architectures?",
+    "question": "What is a potential disadvantage of RISC (Reduced Instruction Set Computing) architectures?",
     "options": [
       "Increased number of clock cycles required per instruction",
       "Limited support for high-level programming languages",
@@ -5193,18 +5193,18 @@
   },
   {
     "Id": 473,
-    "question": "Which of the following is a potential advantage of CISC architectures?",
+    "question": "Which of the following is a typical advantage of CISC (Complex Instruction Set Computing) architectures?",
     "options": [
       "Lower instruction count for typical programs",
       "Simplified instruction decoding logic",
       "Reduced memory bandwidth requirements",
       "Enhanced support for pipelining and parallelism"
     ],
-    "answer": 3
+    "answer": 0
   },
   {
     "Id": 474,
-    "question": "What is a possible disadvantage of CISC architectures?",
+    "question": "What is a common disadvantage of CISC (Complex Instruction Set Computing) architectures?",
     "options": [
       "Higher hardware complexity and cost",
       "Lower instruction density",
@@ -5215,18 +5215,18 @@
   },
   {
     "Id": 475,
-    "question": "In terms of instruction execution efficiency, which architecture tends to excel in modern computing environments?",
+    "question": "Which architecture generally excels in instruction execution efficiency in modern computing systems?",
     "options": [
       "RISC architectures",
       "CISC architectures",
       "Both architectures have similar efficiency",
-      "Neither architecture, as they are obsolete"
+      "Neither architecture is commonly used today"
     ],
     "answer": 0
   },
   {
     "Id": 476,
-    "question": "Which of the following statements best describes the complexity of instruction sets in RISC architectures?",
+    "question": "Which of the following best describes the instruction sets in RISC (Reduced Instruction Set Computing) architectures?",
     "options": [
       "RISC architectures have simple and uniform instruction sets.",
       "RISC architectures have complex and variable-length instruction sets.",
@@ -5237,40 +5237,40 @@
   },
   {
     "Id": 477,
-    "question": "What is a common feature of CISC architectures regarding instruction encoding?",
+    "question": "Which statement about instruction encoding in CISC (Complex Instruction Set Computing) architectures is true?",
     "options": [
-      "Fixed-length encoding for all instructions",
-      "Variable-length encoding for all instructions",
-      "Fixed-length encoding for complex instructions",
-      "Variable-length encoding for simple instructions"
+      "All instructions use fixed-length encoding.",
+      "Instructions use variable-length encoding.",
+      "Complex instructions have fixed-length encoding.",
+      "Simple instructions have variable-length encoding."
     ],
     "answer": 1
   },
   {
     "Id": 478,
-    "question": "Which architecture tends to prioritize software simplicity and compiler efficiency?",
+    "question": "Which architecture prioritizes software simplicity and compiler efficiency?",
     "options": [
       "RISC architectures",
       "CISC architectures",
-      "Both architectures equally prioritize these factors",
+      "Both architectures prioritize these factors equally",
       "Neither architecture prioritizes these factors"
     ],
     "answer": 0
   },
   {
     "Id": 479,
-    "question": "In which type of architecture are complex instructions decomposed into simpler micro-operations?",
+    "question": "In which architecture are complex instructions broken down into simpler micro-operations?",
     "options": [
       "RISC architectures",
       "CISC architectures",
-      "Both architectures equally decompose complex instructions",
-      "Neither architecture decomposes complex instructions"
+      "Both architectures break down complex instructions",
+      "Neither architecture breaks down complex instructions"
     ],
     "answer": 1
   },
   {
     "Id": 480,
-    "question": "What is a typical characteristic of RISC architectures regarding addressing modes?",
+    "question": "What is a typical characteristic of RISC architectures in relation to addressing modes?",
     "options": [
       "Extensive support for complex addressing modes",
       "Limited number of addressing modes to simplify instruction decoding",
@@ -5281,9 +5281,9 @@
   },
   {
     "Id": 481,
-    "question": "What is a distinguishing feature of RISC architectures?",
+    "question": "Which of the following is a key distinguishing feature of RISC (Reduced Instruction Set Computing) architectures?",
     "options": [
-      "Large set of complex instructions",
+      "A large set of complex instructions",
       "Variable-length instructions",
       "Simple instructions with uniform execution time",
       "Limited addressing modes"
@@ -5292,10 +5292,10 @@
   },
   {
     "Id": 482,
-    "question": "What is a defining characteristic of CISC architectures?",
+    "question": "What is a defining characteristic of CISC (Complex Instruction Set Computing) architectures?",
     "options": [
-      "Small set of simple and uniform instructions",
-      "Large set of complex and variable-length instructions",
+      "A small set of simple and uniform instructions",
+      "A large set of complex and variable-length instructions",
       "Limited support for addressing modes",
       "Fixed-length instructions"
     ],
@@ -5303,9 +5303,9 @@
   },
   {
     "Id": 483,
-    "question": "How do CISC architectures typically handle instruction execution?",
+    "question": "How do CISC (Complex Instruction Set Computing) architectures typically handle instruction execution?",
     "options": [
-      "By employing microcode for all instructions",
+      "By employing microcode to execute all instructions",
       "By using simple instructions with uniform execution time",
       "By providing specialized hardware for each instruction",
       "By optimizing instruction decoding for efficiency"
@@ -5314,7 +5314,7 @@
   },
   {
     "Id": 484,
-    "question": "What is the primary focus of CISC instruction design?",
+    "question": "What is the primary focus of instruction design in CISC architectures?",
     "options": [
       "Minimizing instruction count",
       "Maximizing hardware complexity",
@@ -5325,7 +5325,7 @@
   },
   {
     "Id": 485,
-    "question": "How do CISC architectures handle complex operations?",
+    "question": "How do CISC (Complex Instruction Set Computing) architectures handle complex operations?",
     "options": [
       "By providing dedicated hardware for each complex instruction",
       "By using microcode to execute complex instructions",
@@ -5347,7 +5347,7 @@
   },
   {
     "Id": 487,
-    "question": "What is a potential advantage of RISC architectures over CISC architectures?",
+    "question": "What is a potential advantage of RISC (Reduced Instruction Set Computing) architectures over CISC (Complex Instruction Set Computing) architectures?",
     "options": [
       "Lower hardware complexity",
       "Larger instruction count",
@@ -5358,7 +5358,7 @@
   },
   {
     "Id": 488,
-    "question": "Which of the following is a potential disadvantage of RISC architectures?",
+    "question": "Which of the following is a potential disadvantage of RISC (Reduced Instruction Set Computing) architectures?",
     "options": [
       "Reduced compiler optimization opportunities",
       "Lower instruction execution efficiency",
@@ -5369,7 +5369,7 @@
   },
   {
     "Id": 489,
-    "question": "What is a potential advantage of CISC architectures over RISC architectures?",
+    "question": "What is a potential advantage of CISC (Complex Instruction Set Computing) architectures over RISC (Reduced Instruction Set Computing) architectures?",
     "options": [
       "Higher instruction execution efficiency",
       "Simplified instruction decoding logic",
@@ -5380,7 +5380,7 @@
   },
   {
     "Id": 490,
-    "question": "Which of the following is a potential disadvantage of CISC architectures?",
+    "question": "Which of the following is a potential disadvantage of CISC (Complex Instruction Set Computing) architectures?",
     "options": [
       "Higher memory bandwidth requirements",
       "Reduced compatibility with legacy software",
@@ -5391,20 +5391,20 @@
   },
   {
     "Id": 491,
-    "question": "In modern computing environments, which architecture tends to excel in terms of instruction execution efficiency?",
+    "question": "In modern computing environments, which architecture tends to excel in instruction execution efficiency?",
     "options": [
       "RISC architectures",
       "CISC architectures",
       "Both architectures perform equally well",
-      "Neither architecture, as they are obsolete"
+      "Neither architecture is commonly used today"
     ],
     "answer": 0
   },
   {
     "Id": 492,
-    "question": "What is a distinguishing characteristic of instruction sets in RISC architectures?",
+    "question": "Which of the following best describes the instruction sets of RISC architectures?",
     "options": [
-      "Large set of complex instructions",
+      "A large set of complex instructions",
       "Variable-length instructions",
       "Simple instructions with uniform execution time",
       "Limited addressing modes"
@@ -5413,9 +5413,9 @@
   },
   {
     "Id": 493,
-    "question": "Which of the following is a characteristic of instruction sets in CISC architectures?",
+    "question": "Which of the following is a key characteristic of instruction sets in CISC architectures?",
     "options": [
-      "Large set of simple and uniform instructions",
+      "A large set of simple and uniform instructions",
       "Limited support for addressing modes",
       "Fixed-length instructions",
       "Simple instructions with uniform execution time"
@@ -5424,42 +5424,42 @@
   },
   {
     "Id": 494,
-    "question": "In terms of hardware complexity, which architecture tends to be simpler?",
+    "question": "Which architecture tends to have simpler hardware complexity?",
     "options": [
       "RISC architectures",
       "CISC architectures",
       "Both architectures have similar hardware complexity",
-      "Neither architecture, as they are equally complex"
+      "Neither architecture, as both are equally complex"
     ],
     "answer": 0
   },
   {
     "Id": 495,
-    "question": "What is a typical approach to handling complex instructions in RISC architectures?",
+    "question": "How do RISC architectures typically handle complex instructions?",
     "options": [
-      "Using microcode to execute complex instructions",
-      "Providing dedicated hardware for each complex instruction",
-      "Breaking down complex instructions into simpler micro-operations",
-      "Utilizing specialized instruction formats for complex operations"
+      "By using microcode to execute complex instructions",
+      "By providing dedicated hardware for each complex instruction",
+      "By breaking complex instructions down into simpler micro-operations",
+      "By utilizing specialized instruction formats for complex operations"
     ],
     "answer": 2
   },
   {
     "Id": 496,
-    "question": "Which of the following is a benefit of the simple and uniform instruction set in RISC architectures?",
+    "question": "Which of the following is a key benefit of the simple and uniform instruction set in RISC architectures?",
     "options": [
       "Enhanced compatibility with legacy software",
       "Reduced instruction execution efficiency",
       "Increased memory bandwidth requirements",
-      "Complex instruction decoding logic"
+      "Simplified instruction decoding logic"
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "Id": 497,
-    "question": "What is a defining characteristic of RISC architectures regarding instruction complexity?",
+    "question": "Which of the following best describes the instruction complexity in RISC architectures?",
     "options": [
-      "Large set of complex instructions",
+      "A large set of complex instructions",
       "Simple instructions with uniform execution time",
       "Limited addressing modes",
       "Variable-length instructions"
@@ -5468,14 +5468,14 @@
   },
   {
     "Id": 498,
-    "question": "In RISC architectures, what is the primary objective of instruction design?",
+    "question": "In RISC architectures, what is the primary goal of instruction design?",
     "options": [
       "Maximizing hardware complexity",
       "Minimizing instruction count",
       "Optimizing instruction decoding efficiency",
       "Providing extensive support for high-level programming languages"
     ],
-    "answer": 1
+    "answer": 2
   },
   {
     "Id": 499,
@@ -5501,10 +5501,10 @@
   },
   {
     "Id": 501,
-    "question": "What is a key characteristic of CISC architectures regarding instruction complexity?",
+    "question": "Which of the following is a key characteristic of CISC architectures regarding instruction complexity?",
     "options": [
-      "Small set of simple instructions",
-      "Large set of complex and variable-length instructions",
+      "A small set of simple instructions",
+      "A large set of complex and variable-length instructions",
       "Limited addressing modes",
       "Fixed-length instructions"
     ],
@@ -5512,7 +5512,7 @@
   },
   {
     "Id": 502,
-    "question": "In CISC architectures, what is the primary objective of instruction design?",
+    "question": "In CISC architectures, what is the primary goal of instruction design?",
     "options": [
       "Minimizing hardware complexity",
       "Maximizing instruction count",
@@ -5589,7 +5589,7 @@
   },
   {
     "Id": 509,
-    "question": "What is the primary focus of RISC instruction design?",
+    "question": "What is the primary focus of instruction design in RISC architectures?",
     "options": [
       "Minimizing instruction count",
       "Maximizing hardware complexity",
@@ -5600,11 +5600,11 @@
   },
   {
     "Id": 510,
-    "question": "How do RISC architectures handle complex operations?",
+    "question": "How do RISC architectures typically handle complex operations?",
     "options": [
       "By providing dedicated hardware for each complex instruction",
       "By using microcode to execute complex instructions",
-      "By breaking down complex operations into simpler micro-operations",
+      "By breaking complex operations down into simpler micro-operations",
       "By utilizing specialized instruction formats for complex operations"
     ],
     "answer": 2
@@ -5666,7 +5666,7 @@
   },
   {
     "Id": 516,
-    "question": "Which of the following statements best describes a Complex Instruction Set Computing (CISC) architecture?",
+    "question": "Which of the following best describes a Complex Instruction Set Computing (CISC) architecture?",
     "options": [
       "It focuses on minimizing the number of instructions available to the programmer.",
       "It emphasizes simplicity and orthogonality in instruction set design.",
@@ -5941,12 +5941,12 @@
   },
   {
     "Id": 541,
-    "question": "What is the function of the Memory Unit in a computer system?",
+    "question": "What is the primary function of the Memory Unit in a computer system?",
     "options": [
       "Executing instructions",
       "Storing data and instructions temporarily",
       "Processing data",
-      "Providing input/output capabilities"
+      "Managing input/output operations"
     ],
     "answer": 1
   },
@@ -5967,25 +5967,25 @@
     "options": [
       "RAM",
       "ROM",
-      "HDD",
-      "SSD"
+      "Hard Disk Drive (HDD)",
+      "Solid State Drive (SSD)"
     ],
     "answer": 2
   },
   {
     "Id": 544,
-    "question": "What is the purpose of the Control Unit in a CPU?",
+    "question": "What is the primary role of the Control Unit within the CPU?",
     "options": [
       "Performing arithmetic operations",
       "Controlling the flow of data and instructions within the CPU",
       "Storing data temporarily",
-      "Providing input/output capabilities"
+      "Managing input/output operations"
     ],
     "answer": 1
   },
   {
     "Id": 545,
-    "question": "Which of the following is an example of an I/O device?",
+    "question": "Which of the following is an example of an input/output (I/O) device?",
     "options": [
       "CPU",
       "Monitor",
@@ -5999,9 +5999,9 @@
     "question": "What is the function of the Arithmetic Logic Unit (ALU) within a CPU?",
     "options": [
       "Storing data and instructions",
-      "Processing data",
+      "Performing arithmetic and logical operations",
       "Controlling the flow of data and instructions",
-      "Providing input/output capabilities"
+      "Managing input/output operations"
     ],
     "answer": 1
   },
@@ -6018,7 +6018,7 @@
   },
   {
     "Id": 548,
-    "question": "Which component of a computer system is responsible for temporarily storing data and instructions during program execution?",
+    "question": "Which component of a computer system temporarily stores data and instructions during program execution?",
     "options": [
       "CPU",
       "Memory Unit",
@@ -6029,12 +6029,12 @@
   },
   {
     "Id": 549,
-    "question": "Which of the following is a volatile type of memory?",
+    "question": "Which of the following types of memory is volatile, meaning it loses its contents when the power is turned off?",
     "options": [
       "RAM",
       "ROM",
-      "HDD",
-      "SSD"
+      "Hard Disk Drive (HDD)",
+      "Solid State Drive (SSD)"
     ],
     "answer": 0
   },
@@ -6045,7 +6045,7 @@
       "Long-term storage of data",
       "Temporary storage of frequently accessed data",
       "Processing data",
-      "Controlling input/output operations"
+      "Managing input/output operations"
     ],
     "answer": 1
   },
@@ -6062,7 +6062,7 @@
   },
   {
     "Id": 552,
-    "question": "What is the function of the data bus in a computer system?",
+    "question": "What is the primary function of the data bus in a computer system?",
     "options": [
       "Transferring data between the CPU and memory",
       "Controlling the flow of instructions",
@@ -6073,12 +6073,12 @@
   },
   {
     "Id": 553,
-    "question": "What type of memory is non-volatile and retains its contents even when the power is turned off?",
+    "question": "Which type of memory is non-volatile and retains its contents even when the power is turned off?",
     "options": [
       "RAM",
       "ROM",
       "Cache",
-      "SSD"
+      "Solid State Drive (SSD)"
     ],
     "answer": 1
   },
@@ -6128,7 +6128,7 @@
   },
   {
     "Id": 558,
-    "question": "What is the function of the program counter in a CPU?",
+    "question": "What is the primary function of the program counter in a CPU?",
     "options": [
       "Keeping track of the next instruction to be executed",
       "Storing data temporarily",
@@ -6172,7 +6172,7 @@
   },
   {
     "Id": 562,
-    "question": "What is the function of the system clock in a computer system?",
+    "question": "What is the primary function of the system clock in a computer system?",
     "options": [
       "Controlling the flow of instructions",
       "Synchronizing operations within the CPU",
@@ -6199,7 +6199,7 @@
       "Storing data and instructions",
       "Executing arithmetic and logical operations",
       "Controlling input/output operations",
-      "Providing input/output capabilities"
+      "Storing intermediate results of arithmetic and logical operations"
     ],
     "answer": 1
   },
@@ -6210,7 +6210,7 @@
       "RAM",
       "ROM",
       "Hard Disk Drive (HDD)",
-      "SSD"
+      "Solid State Drive (SSD)"
     ],
     "answer": 2
   },
@@ -6254,7 +6254,7 @@
       "RAM",
       "ROM",
       "USB flash drive",
-      "SSD"
+      "Solid State Drive (SSD)"
     ],
     "answer": 2
   },
@@ -6997,7 +6997,7 @@
   },
   {
     "Id": 637,
-    "question": "What is the De Morgan's theorem?",
+    "question": "What is De Morgan's theorem?",
     "options": [
       "(A + B)' = A' . B'",
       "(A . B)' = A' + B'",

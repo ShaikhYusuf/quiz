@@ -8128,8 +8128,7 @@
     ],
     "answer": 0
   },
-  {
-    "Id": 740,
+    {"Id": 740,
     "question": "RAM stands for:",
     "options": [
       "Random Access Method",

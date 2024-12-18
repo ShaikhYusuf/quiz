@@ -1101,7 +1101,7 @@
   },
   {
     "Id": 101,
-    "question": "Which of the following statements about multilevel inheritance is true?",
+    "question": "Which of the following statements about multilevel inheritance is correct?",
     "options": [
       "It involves inheriting from multiple base classes.",
       "It allows a class to inherit from multiple derived classes.",
@@ -1112,7 +1112,7 @@
   },
   {
     "Id": 102,
-    "question": "In multilevel inheritance, how many levels of classes can be there?",
+    "question": "In multilevel inheritance, how many levels of classes can exist?",
     "options": [
       "Two",
       "Three or more",
@@ -1145,7 +1145,7 @@
   },
   {
     "Id": 105,
-    "question": "Which of the following statements about hierarchical inheritance is true?",
+    "question": "Which of the following statements about hierarchical inheritance is correct?",
     "options": [
       "It involves inheriting from multiple base classes.",
       "It allows a single class to have multiple derived classes.",
@@ -1156,7 +1156,7 @@
   },
   {
     "Id": 106,
-    "question": "In hierarchical inheritance, how many classes are involved?",
+    "question": "In hierarchical inheritance, how many classes are typically involved?",
     "options": [
       "Two",
       "Three or more",
@@ -1189,7 +1189,7 @@
   },
   {
     "Id": 109,
-    "question": "Which of the following statements about multiple inheritance is true?",
+    "question": "Which of the following statements about multiple inheritance is correct?",
     "options": [
       "It involves inheriting from multiple base classes.",
       "It allows a class to inherit from multiple derived classes.",
@@ -1277,7 +1277,7 @@
   },
   {
     "Id": 117,
-    "question": "Which of the following statements about base classes and derived classes is true?",
+    "question": "Which of the following statements about base classes and derived classes is correct?",
     "options": [
       "A base class can inherit from multiple derived classes.",
       "A derived class can inherit from multiple base classes.",
@@ -1310,7 +1310,7 @@
   },
   {
     "Id": 120,
-    "question": "Which of the following statements about polymorphism is true?",
+    "question": "Which of the following statements about polymorphism is correct?",
     "options": [
       "It is achieved through inheritance only.",
       "It allows a function or method to have multiple definitions.",
@@ -1321,7 +1321,7 @@
   },
   {
     "Id": 121,
-    "question": "Inheritance combined with overriding is a form of:",
+    "question": "Inheritance combined with method overriding is a form of:",
     "options": [
       "Compile-time polymorphism",
       "Runtime polymorphism",
@@ -2688,7 +2688,7 @@
     "question": "What is the primary purpose of interfaces?",
     "options": [
       "To define the structure of a class",
-      "To provide a blueprint for objects",
+      "To provide a blueprint for classes",
       "To restrict access to class members",
       "To enforce encapsulation"
     ],
@@ -2696,7 +2696,7 @@
   },
   {
     "Id": 246,
-    "question": "Which of the following is a characteristic of abstract data types?",
+    "question": "Which of the following is a characteristic of abstract data types (ADTs)?",
     "options": [
       "They focus on the implementation details.",
       "They can only represent primitive data types.",
@@ -2707,7 +2707,7 @@
   },
   {
     "Id": 247,
-    "question": "In object-oriented programming, ADTs are often implemented using:",
+    "question": "In object-oriented programming, abstract data types (ADTs) are often implemented using:",
     "options": [
       "Classes",
       "Functions",
@@ -2788,7 +2788,7 @@
     "options": [
       "Pure virtual functions must be overridden in derived classes.",
       "Pure virtual functions can have default implementations.",
-      "Pure virtual functions are declared using the \"= 0\" syntax in C++.",
+      "Pure virtual functions are declared using the \"= 0\" syntax in C++. ",
       "Pure virtual functions cannot have a function body."
     ],
     "answer": 1
@@ -2850,7 +2850,7 @@
   },
   {
     "Id": 260,
-    "question": "Which of the following is true about abstract data types?",
+    "question": "Which of the following is true about abstract data types (ADTs)?",
     "options": [
       "ADTs focus on implementation details rather than behavior.",
       "ADTs are specific to a particular programming language.",
@@ -2861,7 +2861,7 @@
   },
   {
     "Id": 261,
-    "question": "Which of the following is not an example of an ADT?",
+    "question": "Which of the following is not an example of an Abstract Data Type (ADT)?",
     "options": [
       "Stack",
       "Queue",
@@ -2872,7 +2872,7 @@
   },
   {
     "Id": 262,
-    "question": "What is the primary goal of using ADTs?",
+    "question": "What is the primary goal of using Abstract Data Types (ADTs)?",
     "options": [
       "To provide low-level data structures.",
       "To improve code organization and modularity.",
@@ -2960,7 +2960,7 @@
   },
   {
     "Id": 270,
-    "question": "Which of the following is not an example of an abstract data type?",
+    "question": "Which of the following is not an example of an Abstract Data Type (ADT)?",
     "options": [
       "Set",
       "Dictionary",
@@ -2971,7 +2971,7 @@
   },
   {
     "Id": 271,
-    "question": "What is the primary purpose of an abstract data type?",
+    "question": "What is the primary purpose of an Abstract Data Type (ADT)?",
     "options": [
       "To provide low-level data structures",
       "To enforce encapsulation",
@@ -2982,7 +2982,7 @@
   },
   {
     "Id": 272,
-    "question": "Which of the following operations is typically associated with abstract data types?",
+    "question": "Which of the following operations is typically associated with Abstract Data Types (ADTs)?",
     "options": [
       "Looping",
       "Sorting",
@@ -2993,7 +2993,7 @@
   },
   {
     "Id": 273,
-    "question": "In which phase of software development are abstract data types most commonly defined?",
+    "question": "In which phase of software development are Abstract Data Types (ADTs) most commonly defined?",
     "options": [
       "Design",
       "Implementation",
@@ -3308,7 +3308,7 @@
       "The lifetime of the container object depends on the lifetime of the contained object.",
       "The lifetime of the contained object depends on the lifetime of the container object."
     ],
-    "answer": 0
+    "answer": 3
   },
   {
     "Id": 302,
@@ -3378,23 +3378,23 @@
   },
   {
     "Id": 308,
-    "question": "In a Has-A relationship, what does the term \"Has-A\" imply?",
+    "question": "In a Has-A relationship, what does the term 'Has-A' imply?",
     "options": [
       "Inheritance",
       "Composition",
       "Aggregation",
       "Polymorphism"
     ],
-    "answer": 1
+    "answer": 2
   },
   {
     "Id": 309,
     "question": "Which of the following statements is true regarding a Has-A relationship?",
     "options": [
-      "It implies an \"is-a\" relationship between classes.",
+      "It implies an 'is-a' relationship between classes.",
       "It implies a weak association between classes.",
       "It implies a strong association between classes.",
-      "It implies an \"has-a\" relationship between classes."
+      "It implies a 'has-a' relationship between classes."
     ],
     "answer": 3
   },
@@ -3473,13 +3473,13 @@
       "Aggregation represents a weak association, while composition represents a strong association between classes.",
       "Aggregation involves acquiring properties and behaviors from a superclass, while composition involves a whole-part relationship."
     ],
-    "answer": 0
+    "answer": 2
   },
   {
     "Id": 317,
     "question": "Which of the following best describes composition?",
     "options": [
-      "It represents a \"is-a\" relationship between classes.",
+      "It represents an 'is-a' relationship between classes.",
       "It allows for the modification of inherited properties and behaviors.",
       "It involves creating objects within another object.",
       "It represents a weak association between classes."
@@ -3515,7 +3515,7 @@
       "Aggregation implies a strong ownership relationship.",
       "Aggregation allows for tight coupling between classes.",
       "Aggregation allows for code reuse through inheritance.",
-      "Aggregation represents a whole-part relationship where the parts cannot exist without the whole."
+      "Aggregation represents a whole-part relationship where the parts can exist independently of the whole."
     ],
     "answer": 3
   },
@@ -3528,7 +3528,7 @@
       "Aggregation",
       "Association"
     ],
-    "answer": 1
+    "answer": 2
   },
   {
     "Id": 322,
@@ -3537,7 +3537,7 @@
       "It implies an \"is-a\" relationship between classes.",
       "It implies a weak association between classes.",
       "It implies a strong association between classes.",
-      "It implies an \"has-a\" relationship between classes."
+      "It implies a \"has-a\" relationship between classes."
     ],
     "answer": 3
   },
@@ -3644,7 +3644,7 @@
     "Id": 332,
     "question": "Which of the following best describes association?",
     "options": [
-      "It represents a \"is-a\" relationship between classes.",
+      "It represents an \"is-a\" relationship between classes.",
       "It represents a \"has-a\" relationship between classes.",
       "It represents a whole-part relationship between classes.",
       "It represents a strong ownership relationship between classes."
@@ -4401,7 +4401,7 @@
   },
   {
     "Id": 401,
-    "question": "What is the main goal of requirement gathering in Object-Oriented Analysis and Design (OOAD)?",
+    "question": "What is the primary goal of requirement gathering in Object-Oriented Analysis and Design (OOAD)?",
     "options": [
       "To design user interfaces",
       "To understand and document system requirements",
@@ -4423,10 +4423,10 @@
   },
   {
     "Id": 403,
-    "question": "Who are the primary stakeholders involved in requirement gathering sessions?",
+    "question": "Who are the primary stakeholders typically involved in requirement gathering sessions?",
     "options": [
-      "Software developers only",
-      "Project managers only",
+      "Only software developers",
+      "Only project managers",
       "Stakeholders, including users, developers, and other relevant parties",
       "External consultants"
     ],
@@ -4434,7 +4434,7 @@
   },
   {
     "Id": 404,
-    "question": "In which phase of the software development life cycle does requirement gathering typically occur?",
+    "question": "In which phase of the software development life cycle does requirement gathering usually occur?",
     "options": [
       "Design",
       "Implementation",
@@ -4445,7 +4445,7 @@
   },
   {
     "Id": 405,
-    "question": "What is the importance of documenting requirements during requirement gathering?",
+    "question": "Why is documenting requirements important during requirement gathering?",
     "options": [
       "To create user manuals",
       "To provide a basis for system design and development",
@@ -4500,7 +4500,7 @@
   },
   {
     "Id": 410,
-    "question": "What is represented by a multiplicity value in an association between classes in a class diagram?",
+    "question": "What does a multiplicity value in an association between classes in a class diagram represent?",
     "options": [
       "The number of methods in a class",
       "The number of attributes in a class",
@@ -4533,7 +4533,7 @@
   },
   {
     "Id": 413,
-    "question": "What is represented by a self-message in a sequence diagram?",
+    "question": "What does a self-message in a sequence diagram represent?",
     "options": [
       "A message sent from one object to another object",
       "A message sent from an object to itself",
@@ -4566,7 +4566,7 @@
   },
   {
     "Id": 416,
-    "question": "What is the difference between a collaboration diagram and a sequence diagram?",
+    "question": "What is the key difference between a collaboration diagram and a sequence diagram?",
     "options": [
       "Collaboration diagrams focus on object interactions, while sequence diagrams focus on the order of message exchange.",
       "Collaboration diagrams focus on the order of message exchange, while sequence diagrams focus on object interactions.",
@@ -5061,10 +5061,10 @@
   },
   {
     "Id": 461,
-    "question": "Interface Segregation Principle (ISP) states that:",
+    "question": "What does the Interface Segregation Principle (ISP) suggest?",
     "options": [
       "Interfaces should be designed based on implementation details.",
-      "Classes should not be dependent on interfaces.",
+      "Classes should avoid depending on interfaces they do not use.",
       "Clients should not be forced to implement interfaces they do not use.",
       "Interfaces should contain only one method."
     ],
@@ -5072,7 +5072,7 @@
   },
   {
     "Id": 462,
-    "question": "Which principle suggests that high-level modules should not depend on low-level modules; both should depend on abstractions?",
+    "question": "Which SOLID principle states that high-level modules should not depend on low-level modules, but both should depend on abstractions?",
     "options": [
       "Single Responsibility Principle (SRP)",
       "Open/Closed Principle (OCP)",
@@ -5083,7 +5083,7 @@
   },
   {
     "Id": 463,
-    "question": "Which SOLID principle is violated if a subclass cannot substitute its parent class without altering the behavior of the program?",
+    "question": "Which SOLID principle is violated if a subclass cannot replace its parent class without altering the behavior of the program?",
     "options": [
       "Single Responsibility Principle (SRP)",
       "Open/Closed Principle (OCP)",
@@ -5094,7 +5094,7 @@
   },
   {
     "Id": 464,
-    "question": "What is the main benefit of following the Single Responsibility Principle (SRP)?",
+    "question": "What is the main advantage of adhering to the Single Responsibility Principle (SRP)?",
     "options": [
       "Code becomes more complex.",
       "Code becomes less reusable.",
@@ -5105,7 +5105,7 @@
   },
   {
     "Id": 465,
-    "question": "Which SOLID principle helps in reducing coupling between classes?",
+    "question": "Which SOLID principle helps in reducing the coupling between classes?",
     "options": [
       "Single Responsibility Principle (SRP)",
       "Open/Closed Principle (OCP)",
@@ -5116,7 +5116,7 @@
   },
   {
     "Id": 466,
-    "question": "The Dependency Inversion Principle (DIP) suggests that:",
+    "question": "What does the Dependency Inversion Principle (DIP) suggest?",
     "options": [
       "Classes should have only one responsibility.",
       "High-level modules should not depend on low-level modules; both should depend on abstractions.",
@@ -5127,7 +5127,7 @@
   },
   {
     "Id": 467,
-    "question": "Which SOLID principle advocates for designing smaller, focused classes?",
+    "question": "Which SOLID principle advocates for designing classes that focus on a single responsibility?",
     "options": [
       "Single Responsibility Principle (SRP)",
       "Open/Closed Principle (OCP)",
@@ -5138,7 +5138,7 @@
   },
   {
     "Id": 468,
-    "question": "The Open/Closed Principle (OCP) states that classes should be:",
+    "question": "How does the Open/Closed Principle (OCP) describe class design?",
     "options": [
       "Closed for extension and modification.",
       "Open for extension but closed for modification.",
@@ -5149,7 +5149,7 @@
   },
   {
     "Id": 469,
-    "question": "In the context of SOLID principles, what does \"closed for modification\" mean?",
+    "question": "In the context of the Open/Closed Principle (OCP), what does \"closed for modification\" mean?",
     "options": [
       "Classes cannot be extended.",
       "Existing classes cannot be modified.",
@@ -5160,7 +5160,7 @@
   },
   {
     "Id": 470,
-    "question": "According to the Liskov Substitution Principle (LSP), if S is a subtype of T, then objects of type T may be replaced with objects of type S without affecting the correctness of the program. This statement is:",
+    "question": "According to the Liskov Substitution Principle (LSP), if class S is a subtype of class T, then objects of type T may be replaced by objects of type S without affecting the correctness of the program. Is this statement true?",
     "options": [
       "True",
       "False",
@@ -5204,7 +5204,7 @@
   },
   {
     "Id": 474,
-    "question": "The Interface Segregation Principle (ISP) suggests that:",
+    "question": "What does the Interface Segregation Principle (ISP) emphasize?",
     "options": [
       "Interfaces should contain only one method.",
       "Clients should depend on interfaces they do not use.",
@@ -5215,7 +5215,7 @@
   },
   {
     "Id": 475,
-    "question": "Which SOLID principle promotes the idea of designing classes that are open for extension but closed for modification?",
+    "question": "Which SOLID principle promotes designing classes that are open for extension but closed for modification?",
     "options": [
       "Single Responsibility Principle (SRP)",
       "Open/Closed Principle (OCP)",
@@ -5237,7 +5237,7 @@
   },
   {
     "Id": 477,
-    "question": "The Open/Closed Principle (OCP) facilitates:",
+    "question": "How does the Open/Closed Principle (OCP) facilitate software design?",
     "options": [
       "Constant modification of existing classes.",
       "Extension of existing classes without altering their source code.",
@@ -5248,7 +5248,7 @@
   },
   {
     "Id": 478,
-    "question": "Which SOLID principle focuses on ensuring that derived classes can be used interchangeably with their base classes?",
+    "question": "Which SOLID principle ensures that derived classes can be used interchangeably with their base classes?",
     "options": [
       "Single Responsibility Principle (SRP)",
       "Open/Closed Principle (OCP)",
@@ -5259,7 +5259,7 @@
   },
   {
     "Id": 479,
-    "question": "What is the main purpose of the Interface Segregation Principle (ISP)?",
+    "question": "What is the primary purpose of the Interface Segregation Principle (ISP)?",
     "options": [
       "To ensure that interfaces contain only one method.",
       "To ensure that clients are forced to depend on all methods of an interface.",
@@ -5270,7 +5270,7 @@
   },
   {
     "Id": 480,
-    "question": "The Dependency Inversion Principle (DIP) helps in achieving:",
+    "question": "What does the Dependency Inversion Principle (DIP) help achieve?",
     "options": [
       "Tight coupling between classes.",
       "Loose coupling between classes.",
@@ -5831,7 +5831,7 @@
   },
   {
     "Id": 531,
-    "question": "What does the following Java code segment do?\\ntry {\\n       // Code that may throw an exception\\n    } catch (Exception e) {        System.out.println(\"An exception occurred: \" +e.getMessage());    } finally {\\n        System.out.println(\"Finally block executed.\");    }",
+    "question": "What does the following Java code segment do?\ntry {\n       // Code that may throw an exception\n    } catch (Exception e) {        System.out.println(\"An exception occurred: \" +e.getMessage());    } finally {\n        System.out.println(\"Finally block executed.\");}",
     "options": [
       "It catches any exceptions thrown within the try block and prints their messages.",
       "It catches any exceptions thrown within the try block and prints \"Finally block executed.\"",
@@ -6161,7 +6161,7 @@
   },
   {
     "Id": 561,
-    "question": "What is the main drawback of relying heavily on inheritance in object-oriented design?",
+    "question": "What is the primary drawback of over-relying on inheritance in object-oriented design?",
     "options": [
       "It can lead to tightly coupled classes.",
       "It makes the code harder to understand and maintain.",
@@ -6183,7 +6183,7 @@
   },
   {
     "Id": 563,
-    "question": "When applying the \"encapsulate what varies\" principle, what aspect of a class is encapsulated?",
+    "question": "When applying the \"Encapsulate What Varies\" principle, what aspect of a class should be encapsulated?",
     "options": [
       "Its public methods",
       "Its private methods",
@@ -6194,7 +6194,7 @@
   },
   {
     "Id": 564,
-    "question": "Which of the following scenarios is a good candidate for using dependency injection?",
+    "question": "Which scenario is most suitable for using dependency injection in object-oriented design?",
     "options": [
       "When a class has a large number of private methods.",
       "When a class needs to access static members of another class.",
@@ -6205,7 +6205,7 @@
   },
   {
     "Id": 565,
-    "question": "What is a common technique for implementing dependency injection in object-oriented design?",
+    "question": "Which of the following is a common technique for implementing dependency injection?",
     "options": [
       "Using static methods",
       "Using factory patterns",
@@ -6216,7 +6216,7 @@
   },
   {
     "Id": 566,
-    "question": "Which design principle promotes the idea of composing classes by assembling simpler objects rather than inheriting behavior from parent classes?",
+    "question": "Which design principle emphasizes composing classes by assembling simpler objects rather than inheriting behavior from parent classes?",
     "options": [
       "Encapsulate What Varies",
       "Favor Composition Over Inheritance",
@@ -6227,7 +6227,7 @@
   },
   {
     "Id": 567,
-    "question": "In the context of object-oriented design, what does \"encapsulate what varies\" mean?",
+    "question": "In the context of object-oriented design, what does \"Encapsulate What Varies\" mean?",
     "options": [
       "Hide the implementation details of a class.",
       "Define public interfaces for a class.",
@@ -6249,7 +6249,7 @@
   },
   {
     "Id": 569,
-    "question": "What is one advantage of using composition over inheritance in object-oriented design?",
+    "question": "What is one key advantage of using composition over inheritance in object-oriented design?",
     "options": [
       "Composition allows for better code reuse.",
       "Composition simplifies the inheritance hierarchy.",
@@ -6260,7 +6260,7 @@
   },
   {
     "Id": 570,
-    "question": "Which design principle emphasizes designing classes to interact with each other through well-defined interfaces rather than directly accessing their implementations?",
+    "question": "Which design principle emphasizes designing classes to interact through well-defined interfaces, rather than directly accessing their implementations?",
     "options": [
       "Encapsulate What Varies",
       "Favor Composition Over Inheritance",
@@ -6271,7 +6271,7 @@
   },
   {
     "Id": 571,
-    "question": "When following the principle of \"favor composition over inheritance,\" what is typically favored?",
+    "question": "When following the principle of \"Favor Composition Over Inheritance,\" what is typically preferred?",
     "options": [
       "Creating complex class hierarchies",
       "Reusing behavior through inheritance",
@@ -6293,7 +6293,7 @@
   },
   {
     "Id": 573,
-    "question": "Which design principle advocates designing classes and components to be easily replaceable with alternative implementations?",
+    "question": "Which design principle advocates designing classes to be easily replaceable with alternative implementations?",
     "options": [
       "Encapsulate What Varies",
       "Favor Composition Over Inheritance",
@@ -6304,7 +6304,7 @@
   },
   {
     "Id": 574,
-    "question": "What is one drawback of tightly coupled classes in object-oriented design?",
+    "question": "What is a common drawback of tightly coupled classes in object-oriented design?",
     "options": [
       "They are difficult to understand and maintain.",
       "They promote better code organization.",
@@ -6359,7 +6359,7 @@
   },
   {
     "Id": 579,
-    "question": "Which principle emphasizes designing classes to interact with each other through well-defined interfaces rather than directly accessing their implementations?",
+    "question": "Which principle emphasizes designing classes to interact through well-defined interfaces, rather than directly accessing their implementations?",
     "options": [
       "Encapsulate What Varies",
       "Favor Composition Over Inheritance",

@@ -1,1294 +1,1281 @@
 [
   {
     "Id": 1,
+    "question": "Which version of Python was released in December 2015 by Python.org?",
     "options": [
-      ".3",
-      ".5.1",
-      ".4",
-      ".6"
+      "Python 2.7",
+      "Python 3.4",
+      "Python 3.5",
+      "Python 3.6"
     ],
-    "question": "Which of the following version of Python was released in December, 2015 by Python.org?",
     "answer": 2
   },
   {
     "Id": 2,
+    "question": "Python files are saved with which file extension?",
     "options": [
-      "python",
-      "pe",
-      "py",
-      "pi"
+      ".py",
+      ".pe",
+      ".python",
+      ".pi"
     ],
-    "question": "Python files are saved with the extension as ?",
-    "answer": 3
+    "answer": 0
   },
   {
     "Id": 3,
+    "question": "What is the name of the built-in GUI for Python's interactive shell?",
     "options": [
       "GUI",
       "yshell",
       "DLE",
-      "ythonSh"
+      "IDLE"
     ],
-    "question": "What is the name of the GUI that comes in-built as an interactive shell with Python?",
     "answer": 3
   },
   {
     "Id": 4,
+    "question": "IDLE stands for?",
     "options": [
-      "ndigenous Development Lab",
-      "ntegrated Development Environment",
-      "ntegrated Developers Local Environment",
-      "ndie Developers Environment"
+      "Indigenous Development Lab",
+      "Integrated Development Environment",
+      "Integrated Developers Local Environment",
+      "Indie Developers Environment"
     ],
-    "question": "IDLE stands for ? ?",
-    "answer": 2
-  },
-  {
-    "Id": 5,
-    "options": [
-      "rint",
-      "isplay",
-      "un",
-      "utput"
-    ],
-    "question": "The function to display a specified message on the screen is ? ?",
     "answer": 1
   },
   {
+    "Id": 5,
+    "question": "The function to display a specified message on the screen is?",
+    "options": [
+      "print",
+      "display",
+      "run",
+      "output"
+    ],
+    "answer": 0
+  },
+  {
     "Id": 6,
+    "question": "Which of the following is an assignment operator in Python?",
     "options": [
       "=",
       "==",
       ">>",
       ""
     ],
-    "question": "Which of the following is an assignment operator in Python?",
-    "answer": 4
+    "answer": 0
   },
   {
     "Id": 7,
-    "options": [
-      " = y: y = 33",
-      " = y = z = 33",
-      " = z; y = z; x = 33;",
-      " & y & z = 33"
-    ],
     "question": "Which of the following is used to initialize multiple variables with a common value?",
-    "answer": 2
+    "options": [
+      "x = y: y = 33",
+      "x = y = z = 33",
+      "x = z; y = z; x = 33;",
+      "& y & z = 33"
+    ],
+    "answer": 1
   },
   {
     "Id": 8,
+    "question": "Comments in Python begin with?",
     "options": [
       "//",
       "/* */",
       "--",
       "#"
     ],
-    "question": "Comments in Python begin with ??",
-    "answer": 4
+    "answer": 3
   },
   {
     "Id": 9,
+    "question": "A user-specified value can be assigned to a variable with this function?",
     "options": [
       "ser",
       "nter",
       "nput",
       "alue"
     ],
-    "question": "A user-specified value can be assigned to a variable with this function ?",
-    "answer": 3
-  },
-  {
-    "Id": 10,
-    "options": [
-      "loating Decimal",
-      "ext String",
-      "oolean Value",
-      "nteger"
-    ],
-    "question": "User input is read as ?",
     "answer": 2
   },
   {
+    "Id": 10,
+    "question": "User input is read as?",
+    "options": [
+      "Floating Decimal",
+      "Text String",
+      "Boolean Value",
+      "Integer"
+    ],
+    "answer": 1
+  },
+  {
     "Id": 11,
+    "question": "Output displayed by the print function will add this invisible character at the end of the line by default?",
     "options": [
       "t",
       "n",
       "s",
       "r"
     ],
-    "question": "Output displayed by the print function will add this invisible character at the end of the line by default ?",
-    "answer": 2
+    "answer": 1
   },
   {
     "Id": 12,
+    "question": "Multiple values specified in parentheses to print function will display each value separated with this by default?",
     "options": [
-      "ingle Space",
-      "ouble Space",
-      " new Line",
-      "ouble Lines"
+      "Single Space",
+      "Double Space",
+      "New Line",
+      "Double Lines"
     ],
-    "question": "Multiple values specified in parentheses to print function will display each value separated with this by default ?",
-    "answer": 1
+    "answer": 0
   },
   {
     "Id": 13,
+    "question": "Which of the following will provide an ! character as an alternative separator for the print function?",
     "options": [
-      "ep is !",
-      "eparate = !",
-      "ep >> '!'",
-      "ep = '!'"
+      "sep is !",
+      "sep = !",
+      "sep >> '!'",
+      "sep = '!'"
     ],
-    "question": "Which of the following will provide an ! character as alternative separator for the print function?",
-    "answer": 4
+    "answer": 3
   },
   {
     "Id": 14,
-    "options": [
-      "nd to *",
-      "nd as *",
-      "nd = '*'",
-      "nding = '*'"
-    ],
     "question": "Which of the following will provide a * character as alternative line ending for the print function?",
-    "answer": 3
-  },
-  {
-    "Id": 15,
     "options": [
-      "emantic error",
-      "yntax error",
-      "untime error",
-      "ll type of errors"
+      "end to *",
+      "end as *",
+      "end = '*'",
+      "ending = '*'"
     ],
-    "question": "For which type of error does the interpreter halts and reports the error but does not execute the program?",
     "answer": 2
   },
   {
-    "Id": 16,
+    "Id": 15,
+    "question": "For which type of error does the interpreter halt and report the error but does not execute the program?",
     "options": [
-      "emantic error",
-      "yntax error",
-      "untime error",
-      "ll type of errors"
+      "Semantic error",
+      "Syntax error",
+      "Runtime error",
+      "All types of errors"
     ],
-    "question": "For which type of error does the interpreter runs the program but halts at error and reports the error as an \"Exception\"?",
-    "answer": 3
-  },
-  {
-    "Id": 17,
-    "options": [
-      "emantic error",
-      "yntax error",
-      "untime error",
-      "ll type of errors"
-    ],
-    "question": "For which type of error does the interpreter runs the program and does not report an error?",
     "answer": 1
   },
   {
-    "Id": 18,
+    "Id": 16,
+    "question": "For which type of error does the interpreter run the program but halt at error and report the error as an \"Exception\"?",
     "options": [
-      ".0",
+      "Semantic error",
+      "Syntax error",
+      "Runtime error",
+      "All types of errors"
+    ],
+    "answer": 2
+  },
+  {
+    "Id": 17,
+    "question": "For which type of error does the interpreter run the program and does not report an error?",
+    "options": [
+      "Semantic error",
+      "Syntax error",
+      "Runtime error",
+      "All types of errors"
+    ],
+    "answer": 0
+  },
+  {
+    "Id": 18,
+    "question": "What will be the output after the following statements?",
+    "codeBlock": "x = 6\ny = 3\nprint(x / y)",
+    "options": [
+      "2.0",
       "",
       "8",
       "8.0"
     ],
-    "question": "What will be the output after the following statements?",
-    "codeBlock": "x = 6\ny = 3\nprint(x / y)",
-    "answer": 1
+    "answer": 0
   },
   {
     "Id": 19,
-    "options": [
-      "loat",
-      "tring",
-      "ist",
-      "nteger"
-    ],
-    "question": "What will be the data type of x after the following statement if input entered is 18 ?",
+    "question": "What will be the data type of x after the following statement if input entered is 18?",
     "codeBlock": "x = input('Enter a number: ')",
-    "answer": 2
+    "options": [
+      "Float",
+      "String",
+      "List",
+      "Integer"
+    ],
+    "answer": 1
   },
   {
     "Id": 20,
-    "options": [
-      "loat",
-      "tring",
-      "ist",
-      "nteger"
-    ],
     "question": "What will be the data type of y after the following statements if input entered is 50?",
     "codeBlock": "x = input('Enter a number: ') y = int(x)",
-    "answer": 4
+    "options": [
+      "Float",
+      "String",
+      "List",
+      "Integer"
+    ],
+    "answer": 3
   },
   {
     "Id": 21,
-    "options": [
-      "loat",
-      "tring",
-      "ist",
-      "nteger"
-    ],
     "question": "What will be the data type of y after the following statements?",
-    "codeBlock": "x = 71 y = float(x)",
-    "answer": 1
+    "codeBlock": "x = 71\ny = float(x)",
+    "options": [
+      "Float",
+      "String",
+      "List",
+      "Integer"
+    ],
+    "answer": 0
   },
   {
     "Id": 22,
-    "options": [
-      "ll three will have the value of 3",
-      "ll three will have the value of 100",
-      "ll three will have the value of 300",
-      " and y will have arbitrary values, while z will have the value of 300"
-    ],
-    "question": "What will be the value of x, y and z after the following statement?",
+    "question": "What will be the value of x, y, and z after the following statement?",
     "codeBlock": "x = y = z = 300",
-    "answer": 3
+    "options": [
+      "All three will have the value of 3",
+      "All three will have the value of 100",
+      "All three will have the value of 300",
+      "x and y will have arbitrary values, while z will have the value of 300"
+    ],
+    "answer": 2
   },
   {
     "Id": 23,
-    "options": [
-      "ist",
-      "ictionary",
-      "uple",
-      "tring"
-    ],
     "question": "What is the data type of x after the following statement?",
     "codeBlock": "x = [7, 8, 9, 10]",
-    "answer": 1
+    "options": [
+      "List",
+      "Dictionary",
+      "Tuple",
+      "String"
+    ],
+    "answer": 0
   },
   {
     "Id": 24,
-    "options": [
-      "ist",
-      "tring",
-      "ictionary",
-      "uple"
-    ],
     "question": "What will be the data type of x after the following statement?",
     "codeBlock": "x = (34, 81, 50)",
-    "answer": 4
+    "options": [
+      "List",
+      "String",
+      "Dictionary",
+      "Tuple"
+    ],
+    "answer": 3
   },
   {
     "Id": 25,
-    "options": [
-      "ata()",
-      "ype()",
-      "rue()",
-      "tr()"
-    ],
     "question": "Which of the following function can be used to find the data type of a variable?",
-    "answer": 2
+    "options": [
+      "data()",
+      "type()",
+      "true()",
+      "str()"
+    ],
+    "answer": 1
   },
   {
     "Id": 26,
-    "options": [
-      "ist",
-      "tring",
-      "ictionary",
-      "oolean"
-    ],
     "question": "What will be the data type of x after the following statements?",
-    "codeBlock": "false = \"This is not true\" x = false",
-    "answer": 2
+    "codeBlock": "false = \"This is not true\"\nx = false",
+    "options": [
+      "List",
+      "String",
+      "Dictionary",
+      "Boolean"
+    ],
+    "answer": 1
   },
   {
     "Id": 27,
-    "options": [
-      "ist",
-      "ictionary",
-      "uple",
-      "et"
-    ],
     "question": "Which of the following is immutable (values that cannot be changed)?",
-    "answer": 3
-  },
-  {
-    "Id": 28,
     "options": [
-      "ist",
-      "ictionary",
-      "uple",
-      "et"
+      "List",
+      "Dictionary",
+      "Tuple",
+      "Set"
     ],
-    "question": "Which of the following has only unique values?",
-    "answer": 4
-  },
-  {
-    "Id": 29,
-    "options": [
-      "losed loop",
-      "ne time loop",
-      "nfinite loop",
-      "vergreen loop"
-    ],
-    "question": "What type of loop is this?",
-    "codeBlock": "x = 1 while x < 5:     print(x, end='')",
-    "answer": 3
-  },
-  {
-    "Id": 30,
-    "options": [
-      " list",
-      " string",
-      "n integer",
-      " function"
-    ],
-    "question": "What is printvar in the following statements?",
-    "codeBlock": "myvar = 5 def printvar() :     print(myvar) printvar()",
-    "answer": 4
-  },
-  {
-    "Id": 31,
-    "options": [
-      "ist",
-      "odule",
-      "ictionary",
-      "uple"
-    ],
-    "question": "Which of the following is not a core data structure in Python?",
     "answer": 2
   },
   {
-    "Id": 32,
+    "Id": 28,
+    "question": "Which of the following has only unique values?",
     "options": [
-      "ELP",
-      "ave",
-      "elp()",
-      "elp"
+      "List",
+      "Dictionary",
+      "Tuple",
+      "Set"
     ],
+    "answer": 3
+  },
+  {
+    "Id": 29,
+    "question": "What type of loop is this?",
+    "codeBlock": "x = 1\nwhile x < 5:\n    print(x, end='')",
+    "options": [
+      "Closed loop",
+      "One-time loop",
+      "Infinite loop",
+      "Evergreen loop"
+    ],
+    "answer": 2
+  },
+  {
+    "Id": 30,
+    "question": "What is printvar in the following statements?",
+    "codeBlock": "myvar = 5\ndef printvar():\n    print(myvar)\nprintvar()",
+    "options": [
+      "List",
+      "String",
+      "Integer",
+      "Function"
+    ],
+    "answer": 3
+  },
+  {
+    "Id": 31,
+    "question": "Which of the following is not a core data structure in Python?",
+    "options": [
+      "List",
+      "Module",
+      "Dictionary",
+      "Tuple"
+    ],
+    "answer": 1
+  },
+  {
+    "Id": 32,
     "question": "What do you type to enter the interactive help mode of Python?",
+    "options": [
+      "HELP",
+      "save",
+      "help()",
+      "help"
+    ],
     "answer": 3
   },
   {
     "Id": 33,
-    "options": [
-      "mports the random module",
-      "mports a random module from a list of modules",
-      "mports the random function",
-      "mports the directory named random"
-    ],
     "question": "What does the following statement do?",
     "codeBlock": "import random",
-    "answer": 1
+    "options": [
+      "Imports the random module",
+      "Imports a random module from a list of modules",
+      "Imports the random function",
+      "Imports the directory named random"
+    ],
+    "answer": 0
   },
   {
     "Id": 34,
-    "options": [
-      "4, 11, 30]",
-      "3, 15, 10]",
-      "1, 5, 7, 4]",
-      "1, 5, 0]"
-    ],
     "question": "Which of the following can be a possible output after the following statements?",
-    "codeBlock": "from random import * print(sample(range(0,10), 3))",
-    "answer": 4
+    "codeBlock": "from random import *\nprint(sample(range(0,10), 3))",
+    "options": [
+      "[4, 11, 30]",
+      "[3, 15, 10]",
+      "[1, 5, 7, 4]",
+      "[1, 5, 0]"
+    ],
+    "answer": 3
   },
   {
     "Id": 35,
+    "question": "What does the following statement do?",
+    "codeBlock": "import sys\nprint(sys.version)",
     "options": [
-      "isplays the Python version",
-      "isplays the operating system version",
-      "isplays the date",
-      "isplays the year"
+      "Displays the Python version",
+      "Displays the operating system version",
+      "Displays the date",
+      "Displays the year"
     ],
-    "question": "What does the following statements do?",
-    "codeBlock": "import sys print(sys.version)",
-    "answer": 1
+    "answer": 0
   },
   {
     "Id": 36,
+    "question": "In IDLE shell, the output will be the same for all the following statements except one. Which one?",
     "options": [
       "+4",
       " + 4",
       "*2",
       "**2"
     ],
-    "question": "In IDLE shell, the output will be the same for all the following statements except one. Which one?",
-    "answer": 4
-  },
-  {
-    "Id": 37,
-    "options": [
-      "age Down",
-      "age Up",
-      "lt + P",
-      "trl + P"
-    ],
-    "question": "In IDLE shell, what is the keyboard shortcut for the previous command in history on Windows/Linux?",
     "answer": 3
   },
   {
-    "Id": 38,
+    "Id": 37,
+    "question": "In IDLE shell, what is the keyboard shortcut for the previous command in history on Windows/Linux?",
     "options": [
-      "age Down",
-      "age Up",
-      "trl + N",
-      "lt + N"
+      "Page Down",
+      "Page Up",
+      "Ctrl + P",
+      "Ctrl + P"
     ],
+    "answer": 2
+  },
+  {
+    "Id": 38,
     "question": "In IDLE shell, what is the keyboard shortcut for the next command in history on Windows/Linux?",
-    "answer": 4
+    "options": [
+      "Page Down",
+      "Page Up",
+      "Ctrl + N",
+      "Alt + N"
+    ],
+    "answer": 3
   },
   {
     "Id": 39,
-    "options": [
-      "age Down",
-      "age Up",
-      "lt + P",
-      "trl + P"
-    ],
     "question": "In IDLE shell, what is the keyboard shortcut for the previous command in history on Mac OS X?",
-    "answer": 4
+    "options": [
+      "Page Down",
+      "Page Up",
+      "Ctrl + P",
+      "Cmd + P"
+    ],
+    "answer": 3
   },
   {
     "Id": 40,
-    "options": [
-      "age Down",
-      "age Up",
-      "trl + N",
-      "lt + N"
-    ],
     "question": "In IDLE shell, what is the keyboard shortcut for the next command in history on Mac OS X?",
+    "options": [
+      "Page Down",
+      "Page Up",
+      "Ctrl + N",
+      "Cmd + N"
+    ],
     "answer": 3
   },
   {
     "Id": 41,
+    "question": "In the IDLE file editor, what is the keyboard shortcut for executing a program in the shell?",
     "options": [
       "5",
       "1",
-      "hift",
-      "lt"
+      "Shift",
+      "Alt"
     ],
-    "question": "In IDLE file editor, what is the keyboard shortcut for executing the program in shell?",
     "answer": 1
   },
   {
     "Id": 42,
+    "question": "What type of error occurs when you attempt to use a variable without assigning it an initial value?",
     "options": [
-      "ot declared",
-      "ot defined",
-      "ot assigned",
-      "ot a variable"
+      "Not declared",
+      "Not defined",
+      "Not assigned",
+      "Not a variable"
     ],
-    "question": "What type of error is shown when you use a variable without assigning an initial value?",
     "answer": 2
   },
   {
     "Id": 43,
+    "question": "Python is classified as which type of language?",
     "options": [
-      "igh level",
-      "ow level",
-      "op level",
-      "ottom level"
+      "High-level",
+      "Low-level",
+      "Top-level",
+      "Bottom-level"
     ],
-    "question": "What type of language is Python?",
     "answer": 1
   },
   {
     "Id": 44,
+    "question": "The Python programming language was named after which of the following?",
     "options": [
-      "ython - the reptile",
-      "onty Python",
-      " pet",
-      " company"
+      "Python - the reptile",
+      "Monty Python",
+      "A pet",
+      "A company"
     ],
-    "question": "Python language was named after?",
     "answer": 2
   },
   {
     "Id": 45,
-    "options": [
-      "ill Gates",
-      "uido Van Rossum",
-      "eff Bezos",
-      "arry Page"
-    ],
     "question": "Who is the creator of Python?",
+    "options": [
+      "Bill Gates",
+      "Guido van Rossum",
+      "Jeff Bezos",
+      "Larry Page"
+    ],
     "answer": 2
   },
   {
     "Id": 46,
+    "question": "Which of the following is a characteristic of Python?",
     "options": [
-      "ynamic typing",
-      "tatic typing",
-      "low typing",
-      "uto typing"
+      "Dynamic typing",
+      "Static typing",
+      "Low typing",
+      "Auto typing"
     ],
-    "question": "Which of the following is identified with Python?",
     "answer": 1
   },
   {
     "Id": 47,
+    "question": "Which of the following is used to enclose strings in Python?",
     "options": [
-      "ingle quotes",
-      "ouble quotes",
-      "ither single quotes or double quotes",
-      " symbol"
+      "Single quotes",
+      "Double quotes",
+      "Either single quotes or double quotes",
+      "The ' symbol"
     ],
-    "question": "Which of the following is used to enclose strings?",
     "answer": 3
   },
   {
     "Id": 48,
+    "question": "Which of the following is used to add an invisible tab character to the output?",
     "options": [
       "t",
       "tab",
       "a",
       "b"
     ],
-    "question": "Which of the following is used to add an invisible tab character to the output?",
     "answer": 1
   },
   {
     "Id": 49,
+    "question": "What will be the output of the following statement?\n\nprint('2\\\\t4')",
     "options": [
       " t 4",
       "\\t4",
       " 4",
-      " tab 4"
+      "tab 4"
     ],
-    "question": "What will be the output after the following statement?",
-    "codeBlock": "print('2\\\\t4')",
     "answer": 2
   },
   {
     "Id": 50,
+    "question": "In the order of precedence, which operation will be completed first in the following expression?\n\n3 * 6 + 5 - 4 / 2",
     "options": [
-      "ultiplication",
-      "ivision",
-      "ddition",
-      "ubtraction"
+      "Multiplication",
+      "Division",
+      "Addition",
+      "Subtraction"
     ],
-    "question": "In the order of precedence, which of the operation will be completed first in the following statement?",
-    "codeBlock": "3 * 6 + 5 - 4 / 2",
     "answer": 1
   },
   {
     "Id": 51,
-    "options": [
-      "ultiplication",
-      "ivision",
-      "ddition",
-      "ubtraction"
-    ],
-    "question": "In the order of precedence, which of the operation will be completed last in the following statement?",
+    "question": "In the order of precedence, which operation will be completed last in the following statement?",
     "codeBlock": "3 * 6 + 5 - 4 / 2",
+    "options": [
+      "Multiplication",
+      "Division",
+      "Addition",
+      "Subtraction"
+    ],
     "answer": 4
   },
   {
     "Id": 52,
-    "options": [
-      "ultiplication, Division, Subtraction, Addition",
-      "ultiplication, Division, Addition, Subtraction",
-      "ivision, Multiplication, Subtraction, Addition",
-      "ivision, Multiplication, Addition, Subtraction"
-    ],
     "question": "What will be the order of precedence of operations in the following statement?",
     "codeBlock": "10 * 4 - 1 + 8 / 5",
+    "options": [
+      "Multiplication, Division, Subtraction, Addition",
+      "Multiplication, Division, Addition, Subtraction",
+      "Division, Multiplication, Subtraction, Addition",
+      "Division, Multiplication, Addition, Subtraction"
+    ],
     "answer": 2
   },
   {
     "Id": 53,
-    "options": [
-      "nteger",
-      "tring",
-      "ist",
-      "loat"
-    ],
-    "question": "What will be the data type of x after the following statement if input entered is 64?",
+    "question": "What will be the data type of 'x' after the following statement if the input entered is 64?",
     "codeBlock": "x = float(input('Enter a number: '))",
+    "options": [
+      "Integer",
+      "String",
+      "List",
+      "Float"
+    ],
     "answer": 4
   },
   {
     "Id": 54,
-    "options": [
-      "bc",
-      "bc123",
-      "23abc",
-      "bc_123"
-    ],
     "question": "Which of the following is not a valid variable name?",
+    "options": [
+      "abc",
+      "abc123",
+      "23abc",
+      "abc_123"
+    ],
     "answer": 3
   },
   {
     "Id": 55,
+    "question": "Which of the following is a valid variable name?",
     "options": [
       "$1",
       "1",
       "a",
       "bc 123"
     ],
-    "question": "Which of the following is a valid variable name?",
     "answer": 2
   },
   {
     "Id": 56,
-    "options": [
-      " = 'python' * int('1')",
-      " = 'python' + 1",
-      " = 'python' + str(1)",
-      " = 'python' * 1"
-    ],
     "question": "In IDLE shell, the output will be an error for one of the following statements. Which one?",
+    "options": [
+      "x = 'python' * int('1')",
+      "x = 'python' + 1",
+      "x = 'python' + str(1)",
+      "x = 'python' * 1"
+    ],
     "answer": 2
   },
   {
     "Id": 57,
+    "question": "How many times will 'Python 3' be printed after the following statements?",
+    "codeBlock": "for i in range(1, 5):\n    print('Python 3')",
     "options": [
-      "",
-      "",
-      "",
-      ""
+      "1",
+      "2",
+      "3",
+      "4"
     ],
-    "question": "How many times will \"Python 3\" be printed after the following statements?",
-    "codeBlock": "for i in range(1, 5):     print('Python 3')",
-    "answer": 2
+    "answer": 4
   },
   {
     "Id": 58,
-    "options": [
-      "one",
-      "o value",
-      "ero",
-      "ool"
-    ],
     "question": "What will be the output for a function that does not return any value?",
+    "options": [
+      "None",
+      "No value",
+      "Zero",
+      "Cool"
+    ],
     "answer": 1
   },
   {
     "Id": 59,
-    "options": [
-      "yntaxError",
-      "ypeError",
-      "alueError",
-      "ameError"
-    ],
     "question": "What type of error will be shown after the following statement?",
     "codeBlock": "a = b",
+    "options": [
+      "SyntaxError",
+      "TypeError",
+      "ValueError",
+      "NameError"
+    ],
     "answer": 4
   },
   {
     "Id": 60,
-    "options": [
-      "ist",
-      "ictionary",
-      "uple",
-      "et"
-    ],
-    "question": "What is the data type of a after the following statement?",
+    "question": "What is the data type of 'a' after the following statement?",
     "codeBlock": "a = {'A', 'B', 'C', 'D'}",
+    "options": [
+      "List",
+      "Dictionary",
+      "Tuple",
+      "Set"
+    ],
     "answer": 4
   },
   {
     "Id": 61,
+    "question": "What is the data type used to store values in key-value pairs?",
     "options": [
-      "ist",
-      "ictionary",
-      "uple",
-      "et"
+      "List",
+      "Dictionary",
+      "Tuple",
+      "Set"
     ],
-    "question": "What is the data type used to store values in key values pair?",
     "answer": 2
   },
   {
     "Id": 62,
+    "question": "In IDLE shell, which of the following statements gives a SyntaxError?",
     "options": [
       "Python\\tis\\tEasy\\n\"",
       "Hello, it's very easy to learn Python\"",
       "Python\", \"easy\"",
       "Python is easy'"
     ],
-    "question": "In IDLE shell, which of the following statements gives SyntaxError?",
     "answer": 4
   },
   {
     "Id": 63,
-    "options": [
-      "arentheses",
-      "xponential",
-      "ivision",
-      "ubtraction"
-    ],
     "question": "Which of the following has the highest precedence in an expression?",
+    "options": [
+      "Parentheses",
+      "Exponential",
+      "Division",
+      "Subtraction"
+    ],
     "answer": 1
   },
   {
     "Id": 64,
-    "options": [
-      "egex",
-      "egexes",
-      "EG",
-      "e"
-    ],
     "question": "What is the name of Python's built-in module for regular expressions?",
+    "options": [
+      "Regex",
+      "Regexes",
+      "EG",
+      "re"
+    ],
     "answer": 4
   },
   {
     "Id": 65,
-    "options": [
-      "sv",
-      "sc",
-      "elimited",
-      "ipe"
-    ],
     "question": "What is the name of Python's built-in module for delimited files?",
+    "options": [
+      "csv",
+      "sc",
+      "delimited",
+      "pipe"
+    ],
     "answer": 1
   },
   {
     "Id": 66,
-    "options": [
-      "ate",
-      "ime",
-      "atetime",
-      "ates"
-    ],
     "question": "What is the name of Python's built-in module for basic date and time types?",
+    "options": [
+      "date",
+      "time",
+      "datetime",
+      "dates"
+    ],
     "answer": 3
   },
   {
     "Id": 67,
+    "question": "What is the name of Python's built-in module for email-related tasks?",
     "options": [
-      "ailserver",
+      "mailserver",
       "mail",
-      "essage",
-      "ail"
+      "message",
+      "email"
     ],
-    "question": "What is the name of Python's built-in module for email related tasks?",
     "answer": 2
   },
   {
     "Id": 68,
-    "options": [
-      "etpass",
-      "assword",
-      "ogin",
-      "eadpass"
-    ],
     "question": "What is the name of Python's built-in module for reading passwords?",
+    "options": [
+      "getpass",
+      "password",
+      "login",
+      "readpass"
+    ],
     "answer": 1
   },
   {
     "Id": 69,
-    "options": [
-      "etip",
-      "pman",
-      "p",
-      "paddress"
-    ],
     "question": "What is the name of Python's built-in module for IPv4/IPv6 manipulation?",
+    "options": [
+      "netip",
+      "ipman",
+      "ip",
+      "ipaddress"
+    ],
     "answer": 4
   },
   {
     "Id": 70,
-    "options": [
-      "son",
-      "code",
-      "sonencode",
-      "soncode"
-    ],
     "question": "What is the name of Python's built-in module for encoding/decoding JSON format?",
+    "options": [
+      "json",
+      "code",
+      "jsonencode",
+      "jsoncode"
+    ],
     "answer": 1
   },
   {
     "Id": 71,
-    "options": [
-      "tring",
-      "eyword",
-      "tringtest",
-      "eytest"
-    ],
     "question": "What is the name of Python's built-in module for Python keywords?",
+    "options": [
+      "string",
+      "keyword",
+      "stringtest",
+      "keywordtest"
+    ],
     "answer": 2
   },
   {
     "Id": 72,
-    "options": [
-      "aths",
-      "athematics",
-      "ath",
-      "athfunc"
-    ],
     "question": "What is the name of Python's built-in module for mathematical functions?",
+    "options": [
+      "maths",
+      "mathematics",
+      "math",
+      "mathfunc"
+    ],
     "answer": 3
   },
   {
     "Id": 73,
-    "options": [
-      "indows",
-      "iunx",
-      "peratingsystem",
-      "s"
-    ],
     "question": "What is the name of Python's built-in module for operating system interfaces?",
+    "options": [
+      "windows",
+      "unix",
+      "operatingsystem",
+      "os"
+    ],
     "answer": 4
   },
   {
     "Id": 74,
+    "question": "What is the name of Python's built-in module for data pretty printing?",
     "options": [
       "print",
       "rint",
-      "rettyprint",
+      "prettyprint",
       "rintp"
     ],
-    "question": "What is the name of Python's built-in module for data pretty printer?",
     "answer": 1
   },
   {
     "Id": 75,
+    "question": "What is the name of Python's built-in module for generating pseudo-random numbers?",
     "options": [
       "srandom",
-      "andom",
-      "suedo",
-      "andomnum"
+      "random",
+      "pseudo",
+      "randomnum"
     ],
-    "question": "What is the name of Python's built-in module for generating pseudo-random numbers?",
     "answer": 2
   },
   {
     "Id": 76,
+    "question": "What is the name of Python's built-in module for general-purpose event scheduling?",
     "options": [
-      "cheduler",
-      "ventsched",
-      "ched",
-      "chedule"
+      "scheduler",
+      "eventsched",
+      "sched",
+      "schedule"
     ],
-    "question": "What is the name of Python's built-in module for general purpose event scheduler?",
     "answer": 3
   },
   {
     "Id": 77,
+    "question": "What is the name of Python's built-in module for high-level file operations?",
     "options": [
-      "hutil",
-      "ileutil",
+      "shutil",
+      "fileutil",
       "utility",
-      "ileop"
+      "fileop"
     ],
-    "question": "What is the name of Python's built-in module for high level file operations?",
     "answer": 1
   },
   {
     "Id": 78,
+    "question": "What is the name of Python's built-in module for low-level networking interface?",
     "options": [
-      "et",
-      "ocket",
-      "ebking",
-      "ebworking"
+      "net",
+      "socket",
+      "webking",
+      "webworking"
     ],
-    "question": "What is the name of Python's built-in module for low level networking interface?",
     "answer": 2
   },
   {
     "Id": 79,
+    "question": "What is the name of Python's built-in module for SQLite databases?",
     "options": [
-      "QL",
+      "SQL",
       "qldb",
       "base",
-      "qlite3"
+      "sqlite3"
     ],
-    "question": "What is the name of Python's built-in module for SQLite databases?",
     "answer": 4
   },
   {
     "Id": 80,
+    "question": "What is the name of Python's built-in module for TLS/SSL wrapper for socket objects?",
     "options": [
-      "sl",
+      "ssl",
       "wrap",
       "lsssl",
-      "slobj"
+      "sslobj"
     ],
-    "question": "What is the name of Python's built-in module for TLS/SSL wrapper for socket objects?",
     "answer": 1
   },
   {
     "Id": 81,
-    "options": [
-      "athstats",
-      "tatistics",
-      "tatmath",
-      "tatfunc"
-    ],
     "question": "What is the name of Python's built-in module for mathematical statistics functions?",
+    "options": [
+      "mathstats",
+      "statistics",
+      "statmath",
+      "statfunc"
+    ],
     "answer": 2
   },
   {
     "Id": 82,
-    "options": [
-      "ub",
-      "ansub",
-      "ubmng",
-      "ubprocess"
-    ],
     "question": "What is the name of Python's built-in module for subprocess management?",
+    "options": [
+      "sub",
+      "ansub",
+      "submng",
+      "subprocess"
+    ],
     "answer": 4
   },
   {
     "Id": 83,
-    "options": [
-      "onfig",
-      "ysys",
-      "ysconfig",
-      "ycon"
-    ],
     "question": "What is the name of Python's built-in module for Python's configuration information?",
+    "options": [
+      "config",
+      "ysys",
+      "sysconfig",
+      "pycon"
+    ],
     "answer": 3
   },
   {
     "Id": 84,
+    "question": "What is the name of Python's built-in module for the Telnet client class?",
     "options": [
-      "elnetlib",
-      "ellib",
+      "telnetlib",
+      "tellib",
       "net",
-      "elnet"
+      "telnet"
     ],
-    "question": "What is the name of Python's built-in module for telnet client class?",
     "answer": 1
   },
   {
     "Id": 85,
-    "options": [
-      "emp",
-      "empdir",
-      "emporary",
-      "empfile"
-    ],
     "question": "What is the name of Python's built-in module for generating temporary files and directories?",
+    "options": [
+      "temp",
+      "tempdir",
+      "temporary",
+      "tempfile"
+    ],
     "answer": 4
   },
   {
     "Id": 86,
+    "question": "What is the name of Python's built-in module for thread-based parallelism?",
     "options": [
-      "hread",
-      "hreadall",
-      "hreading",
-      "hrpar"
+      "thread",
+      "threadall",
+      "threading",
+      "thrpar"
     ],
-    "question": "What is the name of Python's built-in module for thread based parallelism?",
     "answer": 3
   },
   {
     "Id": 87,
+    "question": "What is the name of Python's built-in module for time access and conversions?",
     "options": [
-      "imely",
-      "ime",
+      "timely",
+      "time",
       "rimetime",
       "ytime"
     ],
-    "question": "What is the name of Python's built-in module for time access and conversions?",
     "answer": 2
   },
   {
     "Id": 88,
-    "options": [
-      "alendars",
-      "alendar",
-      "earcal",
-      "alc"
-    ],
     "question": "What is the name of Python's built-in module for working with calendars?",
+    "options": [
+      "calendars",
+      "calendar",
+      "yearcal",
+      "cal"
+    ],
     "answer": 2
   },
   {
     "Id": 89,
+    "question": "What is the name of Python's built-in module for measuring the execution time of code snippets?",
     "options": [
-      "imeit",
-      "elftime",
+      "timeit",
+      "selftime",
       "odetime",
-      "imer"
+      "timer"
     ],
-    "question": "What is the name of Python's built-in module for measuring execution time of code snippets?",
     "answer": 1
   },
   {
     "Id": 90,
+    "question": "What is the name of Python's built-in module for interface to Tcl/Tk for graphical user interfaces?",
     "options": [
       "kgui",
       "uitk",
       "ntertk",
-      "kinter"
+      "tkinter"
     ],
-    "question": "What is the name of Python's built-in module for interface to Tcl/Tk for graphical user interfaces?",
     "answer": 4
   },
   {
     "Id": 91,
-    "options": [
-      "orque",
-      "edu",
-      "urtle",
-      "oveturtle"
-    ],
     "question": "What is the name of Python's built-in module for simple educational graphical applications?",
+    "options": [
+      "Torque",
+      "Edu",
+      "Turtle",
+      "MoveTurtle"
+    ],
     "answer": 3
   },
   {
     "Id": 92,
+    "question": "What is the name of Python's built-in module for URL handling?",
     "options": [
       "rls",
-      "rllib",
+      "urllib",
       "RL",
-      "ttpurl"
+      "httputil"
     ],
-    "question": "What is the name of Python's built-in module for url handling?",
     "answer": 2
   },
   {
     "Id": 93,
+    "question": "What is the name of Python's built-in module for interface to WAV sound format?",
     "options": [
       "av",
       "AVE",
       "AV",
-      "ave"
+      "wave"
     ],
-    "question": "What is the name of Python's built-in module for interface to WAV sound format?",
     "answer": 4
   },
   {
     "Id": 94,
+    "question": "What is the name of Python's built-in module for web browser control?",
     "options": [
-      "rowser",
-      "rowse",
-      "ebrowser",
-      "ebbrowser"
+      "browser",
+      "browse",
+      "webrowser",
+      "webbrowser"
     ],
-    "question": "What is the name of Python's built-in module for web browser controlller?",
     "answer": 4
   },
   {
     "Id": 95,
+    "question": "What is the name of Python's built-in module for XML processing?",
     "options": [
-      "ml",
+      "xml",
       "ML",
       "llxml",
-      "nlyxml"
+      "onlyxml"
     ],
-    "question": "What is the name of Python's built-in module for xml processing?",
     "answer": 1
   },
   {
     "Id": 96,
+    "question": "What is the name of Python's built-in module for reading and writing ZIP archive files?",
     "options": [
       "eadzip",
-      "ipfile",
-      "ritezip",
+      "zipfile",
+      "writezip",
       "wzip"
     ],
-    "question": "What is the name of Python's built-in module for reading and writing ZIP archive files?",
     "answer": 2
   },
   {
     "Id": 97,
+    "question": "What is the name of Python's built-in module for running Python scripts via CGI?",
     "options": [
       "cgi",
       "ycgi",
       "gi",
       "gipy"
     ],
-    "question": "What is the name of Python's built-in module for running Python scripts via CGI?",
     "answer": 3
   },
   {
     "Id": 98,
-    "options": [
-      "omplexmath",
-      "math",
-      "athc",
-      "athplex"
-    ],
     "question": "What is the name of Python's built-in module for mathematical functions for complex numbers?",
+    "options": [
+      "complexmath",
+      "math",
+      "mathc",
+      "mathplex"
+    ],
     "answer": 2
   },
   {
     "Id": 99,
-    "options": [
-      "olor",
-      "olors",
-      "olours",
-      "olorsys"
-    ],
     "question": "What is the name of Python's built-in module for conversions between color systems?",
+    "options": [
+      "color",
+      "colors",
+      "colours",
+      "colorsys"
+    ],
     "answer": 4
   },
   {
     "Id": 100,
-    "options": [
-      "opyd",
-      "opyme",
-      "opy",
-      "opys"
-    ],
     "question": "What is the name of Python's built-in module for shallow and deep copy operations?",
+    "options": [
+      "copyd",
+      "copyme",
+      "copy",
+      "copys"
+    ],
     "answer": 3
   },
   {
-    "Id": 101,
-    "options": [
-      "ilecmp",
-      "mpfile",
-      "ompare",
-      "ilecompare"
-    ],
-    "question": "What is the name of Python's built-in module for comparing files?",
-    "answer": 1
-  },
-  {
     "Id": 102,
+    "question": "What is the name of Python's built-in module for FTP protocol client?",
     "options": [
-      "tp",
-      "tplib",
+      "ftp",
+      "ftplib",
       "TP",
       "ftp"
     ],
-    "question": "What is the name of Python's built-in module for FTP protocol client?",
     "answer": 2
   },
   {
     "Id": 103,
+    "question": "What is the name of Python's built-in module for Unix-style pathname pattern expansion?",
     "options": [
       "pattern",
       "athpat",
       "path",
-      "lob"
+      "glob"
     ],
-    "question": "What is the name of Python's built-in module for unix style pathname pattern expansion?",
     "answer": 4
   },
   {
     "Id": 104,
+    "question": "What is the name of Python's built-in module for HTML manipulation?",
     "options": [
       "yper",
       "ml",
       "tml",
-      "ml"
+      "html"
     ],
-    "question": "What is the name of Python's built-in module for html manipulation?",
     "answer": 3
   },
   {
     "Id": 105,
+    "question": "What is the famous one-line Hello World program in Python?",
     "options": [
-      "rint(\"Hello World!\")",
-      "rint \"Hello World!\"",
-      "rint(\"Hello World!\")!",
-      "rint(\"Hello World!\"):"
+      "print(\"Hello World!\")",
+      "print \"Hello World!\"",
+      "print(\"Hello World!\")!",
+      "print(\"Hello World!\"):"
     ],
-    "question": "What is the famous one-line Hello World program of Python?",
     "answer": 1
   },
   {
     "Id": 106,
-    "options": [
-      "hree braces {{{ }}}",
-      "hree Colons ::: :::",
-      "hree hashes ### ###",
-      "hree Quotes ''' '''"
-    ],
     "question": "What is used for multi-line strings in Python?",
+    "options": [
+      "Three braces {{{ }}}",
+      "Three Colons ::: :::",
+      "Three hashes ### ###",
+      "Three Quotes ''' '''"
+    ],
     "answer": 4
   },
   {
     "Id": 107,
-    "options": [
-      "ddition",
-      "ultiplication",
-      "ivision",
-      "eletion"
-    ],
     "question": "Which of the following operations is not possible while manipulating lists?",
+    "options": [
+      "Addition",
+      "Multiplication",
+      "Division",
+      "Deletion"
+    ],
     "answer": 3
   },
   {
     "Id": 108,
+    "question": "Which of the following is used by the interpreter to identify code blocks?",
     "options": [
-      "races",
-      "ndentation",
-      "ommas",
-      "xpressions"
+      "Braces",
+      "Indentation",
+      "Commas",
+      "Expressions"
     ],
-    "question": "Which of the following is used by interpreter to identify code blocks?",
     "answer": 2
   },
   {
     "Id": 109,
+    "question": "What will be the output after the following statements if input entered is 45*2?",
+    "codeBlock": "x = input(\"Enter an expression: \")\nprint(eval(x))",
     "options": [
       "5*2",
       "val(\"90\")",
       "0",
-      ""
+      "90"
     ],
-    "question": "What will be the output after the following statements if input entered is 45*2?",
-    "codeBlock": "x = input(\"Enter an expression: \") print(eval(x))",
     "answer": 3
   },
   {
     "Id": 110,
-    "options": [
-      "tring",
-      "nteger",
-      "ist",
-      "loat"
-    ],
     "question": "What will be the data type of the output after the following statements?",
-    "codeBlock": "import time print(time.time())",
+    "codeBlock": "import time\nprint(time.time())",
+    "options": [
+      "String",
+      "Integer",
+      "List",
+      "Float"
+    ],
     "answer": 4
   },
   {
     "Id": 111,
+    "question": "What is likely to be the output after the following statements?",
+    "codeBlock": "import time\ny = time.asctime()\nprint(y[:3])",
     "options": [
       "016",
       ":40",
-      "on",
+      "Mon",
       "4"
     ],
-    "question": "What is likely to be the output after the following statements?",
-    "codeBlock": "import time y = time.asctime() print(y[:3])",
     "answer": 3
   },
   {
     "Id": 112,
-    "options": [
-      "ndefined",
-      "ull",
-      "an",
-      "one"
-    ],
     "question": "What is the value of the NoneType data type?",
+    "options": [
+      "Undefined",
+      "Null",
+      "Can",
+      "None"
+    ],
     "answer": 4
   },
   {
     "Id": 113,
-    "options": [
-      "ypeError",
-      "tring",
-      "uple",
-      "ist"
-    ],
     "question": "What will be the data type of z after the following statements?",
-    "codeBlock": "x =  [1, 2, 3, 4] y = tuple(x) z = list(y)",
+    "codeBlock": "x = [1, 2, 3, 4]\ny = tuple(x)\nz = list(y)",
+    "options": [
+      "TypeError",
+      "String",
+      "Tuple",
+      "List"
+    ],
     "answer": 4
   },
   {
     "Id": 114,
-    "options": [
-      " comment",
-      "ython String",
-      "hebang line",
-      "ython Variable"
-    ],
     "question": "What is the first line of the following statements on Windows?",
-    "codeBlock": "#! python3 x = 'Python 3'",
+    "codeBlock": "#! python3\nx = 'Python 3'",
+    "options": [
+      "Comment",
+      "Python String",
+      "Shebang line",
+      "Python Variable"
+    ],
     "answer": 3
   },
   {
     "Id": 115,
-    "options": [
-      "ing http://google.com",
-      "isplay http://google.com in the shell",
-      "ownload http://google.com as a text file",
-      "aunch a browser window to http://google.com"
-    ],
     "question": "What do the following statements do?",
     "codeBlock": "import webbrowser\nwebbrowser.open('http://google.com')",
+    "options": [
+      "Sing http://google.com",
+      "Display http://google.com in the shell",
+      "Download http://google.com as a text file",
+      "Launch a browser window to http://google.com"
+    ],
     "answer": 4
   }
 ]

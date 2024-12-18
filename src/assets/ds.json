@@ -1981,7 +1981,7 @@
   },
   {
     "Id": 181,
-    "question": "Which of the following is an application of a circular queue?",
+    "question": "Which of the following is a typical application of a circular queue?",
     "options": [
       "Storing a list of sorted integers",
       "Implementing a stack",
@@ -1992,7 +1992,7 @@
   },
   {
     "Id": 182,
-    "question": "What happens when trying to dequeue from an empty queue?",
+    "question": "What occurs when attempting to dequeue from an empty queue?",
     "options": [
       "An overflow condition occurs",
       "The front pointer is moved",
@@ -2025,7 +2025,7 @@
   },
   {
     "Id": 185,
-    "question": "In a circular queue, what is the condition for the queue to be empty?",
+    "question": "In a circular queue, when is the queue considered empty?",
     "options": [
       "Front equals rear",
       "Front is one less than rear",
@@ -2058,7 +2058,7 @@
   },
   {
     "Id": 188,
-    "question": "In a circular queue, how can you differentiate between a full and empty condition?",
+    "question": "In a circular queue, how can you distinguish between a full and an empty condition?",
     "options": [
       "By checking if front equals rear",
       "By checking if front is one less than rear",
@@ -2080,7 +2080,7 @@
   },
   {
     "Id": 190,
-    "question": "Which type of queue allows elements to be added or removed from any position?",
+    "question": "Which type of queue allows elements to be added or removed from both ends?",
     "options": [
       "Linear queue",
       "Circular queue",
@@ -2124,7 +2124,7 @@
   },
   {
     "Id": 194,
-    "question": "What is the primary advantage of using a circular queue?",
+    "question": "What is the main advantage of using a circular queue?",
     "options": [
       "Dynamic size",
       "Efficient memory usage",
@@ -2267,7 +2267,7 @@
   },
   {
     "Id": 207,
-    "question": "Which of the following tree traversals is used to create a copy of a binary tree?",
+    "question": "Which of the following tree traversals is typically used to create a copy of a binary tree?",
     "options": [
       "Inorder",
       "Preorder",
@@ -2285,7 +2285,7 @@
       "O(n)",
       "O(n^2)"
     ],
-    "answer": 1
+    "answer": 2
   },
   {
     "Id": 209,
@@ -2857,7 +2857,7 @@
       "O(n)",
       "O(n^2)"
     ],
-    "answer": 1
+    "answer": 2
   },
   {
     "Id": 261,
@@ -3521,7 +3521,7 @@
   },
   {
     "Id": 321,
-    "question": "What is the time complexity of an algorithm with O(1)?",
+    "question": "What is the time complexity of an algorithm that runs in constant time, O(1)?",
     "options": [
       "Constant time complexity",
       "Linear time complexity",
@@ -3532,7 +3532,7 @@
   },
   {
     "Id": 322,
-    "question": "When analyzing the time complexity of an algorithm, what is typically considered the primary factor?",
+    "question": "When analyzing the time complexity of an algorithm, which factor is typically considered the most significant?",
     "options": [
       "Number of input elements",
       "Size of the codebase",
@@ -3543,7 +3543,7 @@
   },
   {
     "Id": 323,
-    "question": "Which of the following represents the best-case time complexity of an algorithm?",
+    "question": "Which of the following best represents the best-case time complexity of an algorithm?",
     "options": [
       "O(n)",
       "O(log n)",
@@ -3554,7 +3554,7 @@
   },
   {
     "Id": 324,
-    "question": "What does the term \"asymptotic analysis\" refer to in data structure analysis?",
+    "question": "What does the term \"asymptotic analysis\" refer to in the context of algorithm analysis?",
     "options": [
       "Analysis of algorithms in terms of their worst-case scenarios",
       "Analysis of algorithms in terms of their average-case scenarios",

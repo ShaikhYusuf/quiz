@@ -1321,18 +1321,18 @@
   },
   {
     "Id": 121,
-    "question": "What is a characteristic of asymmetric encryption?",
+    "question": "Which of the following is a defining feature of asymmetric encryption?",
     "options": [
       "It uses a single key for both encryption and decryption",
       "It is faster than symmetric encryption",
-      "It uses two different keys for encryption and decryption",
+      "It uses two distinct keys for encryption and decryption",
       "It is less secure than symmetric encryption"
     ],
     "answer": 2
   },
   {
     "Id": 122,
-    "question": "Which encryption method is commonly used for secure communication over the internet, such as HTTPS?",
+    "question": "Which encryption method is commonly used to secure communication over the internet, such as in HTTPS?",
     "options": [
       "Symmetric encryption",
       "Asymmetric encryption",
@@ -1343,10 +1343,10 @@
   },
   {
     "Id": 123,
-    "question": "What is the primary benefit of using encryption?",
+    "question": "What is the primary benefit of using encryption for data security?",
     "options": [
       "It reduces network latency",
-      "It ensures data integrity",
+      "It ensures data confidentiality and integrity",
       "It simplifies access management",
       "It speeds up data transmission"
     ],
@@ -1354,18 +1354,18 @@
   },
   {
     "Id": 124,
-    "question": "What is a firewall in the context of computer security?",
+    "question": "What is the role of a firewall in computer security?",
     "options": [
-      "A physical barrier around a network",
-      "A software or hardware device that filters network traffic",
+      "A physical barrier protecting a network",
+      "A software or hardware device that filters network traffic based on security rules",
       "A tool for encrypting data during transmission",
-      "A mechanism for authentication"
+      "A system for user authentication"
     ],
     "answer": 1
   },
   {
     "Id": 125,
-    "question": "Which type of firewall operates at the network layer of the OSI model?",
+    "question": "Which type of firewall operates at the network layer (Layer 3) of the OSI model?",
     "options": [
       "Packet-filtering firewall",
       "Application-layer firewall",
@@ -1376,18 +1376,18 @@
   },
   {
     "Id": 126,
-    "question": "What is the main purpose of a stateful inspection firewall?",
+    "question": "What is the main function of a stateful inspection firewall?",
     "options": [
       "To filter packets based on application-layer protocols",
-      "To analyze network traffic and track the state of active connections",
+      "To track the state of active connections and analyze network traffic",
       "To encrypt data during transmission",
-      "To authenticate users based on personal characteristics"
+      "To authenticate users based on their credentials"
     ],
     "answer": 1
   },
   {
     "Id": 127,
-    "question": "Which firewall type provides the highest level of security by filtering traffic at the application layer?",
+    "question": "Which type of firewall provides the highest level of security by filtering traffic at the application layer?",
     "options": [
       "Packet-filtering firewall",
       "Application-layer firewall",
@@ -1400,27 +1400,27 @@
     "Id": 128,
     "question": "What is the primary function of an application-layer firewall?",
     "options": [
-      "To filter packets based on IP addresses",
-      "To inspect and filter traffic based on application-layer protocols",
-      "To monitor network connections",
-      "To authenticate users based on personal characteristics"
+      "To filter packets based on IP addresses and ports",
+      "To inspect and filter traffic based on specific application-layer protocols",
+      "To monitor active network connections",
+      "To authenticate users based on biometric data"
     ],
     "answer": 1
   },
   {
     "Id": 129,
-    "question": "What is an Intrusion Detection System (IDS) in computer security?",
+    "question": "What does an Intrusion Detection System (IDS) do in computer security?",
     "options": [
-      "A tool for encrypting data during transmission",
-      "A mechanism for authentication",
-      "A software or hardware system that monitors network traffic for suspicious activity",
-      "A device that filters packets based on IP addresses"
+      "Encrypts data during transmission",
+      "Authenticates users based on personal characteristics",
+      "Monitors network traffic for suspicious or malicious activity",
+      "Filters packets based on IP addresses"
     ],
     "answer": 2
   },
   {
     "Id": 130,
-    "question": "Which type of IDS monitors network traffic in real-time and responds to potential threats immediately?",
+    "question": "Which type of Intrusion Detection System (IDS) monitors network traffic in real-time and responds immediately to potential threats?",
     "options": [
       "Host-based IDS",
       "Network-based IDS",
@@ -1435,14 +1435,14 @@
     "options": [
       "It can detect previously unknown threats",
       "It is less resource-intensive than other IDS types",
-      "It can detect abnormal patterns in network traffic",
+      "It detects abnormal patterns in network traffic",
       "It relies on a database of known attack signatures"
     ],
     "answer": 3
   },
   {
     "Id": 132,
-    "question": "What does an anomaly-based IDS detect?",
+    "question": "What kind of threats does an anomaly-based IDS typically detect?",
     "options": [
       "Known attack patterns",
       "Abnormal patterns in network traffic",
@@ -1453,7 +1453,7 @@
   },
   {
     "Id": 133,
-    "question": "Which type of IDS monitors activity on individual host machines?",
+    "question": "Which type of IDS monitors activity on individual host machines rather than network traffic?",
     "options": [
       "Host-based IDS",
       "Network-based IDS",
@@ -1464,18 +1464,18 @@
   },
   {
     "Id": 134,
-    "question": "What is malware in computer security?",
+    "question": "What is malware in the context of computer security?",
     "options": [
       "A tool for encrypting data during transmission",
-      "A mechanism for authentication",
+      "A method for user authentication",
       "Malicious software designed to disrupt, damage, or gain unauthorized access to computer systems",
-      "A device that filters packets based on IP addresses"
+      "A device used to filter network traffic"
     ],
     "answer": 2
   },
   {
     "Id": 135,
-    "question": "Which type of malware disguises itself as legitimate software?",
+    "question": "Which type of malware disguises itself as legitimate software to deceive users?",
     "options": [
       "Virus",
       "Worm",
@@ -1489,7 +1489,7 @@
     "question": "What is a common method for malware distribution?",
     "options": [
       "Physical media such as CDs or USB drives",
-      "Email attachments and links",
+      "Email attachments and malicious links",
       "Online gaming platforms",
       "Social media networks"
     ],
@@ -1497,18 +1497,18 @@
   },
   {
     "Id": 137,
-    "question": "What is the primary purpose of antivirus software?",
+    "question": "What is the primary function of antivirus software?",
     "options": [
       "To encrypt data during transmission",
       "To detect and remove malware from computer systems",
-      "To authenticate users based on personal characteristics",
-      "To filter packets based on IP addresses"
+      "To authenticate users based on personal credentials",
+      "To filter network traffic based on IP addresses"
     ],
     "answer": 1
   },
   {
     "Id": 138,
-    "question": "Which type of malware spreads by replicating itself and infecting other computers?",
+    "question": "Which type of malware replicates itself and spreads to other computers?",
     "options": [
       "Virus",
       "Worm",
@@ -1519,29 +1519,29 @@
   },
   {
     "Id": 139,
-    "question": "What is the Secure Boot process in computer security?",
+    "question": "What is the purpose of the Secure Boot process in computer security?",
     "options": [
-      "A mechanism for encrypting data during transmission",
-      "A process for authenticating users based on personal characteristics",
-      "A feature that ensures only trusted software is loaded during system startup",
-      "A tool for monitoring network traffic for suspicious activity"
+      "To encrypt data during transmission",
+      "To authenticate users based on personal characteristics",
+      "To ensure that only trusted software is loaded during the system startup",
+      "To monitor network traffic for suspicious activity"
     ],
     "answer": 2
   },
   {
     "Id": 140,
-    "question": "What is the primary purpose of Secure Boot?",
+    "question": "What is the primary goal of Secure Boot?",
     "options": [
       "To prevent unauthorized access to the BIOS",
       "To protect against malware infections",
-      "To ensure the integrity of the boot process",
+      "To ensure the integrity and security of the boot process",
       "To encrypt data stored on the hard drive"
     ],
     "answer": 2
   },
   {
     "Id": 141,
-    "question": "Which component verifies the digital signatures of bootloader and operating system components during the Secure Boot process?",
+    "question": "Which component verifies the digital signatures of the bootloader and operating system components during the Secure Boot process?",
     "options": [
       "Trusted Platform Module (TPM)",
       "Unified Extensible Firmware Interface (UEFI)",
@@ -3084,8 +3084,8 @@
     "question": "What is the significance of the priority level assigned to tasks in real-time scheduling?",
     "options": [
       "It determines the task's execution time.",
-      "It defines the order of task execution.",
-      "It indicates the task's relative importance.",
+      "It defines the order in which tasks are executed.",
+      "It indicates the relative importance of the task.",
       "It specifies the task's deadline."
     ],
     "answer": 2
@@ -3114,7 +3114,7 @@
   },
   {
     "Id": 284,
-    "question": "Which scheduling algorithm is more suitable for periodic tasks with known execution times in real-time systems?",
+    "question": "Which scheduling algorithm is most suitable for periodic tasks with known execution times in real-time systems?",
     "options": [
       "Shortest Job First (SJF)",
       "Rate-Monotonic Scheduling (RMS)",
@@ -3323,7 +3323,7 @@
   },
   {
     "Id": 303,
-    "question": "How does priority inheritance protocol help alleviate priority inversion in real-time systems?",
+    "question": "How does the priority inheritance protocol help alleviate priority inversion in real-time systems?",
     "options": [
       "By boosting the priority of the blocked task temporarily",
       "By reducing the priority of the task holding the shared resource",
@@ -3341,7 +3341,7 @@
       "Priority ceiling protocol",
       "Mutex"
     ],
-    "answer": 2
+    "answer": 3
   },
   {
     "Id": 305,
@@ -4401,7 +4401,7 @@
   },
   {
     "Id": 401,
-    "question": "Which of the following is not a common device managed by operating systems?",
+    "question": "Which of the following is NOT a device typically managed by an operating system?",
     "options": [
       "Printers",
       "Keyboards",
@@ -4412,18 +4412,18 @@
   },
   {
     "Id": 402,
-    "question": "What is Plug and Play (PnP) in the context of device management?",
+    "question": "What does the term 'Plug and Play (PnP)' refer to in device management?",
     "options": [
       "A protocol for device discovery and configuration",
-      "A hardware component that enables hot-swapping of devices",
+      "A hardware feature that enables hot-swapping of devices",
       "A software interface for device driver development",
-      "A mechanism for optimizing device performance"
+      "A mechanism to optimize device performance"
     ],
     "answer": 0
   },
   {
     "Id": 403,
-    "question": "What is the purpose of memory management in operating systems?",
+    "question": "What is the primary role of memory management in an operating system?",
     "options": [
       "To control access to system resources",
       "To allocate and deallocate memory for processes",
@@ -4709,7 +4709,7 @@
   },
   {
     "Id": 429,
-    "question": "When a process is in the \"Running\" state, what is it doing?",
+    "question": "When a process is in the 'Running' state, what is it doing?",
     "options": [
       "Waiting for user input",
       "Waiting for resources to become available",
@@ -4742,7 +4742,7 @@
   },
   {
     "Id": 432,
-    "question": "When does a process transition from the \"Ready\" state to the \"Running\" state?",
+    "question": "When does a process transition from the 'Ready' state to the 'Running' state?",
     "options": [
       "When it is waiting for an I/O operation to complete",
       "When it has been selected for execution by the CPU scheduler",
@@ -5281,7 +5281,7 @@
   },
   {
     "Id": 481,
-    "question": "Which mechanism is commonly used to achieve mutual exclusion in process synchronization?",
+    "question": "Which of the following mechanisms is commonly used to achieve mutual exclusion in process synchronization?",
     "options": [
       "Condition variables",
       "Semaphores",
@@ -5292,18 +5292,18 @@
   },
   {
     "Id": 482,
-    "question": "What is a deadlock in the context of process synchronization?",
+    "question": "In the context of process synchronization, what is a deadlock?",
     "options": [
-      "A condition where two or more processes compete for the same resource",
-      "A condition where a process waits indefinitely for a resource held by another process",
-      "A condition where a process consumes all available CPU time",
-      "A condition where a process terminates unexpectedly"
+      "A situation where two or more processes compete for the same resource",
+      "A situation where a process waits indefinitely for a resource held by another process",
+      "A situation where a process consumes all available CPU time",
+      "A situation where a process terminates unexpectedly"
     ],
     "answer": 1
   },
   {
     "Id": 483,
-    "question": "Which of the following is NOT a method for deadlock prevention?",
+    "question": "Which of the following is NOT a method used for deadlock prevention?",
     "options": [
       "Resource preemption",
       "Locking",
@@ -5314,7 +5314,7 @@
   },
   {
     "Id": 484,
-    "question": "What is the purpose of a monitor in process synchronization?",
+    "question": "What is the role of a monitor in process synchronization?",
     "options": [
       "To prevent race conditions by controlling access to shared resources",
       "To detect deadlocks by analyzing resource allocation patterns",
@@ -5325,7 +5325,7 @@
   },
   {
     "Id": 485,
-    "question": "What is the circular wait condition in deadlock handling?",
+    "question": "What is the 'circular wait' condition in deadlock handling?",
     "options": [
       "A condition where a process waits indefinitely for a resource held by another process",
       "A condition where two or more processes compete for the same resource",
@@ -5457,7 +5457,7 @@
   },
   {
     "Id": 497,
-    "question": "When does a process transition from the \"Blocked\" state to the \"Ready\" state?",
+    "question": "When does a process transition from the 'Blocked' state to the 'Ready' state?",
     "options": [
       "When it is selected for execution by the CPU scheduler",
       "When it has been terminated by the operating system",
@@ -5468,7 +5468,7 @@
   },
   {
     "Id": 498,
-    "question": "In the context of process states, what does it mean when a process is \"Running\"?",
+    "question": "In the context of process states, what does it mean when a process is 'Running'?",
     "options": [
       "The process has been terminated by the operating system.",
       "The process is waiting for an event to occur.",

@@ -1,7 +1,7 @@
 [
   {
     "Id": 1,
-    "question": "What is the primary purpose of databases?",
+    "question": "What is the primary function of a database?",
     "options": [
       "To write code",
       "To store, retrieve, and manage data",
@@ -12,7 +12,7 @@
   },
   {
     "Id": 2,
-    "question": "Which of the following describes the evolution of database systems?",
+    "question": "Which of the following best describes the evolution of database systems?",
     "options": [
       "Moving from NoSQL to relational databases",
       "Shifting from object-oriented to relational databases",
@@ -441,54 +441,54 @@
   },
   {
     "Id": 41,
-    "question": "Which type of database is best suited for handling highly interconnected data?",
+    "question": "Which type of database is best suited for handling complex, highly interconnected data?",
     "options": [
       "Relational",
       "NoSQL",
       "Object-oriented",
-      "Hierarchical"
+      "Graph"
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "Id": 42,
-    "question": "What is the primary function of a primary key in a relational database?",
+    "question": "What is the main role of a primary key in a relational database?",
     "options": [
-      "To establish relationships between tables",
+      "To enforce relationships between tables",
       "To uniquely identify each record in a table",
-      "To enforce referential integrity constraints",
-      "To improve query performance"
+      "To manage referential integrity constraints",
+      "To improve database indexing"
     ],
     "answer": 1
   },
   {
     "Id": 43,
-    "question": "What is the primary purpose of a foreign key in a relational database?",
+    "question": "What is the primary function of a foreign key in a relational database?",
     "options": [
       "To uniquely identify each record in a table",
-      "To establish relationships between tables",
-      "To enforce referential integrity constraints",
-      "To improve query performance"
+      "To define relationships between tables",
+      "To enforce referential integrity between related tables",
+      "To improve the performance of queries"
     ],
     "answer": 2
   },
   {
     "Id": 44,
-    "question": "Which of the following statements about database normalization is true?",
+    "question": "Which of the following accurately describes the purpose of database normalization?",
     "options": [
-      "Database normalization increases redundancy in the database",
-      "Database normalization decreases data integrity",
-      "Database normalization reduces data redundancy and improves data integrity",
-      "Database normalization is only applicable to NoSQL databases"
+      "It increases redundancy in the database",
+      "It decreases the integrity of the data",
+      "It reduces redundancy and improves data integrity",
+      "It applies only to NoSQL databases"
     ],
     "answer": 2
   },
   {
     "Id": 45,
-    "question": "What is the primary purpose of an index in a relational database?",
+    "question": "What is the primary purpose of creating an index in a relational database?",
     "options": [
-      "To store a copy of the entire database for backup purposes",
-      "To improve the performance of queries by facilitating faster data retrieval",
+      "To create backup copies of the entire database",
+      "To enhance query performance by enabling faster data retrieval",
       "To enforce referential integrity constraints between tables",
       "To define the structure and organization of the database"
     ],
@@ -1207,7 +1207,7 @@
       "Boyce-Codd Normal Form (BCNF)",
       "Fourth Normal Form (4NF)"
     ],
-    "answer": 2
+    "answer": 0
   },
   {
     "Id": 111,
@@ -1332,7 +1332,7 @@
   },
   {
     "Id": 122,
-    "question": "Which SQL command is used to add a new column to a table?",
+    "question": "Which SQL command is used to add a new column to an existing table?",
     "options": [
       "ADD",
       "MODIFY",
@@ -1585,7 +1585,7 @@
   },
   {
     "Id": 145,
-    "question": "In database design, what does the term \"requirements analysis\" refer to?",
+    "question": "In database design, what does the term 'requirements analysis' refer to?",
     "options": [
       "Defining the relationships between tables",
       "Identifying and documenting the needs of the users and stakeholders",
@@ -1684,7 +1684,7 @@
   },
   {
     "Id": 154,
-    "question": "Database design process",
+    "question": "Which of the following is a part of the database design process?",
     "options": [
       "Analyzing data requirements",
       "Indexing and performance optimization",
@@ -1695,7 +1695,7 @@
   },
   {
     "Id": 155,
-    "question": "Conceptual, logical, and physical database design",
+    "question": "Which description is accurate for the different stages of database design: conceptual, logical, and physical?",
     "options": [
       "Conceptual: designing tables and relationships",
       "Logical: implementation of data integrity rules",
@@ -1706,7 +1706,7 @@
   },
   {
     "Id": 156,
-    "question": "Steps in database design: requirements analysis, conceptual design, logical design, physical design, implementation, and maintenance",
+    "question": "In the database design process, what is the correct order of the steps?",
     "options": [
       "Logical design precedes conceptual design",
       "Implementation is the final step in the process",
@@ -1717,7 +1717,7 @@
   },
   {
     "Id": 157,
-    "question": "Entity-Relationship Diagrams (ERDs) and schema design",
+    "question": "What is the primary purpose of Entity-Relationship Diagrams (ERDs) in schema design?",
     "options": [
       "ERDs are used in physical database design",
       "Schema design focuses only on physical aspects",
@@ -1728,7 +1728,7 @@
   },
   {
     "Id": 158,
-    "question": "Indexing and performance optimization",
+    "question": "How does indexing affect performance in a database?",
     "options": [
       "Indexing slows down data retrieval",
       "Performance optimization is not necessary in database design",
@@ -1739,7 +1739,7 @@
   },
   {
     "Id": 159,
-    "question": "Data integrity and constraints",
+    "question": "What is the role of constraints in ensuring data integrity?",
     "options": [
       "Constraints ensure data consistency and accuracy",
       "Data integrity is not important in database design",
@@ -1750,7 +1750,7 @@
   },
   {
     "Id": 160,
-    "question": "Backup and recovery strategies",
+    "question": "What is the primary focus of backup and recovery strategies in database design?",
     "options": [
       "Backup strategies focus on preventing data loss",
       "Recovery strategies are not part of database design",
@@ -1761,18 +1761,18 @@
   },
   {
     "Id": 161,
-    "question": "Client-server architecture",
+    "question": "What is the main characteristic of client-server architecture?",
     "options": [
       "Allows multiple clients to directly access the database",
       "Centralizes data storage and processing on a single server",
       "Does not involve network communication",
       "All clients have equal access privileges"
     ],
-    "answer": 0
+    "answer": 1
   },
   {
     "Id": 162,
-    "question": "Three-schema architecture: external, conceptual, internal schemas",
+    "question": "In the three-schema architecture, what does the external schema represent?",
     "options": [
       "External schema defines the physical storage details",
       "Conceptual schema represents the user's view of the entire database",
@@ -1783,7 +1783,7 @@
   },
   {
     "Id": 163,
-    "question": "Components of a DBMS: query processor, storage manager, transaction manager, concurrency control manager, recovery manager",
+    "question": "Which of the following is the role of the transaction manager in a DBMS?",
     "options": [
       "The query processor translates SQL queries into low-level machine instructions",
       "Storage manager is responsible for managing disk space",
@@ -1794,7 +1794,7 @@
   },
   {
     "Id": 164,
-    "question": "External schema defines the physical storage details",
+    "question": "Does the external schema define the physical storage details?",
     "options": [
       "True",
       "False",
@@ -1816,7 +1816,7 @@
   },
   {
     "Id": 166,
-    "question": "Which of the following is a characteristic of Object-oriented databases?",
+    "question": "Which of the following is a characteristic of object-oriented databases?",
     "options": [
       "Complex data relationships",
       "Tabular structure",
@@ -1827,7 +1827,7 @@
   },
   {
     "Id": 167,
-    "question": "Which aspect of OODBMS facilitates complex data modeling?",
+    "question": "Which aspect of an OODBMS facilitates complex data modeling?",
     "options": [
       "Structured Query Language (SQL)",
       "Object Identity",
@@ -1838,7 +1838,7 @@
   },
   {
     "Id": 168,
-    "question": "In OODBMS, what is used to represent both data and their relationships?",
+    "question": "In an OODBMS, what is used to represent both data and their relationships?",
     "options": [
       "Tables",
       "Objects",
@@ -1849,7 +1849,7 @@
   },
   {
     "Id": 169,
-    "question": "Which of the following best describes the storage mechanism in OODBMS?",
+    "question": "Which of the following best describes the storage mechanism in an OODBMS?",
     "options": [
       "Hierarchical",
       "Relational",
@@ -1871,7 +1871,7 @@
   },
   {
     "Id": 171,
-    "question": "Which NoSQL database is best suited for handling unstructured data?",
+    "question": "Which type of NoSQL database is best suited for handling unstructured data?",
     "options": [
       "Document-based",
       "Key-value",
@@ -1882,7 +1882,7 @@
   },
   {
     "Id": 172,
-    "question": "Which NoSQL database is optimized for write-heavy workloads and maintains availability over consistency?",
+    "question": "Which NoSQL database is optimized for write-heavy workloads and prioritizes availability over consistency?",
     "options": [
       "Document-based",
       "Key-value",
@@ -1893,7 +1893,7 @@
   },
   {
     "Id": 173,
-    "question": "Which NoSQL database uses tables with rows and columns similar to relational databases?",
+    "question": "Which type of NoSQL database uses tables with rows and columns, similar to relational databases?",
     "options": [
       "Document-based",
       "Key-value",
@@ -2531,7 +2531,7 @@
   },
   {
     "Id": 231,
-    "question": "Which NoSQL database is known for its support for  property graph data model?",
+    "question": "Which NoSQL database is known for its support for property graph data model?",
     "options": [
       "MongoDB",
       "Cassandra",
@@ -3411,12 +3411,12 @@
   },
   {
     "Id": 311,
-    "question": "What is a fact table in data warehousing?",
+    "question": "What is a fact table in a data warehouse?",
     "options": [
-      "Stores metadata",
-      "Contains primary transactional data",
-      "Holds descriptive attributes of data",
-      "Organizes data hierarchically"
+      "Stores metadata related to data structures",
+      "Contains primary transactional data used for analysis",
+      "Holds descriptive attributes and data definitions",
+      "Organizes data in hierarchical formats for reporting"
     ],
     "answer": 1
   },
@@ -3424,21 +3424,21 @@
     "Id": 312,
     "question": "What is the purpose of metadata in a data warehouse?",
     "options": [
-      "To store historical data",
-      "To define data structures",
-      "To perform real-time analytics",
-      "To manage user access"
+      "To store historical data for long-term analysis",
+      "To define the structure and organization of data",
+      "To perform real-time analytics on operational data",
+      "To manage user access and permissions in the system"
     ],
     "answer": 1
   },
   {
     "Id": 313,
-    "question": "What is the purpose of the extraction phase in ETL?",
+    "question": "What is the main purpose of the extraction phase in ETL?",
     "options": [
-      "Transforming data into a common format",
-      "Loading data into the target system",
-      "Retrieving data from source systems",
-      "Indexing data for faster retrieval"
+      "Transforming raw data into a standardized format",
+      "Loading processed data into the target data warehouse",
+      "Retrieving and gathering data from source systems",
+      "Indexing data for faster retrieval in the target system"
     ],
     "answer": 2
   },
@@ -3446,10 +3446,10 @@
     "Id": 314,
     "question": "Which task is performed during the transformation phase in ETL?",
     "options": [
-      "Moving data between systems",
-      "Filtering and cleaning data",
-      "Querying data for analysis",
-      "Accessing metadata"
+      "Moving data between source and target systems",
+      "Filtering, cleaning, and formatting the data",
+      "Querying data for analytical and reporting purposes",
+      "Accessing metadata to understand data structures"
     ],
     "answer": 1
   },
@@ -3457,10 +3457,10 @@
     "Id": 315,
     "question": "What is the final step in the ETL process?",
     "options": [
-      "Extract",
-      "Transform",
-      "Load",
-      "Update"
+      "Extracting data from source systems",
+      "Transforming data into a suitable format",
+      "Loading the transformed data into the target system",
+      "Updating data records based on new information"
     ],
     "answer": 2
   },
@@ -3469,9 +3469,9 @@
     "question": "Which tool is commonly used for ETL processes?",
     "options": [
       "SQL Server Integration Services (SSIS)",
-      "Oracle Database",
-      "MySQL",
-      "PostgreSQL"
+      "Oracle Database for managing data storage",
+      "MySQL for basic data processing tasks",
+      "PostgreSQL for handling large datasets"
     ],
     "answer": 0
   },
@@ -3479,16 +3479,16 @@
     "Id": 317,
     "question": "What is the role of data cleansing in the ETL process?",
     "options": [
-      "To load data into the target system",
-      "To retrieve data from source systems",
-      "To ensure data accuracy and consistency",
-      "To perform real-time analytics"
+      "To load data into the target system without modifications",
+      "To retrieve raw data from various source systems",
+      "To ensure data accuracy, consistency, and quality",
+      "To perform real-time data analytics for decision-making"
     ],
     "answer": 2
   },
   {
     "Id": 318,
-    "question": "What is OLAP?",
+    "question": "What does OLAP stand for?",
     "options": [
       "Online Linear Access Processing",
       "Online Analytical Processing",
@@ -3501,32 +3501,32 @@
     "Id": 319,
     "question": "Which type of OLAP operation allows users to view data from different perspectives?",
     "options": [
-      "Slice",
-      "Dice",
-      "Roll-up",
-      "Drill-down"
+      "Slice – Viewing a subset of data along a single dimension",
+      "Dice – Viewing data from multiple dimensions simultaneously",
+      "Roll-up – Summarizing data by moving to a higher level",
+      "Drill-down – Breaking down summarized data into more detailed levels"
     ],
     "answer": 0
   },
   {
     "Id": 320,
-    "question": "What is a \"slice\" operation in OLAP?",
+    "question": "What is the \"slice\" operation in OLAP?",
     "options": [
-      "Viewing a subset of data along one dimension",
-      "Viewing data from multiple dimensions",
-      "Aggregating data across all dimensions",
-      "Filtering data based on a condition"
+      "Viewing a subset of data along one specific dimension",
+      "Viewing data across multiple dimensions at the same time",
+      "Aggregating data by grouping it across all dimensions",
+      "Filtering data based on specific user-defined conditions"
     ],
     "answer": 0
   },
   {
     "Id": 321,
-    "question": "What is a \"dice\" operation in OLAP?",
+    "question": "What is the \"dice\" operation in OLAP?",
     "options": [
-      "Viewing a subset of data along one dimension",
-      "Viewing data from multiple dimensions",
+      "Viewing a subset of data along a single dimension",
+      "Viewing data from multiple dimensions simultaneously",
       "Aggregating data across all dimensions",
-      "Filtering data based on a condition"
+      "Filtering data based on a specific condition"
     ],
     "answer": 1
   },
@@ -3548,7 +3548,7 @@
       "Storing and managing large volumes of data",
       "Extracting useful patterns and insights from data",
       "Real-time processing of transactional data",
-      "Predicting future data trends"
+      "Predicting future trends based on historical data"
     ],
     "answer": 1
   },
@@ -3557,8 +3557,8 @@
     "question": "What is clustering in data mining?",
     "options": [
       "Predicting a categorical label for a given input",
-      "Grouping similar data points together",
-      "Identifying relationships between variables",
+      "Grouping similar data points together into clusters",
+      "Identifying relationships between variables in datasets",
       "Analyzing sequential patterns in data"
     ],
     "answer": 1
@@ -3580,7 +3580,7 @@
     "options": [
       "Grouping similar data points together",
       "Predicting a categorical label for a given input",
-      "Identifying relationships between variables",
+      "Identifying relationships between variables in datasets",
       "Analyzing sequential patterns in data"
     ],
     "answer": 1
@@ -3625,7 +3625,7 @@
       "It is not relevant to big data analysis",
       "It allows data to be easily managed and processed",
       "It refers to the speed at which data is processed",
-      "It ensures that systems can handle growing volumes of data"
+      "It ensures that systems can handle growing volumes of data efficiently"
     ],
     "answer": 3
   },

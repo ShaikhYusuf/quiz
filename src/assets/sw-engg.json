@@ -474,7 +474,7 @@
   },
   {
     "Id": 44,
-    "question": "In DevOps, what does \"Continuous Deployment\" refer to?",
+    "question": "In DevOps, what does 'Continuous Deployment' refer to?",
     "options": [
       "Deploying changes manually",
       "Automating the deployment process",
@@ -4180,224 +4180,224 @@
     "answer": 3
   },
   {
-    "Id": 381,
-    "question": "Which testing framework is commonly used for unit testing in Java?",
+    "Id": 361,
+    "question": "What role do intellectual property rights play in ensuring fair competition in the software industry?",
     "options": [
-      "JUnit",
-      "PHPUnit",
-      "Jasmine",
-      "PyTest"
+      "They promote innovation and creativity",
+      "They restrict access to software",
+      "They encourage software piracy",
+      "They protect the rights of software developers"
     ],
-    "answer": 0
+    "answer": 3
   },
   {
-    "Id": 382,
-    "question": "Which testing framework is commonly used for unit testing in PHP?",
+    "Id": 362,
+    "question": "Why is it important for software professionals to consider the ethical implications of their work?",
     "options": [
-      "JUnit",
-      "PHPUnit",
-      "Jasmine",
-      "PyTest"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 383,
-    "question": "Which testing framework is commonly used for unit testing in Ruby?",
-    "options": [
-      "RSpec",
-      "PHPUnit",
-      "Jasmine",
-      "PyTest"
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 384,
-    "question": "Which version control system was created by Linus Torvalds?",
-    "options": [
-      "Git",
-      "SVN (Subversion)",
-      "Mercurial",
-      "CVS (Concurrent Versions System)"
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 385,
-    "question": "Which version control system is known for its centralized repository model?",
-    "options": [
-      "Git",
-      "SVN (Subversion)",
-      "Mercurial",
-      "CVS (Concurrent Versions System)"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 386,
-    "question": "Which version control system is commonly used for large-scale projects and is known for its performance?",
-    "options": [
-      "Git",
-      "SVN (Subversion)",
-      "Mercurial",
-      "CVS (Concurrent Versions System)"
+      "To maximize profits for software companies",
+      "To ensure compliance with legal regulations",
+      "To protect the interests of end-users and stakeholders",
+      "To exploit vulnerabilities in software systems"
     ],
     "answer": 2
   },
   {
-    "Id": 387,
-    "question": "Which version control system is considered outdated and has been largely replaced by more modern systems?",
+    "Id": 363,
+    "question": "How does software licensing contribute to the protection of intellectual property rights?",
     "options": [
-      "Git",
-      "SVN (Subversion)",
-      "Mercurial",
-      "CVS (Concurrent Versions System)"
-    ],
-    "answer": 3
-  },
-  {
-    "Id": 388,
-    "question": "Which version control system is commonly used for managing source code in open-source projects?",
-    "options": [
-      "Git",
-      "SVN (Subversion)",
-      "Mercurial",
-      "CVS (Concurrent Versions System)"
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 389,
-    "question": "Which continuous integration tool is known for its integration with GitHub and its ease of use?",
-    "options": [
-      "Jenkins",
-      "Travis CI",
-      "CircleCI",
-      "GitLab CI/CD"
+      "By restricting access to software",
+      "By facilitating the legal distribution of software",
+      "By encouraging software piracy",
+      "By promoting unfair competition among software developers"
     ],
     "answer": 1
   },
   {
-    "Id": 390,
-    "question": "Which continuous integration tool is highly customizable and widely used in enterprise environments?",
+    "Id": 364,
+    "question": "What ethical principle emphasizes the importance of accountability and responsibility in software development?",
     "options": [
-      "Jenkins",
-      "Travis CI",
-      "CircleCI",
-      "GitLab CI/CD"
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 391,
-    "question": "Which continuous integration tool is known for its support for Docker and Kubernetes?",
-    "options": [
-      "Jenkins",
-      "Travis CI",
-      "CircleCI",
-      "GitLab CI/CD"
-    ],
-    "answer": 3
-  },
-  {
-    "Id": 392,
-    "question": "Which continuous integration tool is cloud-based and offers a generous free tier for open-source projects?",
-    "options": [
-      "Jenkins",
-      "Travis CI",
-      "CircleCI",
-      "GitLab CI/CD"
+      "Transparency",
+      "Integrity",
+      "Responsibility",
+      "Respect for intellectual property"
     ],
     "answer": 2
   },
   {
-    "Id": 393,
-    "question": "Which continuous integration tool is known for its seamless integration with Bitbucket?",
+    "Id": 365,
+    "question": "Why is transparency important in software development?",
     "options": [
-      "Jenkins",
-      "Travis CI",
-      "CircleCI",
-      "Bamboo"
+      "It encourages unethical behavior among software professionals",
+      "It promotes accountability and trust among stakeholders",
+      "It restricts innovation and creativity in software design",
+      "It ensures that software is inaccessible to unauthorized users"
     ],
-    "answer": 3
+    "answer": 1
   },
   {
-    "Id": 394,
-    "question": "Which IDE is primarily used for Swift and Objective-C development?",
+    "Id": 366,
+    "question": "What is the primary purpose of ethical decision making in software development?",
     "options": [
+      "To maximize profits for software companies",
+      "To ensure compliance with legal regulations",
+      "To protect the interests of end-users and stakeholders",
+      "To exploit vulnerabilities in software systems"
+    ],
+    "answer": 2
+  },
+  {
+    "Id": 367,
+    "question": "How do professional codes of conduct contribute to ethical behavior in the software industry?",
+    "options": [
+      "By promoting unethical behavior among software professionals",
+      "By ensuring compliance with legal regulations",
+      "By guiding ethical behavior and decision-making",
+      "By restricting access to software"
+    ],
+    "answer": 2
+  },
+  {
+    "Id": 368,
+    "question": "What role does software licensing play in regulating the distribution of software?",
+    "options": [
+      "It restricts access to software",
+      "It encourages software piracy",
+      "It facilitates the legal distribution of software",
+      "It promotes unfair competition among software developers"
+    ],
+    "answer": 2
+  },
+  {
+    "Id": 369,
+    "question": "Which of the following is not an Integrated Development Environment (IDE)?",
+    "options": [
+      "Eclipse",
+      "Visual Studio Code",
+      "Python",
+      "IntelliJ IDEA"
+    ],
+    "answer": 2
+  },
+  {
+    "Id": 370,
+    "question": "Which IDE is primarily used for Android application development?",
+    "options": [
+      "NetBeans",
       "Xcode",
-      "IntelliJ IDEA",
       "Android Studio",
-      "Visual Studio Code"
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 395,
-    "question": "Which IDE is commonly used for data science and machine learning tasks in Python?",
-    "options": [
-      "PyCharm",
-      "Jupyter Notebook",
-      "Atom",
-      "Eclipse"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 396,
-    "question": "Which IDE is known for its strong support for C and C++ development?",
-    "options": [
-      "Eclipse",
-      "Visual Studio Code",
-      "CLion",
-      "NetBeans"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 397,
-    "question": "Which IDE is widely used for Ruby on Rails development?",
-    "options": [
-      "Visual Studio Code",
-      "Eclipse",
-      "RubyMine",
       "Atom"
     ],
     "answer": 2
   },
   {
-    "Id": 398,
-    "question": "Which IDE is developed by Microsoft and supports a wide range of programming languages with its extensive plugin system?",
+    "Id": 371,
+    "question": "Which IDE is developed by JetBrains and widely used for Java development?",
     "options": [
-      "IntelliJ IDEA",
+      "NetBeans",
       "Eclipse",
-      "Visual Studio Code",
+      "IntelliJ IDEA",
       "PyCharm"
     ],
     "answer": 2
   },
   {
-    "Id": 399,
-    "question": "Which project management tool is known for its emphasis on collaboration through features like document sharing and chat?",
+    "Id": 372,
+    "question": "Visual Studio is an IDE primarily used for which programming languages?",
     "options": [
-      "Basecamp",
-      "Slack",
-      "Microsoft Teams",
-      "Trello"
+      "Java",
+      "C#",
+      "Python",
+      "PHP"
     ],
     "answer": 1
   },
   {
-    "Id": 400,
-    "question": "Which project management tool is specifically designed for software development projects and integrates seamlessly with version control systems?",
+    "Id": 373,
+    "question": "Which IDE is known for its strong support for web development, particularly with JavaScript and TypeScript?",
     "options": [
-      "Basecamp",
-      "Assembla",
-      "GitLab",
-      "Trello"
+      "Atom",
+      "Sublime Text",
+      "WebStorm",
+      "Visual Studio"
     ],
     "answer": 2
+  },
+  {
+    "Id": 374,
+    "question": "Which project management tool utilizes boards such as Kanban and Scrum?",
+    "options": [
+      "Trello",
+      "Asana",
+      "Microsoft Project",
+      "JIRA"
+    ],
+    "answer": 3
+  },
+  {
+    "Id": 375,
+    "question": "Which project management tool is known for its simplicity and ease of use, especially for small teams?",
+    "options": [
+      "Trello",
+      "Asana",
+      "Microsoft Project",
+      "Basecamp"
+    ],
+    "answer": 0
+  },
+  {
+    "Id": 376,
+    "question": "Which tool is used for creating Gantt charts and is commonly used in industries like construction and engineering?",
+    "options": [
+      "Trello",
+      "Asana",
+      "Microsoft Project",
+      "Basecamp"
+    ],
+    "answer": 2
+  },
+  {
+    "Id": 377,
+    "question": "Which project management tool is designed to integrate seamlessly with Google Workspace?",
+    "options": [
+      "Trello",
+      "Asana",
+      "Microsoft Project",
+      "Google Sheets"
+    ],
+    "answer": 1
+  },
+  {
+    "Id": 378,
+    "question": "Which project management tool is known for its flexibility and customizable workflows?",
+    "options": [
+      "Trello",
+      "Asana",
+      "JIRA",
+      "Basecamp"
+    ],
+    "answer": 2
+  },
+  {
+    "Id": 379,
+    "question": "Which testing framework is commonly used for unit testing in JavaScript?",
+    "options": [
+      "JUnit",
+      "PHPUnit",
+      "Jasmine",
+      "PyTest"
+    ],
+    "answer": 2
+  },
+  {
+    "Id": 380,
+    "question": "Which testing framework is commonly used for unit testing in Python?",
+    "options": [
+      "JUnit",
+      "PHPUnit",
+      "Jasmine",
+      "PyTest"
+    ],
+    "answer": 3
   },
   {
     "Id": 401,
@@ -5719,2028 +5719,2028 @@
     ],
     "answer": 2
   },
-  {
-    "Id": 521,
-    "question": "Which technology is commonly used for implementing web services in service-oriented architecture?",
-    "options": [
-      "SOAP",
-      "JSON",
-      "XML",
-      "HTML"
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 522,
-    "question": "What is the primary advantage of adopting service-oriented architecture?",
-    "options": [
-      "Increased complexity",
-      "Reduced scalability",
-      "Improved interoperability and flexibility",
-      "Lower reusability"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 523,
-    "question": "What is a key benefit of using microservices architecture?",
-    "options": [
-      "Reduced development overhead",
-      "Tight coupling between services",
-      "Increased complexity",
-      "Improved fault isolation and resilience"
-    ],
-    "answer": 3
-  },
-  {
-    "Id": 524,
-    "question": "What does it mean for an application to be \"cloud-native\"?",
-    "options": [
-      "It can only run on traditional on-premises servers.",
-      "It is optimized for deployment on cloud platforms and leverages cloud services.",
-      "It relies solely on physical hardware for operation.",
-      "It is not designed to scale automatically based on demand."
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 525,
-    "question": "Which of the following is a characteristic of cloud-native applications?",
-    "options": [
-      "They are tightly coupled and monolithic.",
-      "They have limited scalability and cannot handle varying loads.",
-      "They leverage containerization and microservices architecture.",
-      "They rely on manual deployment and management processes."
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 526,
-    "question": "What is the primary advantage of adopting a cloud-native architecture?",
-    "options": [
-      "Increased infrastructure costs",
-      "Reduced scalability and flexibility",
-      "Improved resilience and fault tolerance",
-      "Lower security and data protection"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 527,
-    "question": "Which cloud computing service model provides fully managed software applications to users over the internet?",
-    "options": [
-      "Infrastructure as a Service (IaaS)",
-      "Platform as a Service (PaaS)",
-      "Software as a Service (SaaS)",
-      "Function as a Service (FaaS)"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 528,
-    "question": "What does \"elasticity\" refer to in the context of cloud-native architectures?",
-    "options": [
-      "The ability of an application to run on any cloud provider's infrastructure.",
-      "The ability of an application to automatically scale resources up or down based on demand.",
-      "The ability of an application to integrate with multiple cloud services seamlessly.",
-      "The ability of an application to maintain consistent performance under varying loads."
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 529,
-    "question": "What is the key principle of \"resilience\" in cloud-native architecture?",
-    "options": [
-      "Avoiding the use of cloud services to minimize dependencies.",
-      "Designing applications to recover quickly from failures and disruptions.",
-      "Using a single cloud provider to ensure consistency.",
-      "Deploying applications manually to ensure control over the environment."
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 530,
-    "question": "Which of the following is a characteristic of cloud-native applications regarding data storage?",
-    "options": [
-      "Reliance on a single monolithic database for all data storage needs.",
-      "Use of distributed and scalable data storage solutions.",
-      "Storing all data locally on each application instance.",
-      "Limited data redundancy and backup mechanisms."
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 531,
-    "question": "What is the primary goal of using containerization in cloud-native architectures?",
-    "options": [
-      "To increase application complexity and dependencies.",
-      "To ensure applications can only run on specific cloud platforms.",
-      "To package applications and their dependencies into portable and consistent units.",
-      "To eliminate the need for microservices architecture."
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 532,
-    "question": "Which of the following best describes \"scalability\" in the context of cloud-native architectures?",
-    "options": [
-      "The ability of an application to maintain consistent performance under varying loads.",
-      "The use of cloud-native services to reduce the size of an application.",
-      "The ability of an application to run on any cloud provider's infrastructure.",
-      "The process of manually adjusting the number of application instances based on demand."
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 533,
-    "question": "What is a common approach to achieving \"observability\" in cloud-native architectures?",
-    "options": [
-      "Avoiding logging and monitoring to minimize overhead.",
-      "Relying solely on manual testing and debugging.",
-      "Implementing logging, monitoring, and tracing mechanisms.",
-      "Using a single cloud provider to centralize observability tools."
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 534,
-    "question": "What does \"immutable infrastructure\" refer to in cloud-native architecture?",
-    "options": [
-      "Infrastructure that cannot be changed or updated after deployment.",
-      "Infrastructure that is manually configured and maintained.",
-      "Infrastructure that is treated as disposable and replaced rather than modified.",
-      "Infrastructure that relies on a single cloud provider for all resources."
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 535,
-    "question": "Which of the following is a key benefit of using serverless computing in cloud-native architectures?",
-    "options": [
-      "Reduced security and data protection.",
-      "Elimination of all infrastructure management responsibilities.",
-      "Dependency on a single monolithic server for application hosting.",
-      "Increased complexity in application deployment and management."
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 536,
-    "question": "What is the primary goal of implementing \"continuous deployment\" in cloud-native architectures?",
-    "options": [
-      "To manually deploy applications in controlled environments.",
-      "To automate the process of releasing application updates frequently and reliably.",
-      "To limit the frequency of application updates to reduce risk.",
-      "To rely solely on manual testing and deployment processes."
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 537,
-    "question": "Which cloud-native concept emphasizes the ability to automatically provision and configure infrastructure resources using code?",
-    "options": [
-      "Infrastructure as Code (IaC).",
-      "Immutable Infrastructure.",
-      "Continuous Integration (CI).",
-      "Serverless Computing."
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 538,
-    "question": "What is a common strategy for achieving \"high availability\" in cloud-native architectures?",
-    "options": [
-      "Deploying applications on a single server instance.",
-      "Relying on manual failover processes during outages.",
-      "Implementing redundancy and load balancing across multiple servers or regions.",
-      "Limiting application scalability to conserve resources."
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 539,
-    "question": "What is the role of \"auto-scaling\" in cloud-native architectures?",
-    "options": [
-      "To manually adjust the number of instances based on traffic patterns.",
-      "To automate the process of scaling resources up or down based on demand.",
-      "To limit the number of users accessing the application concurrently.",
-      "To eliminate the need for redundancy and fault tolerance measures."
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 540,
-    "question": "Which cloud-native concept emphasizes the ability to deploy and manage applications without worrying about underlying infrastructure?",
-    "options": [
-      "Infrastructure as Code (IaC).",
-      "Serverless Computing.",
-      "Immutable Infrastructure.",
-      "Continuous Deployment."
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 541,
-    "question": "What is the primary advantage of using \"microservices\" in cloud-native architectures?",
-    "options": [
-      "Increased complexity and tight coupling between components.",
-      "Reduced scalability and fault tolerance.",
-      "Improved modularity and flexibility in application development.",
-      "Dependency on a single monolithic application."
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 542,
-    "question": "Which cloud-native practice involves breaking down large applications into smaller, independently deployable units?",
-    "options": [
-      "Infrastructure as Code (IaC).",
-      "Continuous Integration (CI).",
-      "Microservices Architecture.",
-      "Immutable Infrastructure."
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 543,
-    "question": "What is the primary goal of \"observability\" in cloud-native architectures?",
-    "options": [
-      "To limit access to application logs and monitoring data.",
-      "To rely solely on manual debugging processes.",
-      "To gain insights into application behavior and performance.",
-      "To eliminate logging and monitoring overhead."
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 544,
-    "question": "What is the primary goal of \"containerization\" in cloud-native architectures?",
-    "options": [
-      "To limit the scalability of applications.",
-      "To isolate applications from the underlying infrastructure.",
-      "To eliminate the need for microservices architecture.",
-      "To increase the complexity of deployment processes."
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 545,
-    "question": "Which cloud-native concept emphasizes the ability to deploy applications in a consistent and reproducible manner across different environments?",
-    "options": [
-      "Immutable Infrastructure.",
-      "Infrastructure as Code (IaC).",
-      "Continuous Deployment.",
-      "Container Orchestration."
-    ],
-    "answer": 3
-  },
-  {
-    "Id": 546,
-    "question": "What is the role of \"load balancing\" in cloud-native architectures?",
-    "options": [
-      "To limit the number of users accessing the application.",
-      "To evenly distribute incoming network traffic across multiple servers.",
-      "To manually adjust the number of instances based on traffic patterns.",
-      "To eliminate the need for redundancy and fault tolerance measures."
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 547,
-    "question": "Which cloud-native practice involves automatically provisioning and configuring infrastructure resources using code?",
-    "options": [
-      "Immutable Infrastructure.",
-      "Continuous Integration (CI).",
-      "Infrastructure as Code (IaC).",
-      "Serverless Computing."
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 548,
-    "question": "What is a common approach to achieving \"fault tolerance\" in cloud-native architectures?",
-    "options": [
-      "Relying on a single monolithic server for application hosting.",
-      "Limiting redundancy and backup mechanisms to conserve resources.",
-      "Implementing distributed systems and redundancy across multiple regions.",
-      "Manually adjusting the number of instances based on traffic patterns."
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 549,
-    "question": "What is the primary advantage of using \"serverless computing\" in cloud-native architectures?",
-    "options": [
-      "Increased control over underlying infrastructure.",
-      "Reduced scalability and flexibility.",
-      "Elimination of infrastructure management responsibilities.",
-      "Dependency on a single monolithic server for application hosting."
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 550,
-    "question": "Which cloud-native concept emphasizes the ability to deploy applications as small, self-contained units that can be scaled independently?",
-    "options": [
-      "Microservices Architecture.",
-      "Immutable Infrastructure.",
-      "Infrastructure as Code (IaC).",
-      "Continuous Deployment."
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 551,
-    "question": "Which cloud-native practice involves treating infrastructure as code and managing it through version control systems?",
-    "options": [
-      "Immutable Infrastructure.",
-      "Infrastructure as Code (IaC).",
-      "Continuous Integration (CI).",
-      "Container Orchestration."
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 552,
-    "question": "What type of security attack involves an attacker intercepting and modifying communication between two parties without their knowledge?",
-    "options": [
-      "Phishing",
-      "Man-in-the-Middle (MitM) attack",
-      "SQL Injection",
-      "Denial of Service (DoS) attack"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 553,
-    "question": "Which of the following is a characteristic of a Distributed Denial of Service (DDoS) attack?",
-    "options": [
-      "It typically targets a single user or device.",
-      "It originates from a single source.",
-      "It involves multiple compromised systems flooding a target with traffic.",
-      "It aims to steal sensitive information from a database."
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 554,
-    "question": "What type of security threat involves tricking individuals into providing sensitive information by pretending to be a trustworthy entity?",
-    "options": [
-      "Spoofing",
-      "Phishing",
-      "Ransomware",
-      "Cross-Site Scripting (XSS)"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 555,
-    "question": "Which of the following is a form of social engineering attack?",
-    "options": [
-      "SQL Injection",
-      "Cross-Site Scripting (XSS)",
-      "Brute Force Attack",
-      "Tailgating"
-    ],
-    "answer": 3
-  },
-  {
-    "Id": 556,
-    "question": "What is the primary goal of a \"ransomware\" attack?",
-    "options": [
-      "To gain unauthorized access to a system.",
-      "To disrupt the availability of a system or data until a ransom is paid.",
-      "To steal sensitive information from a system.",
-      "To intercept and modify communication between two parties."
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 557,
-    "question": "What is the first step in the security requirements engineering process?",
-    "options": [
-      "Identifying security threats and vulnerabilities",
-      "Developing security controls and countermeasures",
-      "Defining security requirements based on organizational needs",
-      "Evaluating the effectiveness of security measures"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 558,
-    "question": "What is the purpose of conducting a threat modeling exercise during security requirements engineering?",
-    "options": [
-      "To identify potential security threats and vulnerabilities in a system",
-      "To implement security controls and countermeasures",
-      "To develop encryption techniques for data protection",
-      "To assess the effectiveness of security measures"
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 559,
-    "question": "Which security requirement ensures that users are granted appropriate access levels based on their roles and responsibilities?",
-    "options": [
-      "Authentication",
-      "Authorization",
-      "Encryption",
-      "Data Integrity"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 560,
-    "question": "In the context of security requirements engineering, what does \"non-repudiation\" refer to?",
-    "options": [
-      "Ensuring that only authorized users can access resources",
-      "Preventing unauthorized modification of data during transmission",
-      "Verifying the integrity and authenticity of data",
-      "Ensuring that actions or transactions cannot be denied by the parties involved"
-    ],
-    "answer": 3
-  },
-  {
-    "Id": 561,
-    "question": "Which of the following is a key consideration when defining security requirements for a system?",
-    "options": [
-      "Maximizing system performance at the expense of security",
-      "Minimizing the impact of security measures on user experience",
-      "Ignoring potential security threats to expedite development",
-      "Implementing security controls without considering organizational needs"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 562,
-    "question": "Which coding practice helps prevent SQL Injection attacks?",
-    "options": [
-      "Using weak encryption algorithms",
-      "Implementing parameterized queries",
-      "Storing passwords in plaintext",
-      "Disabling input validation"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 563,
-    "question": "What is the purpose of input validation in secure coding practices?",
-    "options": [
-      "To ensure that all input data is accepted without validation",
-      "To prevent injection attacks and other security vulnerabilities",
-      "To expose sensitive information to potential attackers",
-      "To decrease system performance by slowing down input processing"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 564,
-    "question": "Which of the following is a common security vulnerability addressed by secure coding practices?",
-    "options": [
-      "Buffer Overflow",
-      "Authentication Failure",
-      "Cross-Site Scripting (XSS)",
-      "Data Encryption"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 565,
-    "question": "What is the principle of least privilege in secure coding practices?",
-    "options": [
-      "Allowing users to access any resource within the system",
-      "Limiting user access rights to only those necessary for their role",
-      "Sharing sensitive information with unauthorized users",
-      "Providing unlimited privileges to all users by default"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 566,
-    "question": "Which of the following is a best practice for secure password storage?",
-    "options": [
-      "Storing passwords in plaintext",
-      "Using weak encryption algorithms",
-      "Implementing salting and hashing techniques",
-      "Sharing passwords openly within the organization"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 567,
-    "question": "Which of the following is an example of multi-factor authentication?",
-    "options": [
-      "Using only a password for authentication",
-      "Providing a fingerprint scan in addition to a password",
-      "Sharing login credentials with another user",
-      "Accessing a system without any authentication"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 568,
-    "question": "What is the primary purpose of authentication in a software system?",
-    "options": [
-      "To grant appropriate access levels based on user roles",
-      "To ensure data integrity during transmission",
-      "To verify the identity of users or entities",
-      "To prevent unauthorized modification of data"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 569,
-    "question": "Which authentication protocol provides a secure method for transmitting authentication credentials over a network?",
-    "options": [
-      "HTTP",
-      "Telnet",
-      "LDAP",
-      "HTTPS"
-    ],
-    "answer": 3
-  },
-  {
-    "Id": 570,
-    "question": "What does Role-Based Access Control (RBAC) determine?",
-    "options": [
-      "The authenticity of users based on their credentials",
-      "The availability of system resources based on user roles",
-      "The confidentiality of data during transmission",
-      "The integrity of data stored in the system"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 571,
-    "question": "What is the purpose of access control lists (ACLs) in the context of authorization?",
-    "options": [
-      "To encrypt sensitive data during transmission",
-      "To restrict access to specific resources based on user permissions",
-      "To verify the identity of users during authentication",
-      "To prevent SQL injection attacks"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 572,
-    "question": "Which encryption technique uses a single key for both encryption and decryption?",
-    "options": [
-      "Asymmetric Encryption",
-      "Symmetric Encryption",
-      "Public Key Infrastructure (PKI)",
-      "Digital Signature"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 573,
-    "question": "What is the primary advantage of asymmetric encryption over symmetric encryption?",
-    "options": [
-      "Faster encryption and decryption processes",
-      "Easier key management and distribution",
-      "Stronger security due to the use of separate keys for encryption and decryption",
-      "Less computational overhead"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 574,
-    "question": "Which encryption algorithm is commonly used for securing internet communications, such as web browsing?",
-    "options": [
-      "DES (Data Encryption Standard)",
-      "RSA (Rivest-Shamir-Adleman)",
-      "AES (Advanced Encryption Standard)",
-      "MD5 (Message Digest Algorithm 5)"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 575,
-    "question": "What does Public Key Infrastructure (PKI) provide in terms of encryption?",
-    "options": [
-      "It ensures the confidentiality of data during transmission.",
-      "It verifies the integrity and authenticity of digital documents.",
-      "It facilitates secure communication between parties using asymmetric encryption.",
-      "It prevents unauthorized access to sensitive information."
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 576,
-    "question": "Which of the following is a common application of encryption in software security?",
-    "options": [
-      "Preventing phishing attacks",
-      "Securing communication channels",
-      "Detecting SQL injection vulnerabilities",
-      "Preventing buffer overflow attacks"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 577,
-    "question": "What is the purpose of penetration testing in security testing?",
-    "options": [
-      "To ensure that only authorized users can access resources",
-      "To identify security vulnerabilities by simulating real-world attacks",
-      "To verify the integrity and authenticity of data",
-      "To implement encryption techniques for data protection"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 578,
-    "question": "Which security testing technique involves analyzing source code to identify potential vulnerabilities?",
-    "options": [
-      "Black Box Testing",
-      "White Box Testing",
-      "Gray Box Testing",
-      "Fuzz Testing"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 579,
-    "question": "What is the primary goal of security code review during the software development lifecycle?",
-    "options": [
-      "To ensure compliance with coding standards",
-      "To identify and fix security vulnerabilities in the source code",
-      "To verify the functionality of the software application",
-      "To test the application's performance under different conditions"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 580,
-    "question": "Which security testing technique involves simulating abnormal or unexpected inputs to a system?",
-    "options": [
-      "Black Box Testing",
-      "White Box Testing",
-      "Gray Box Testing",
-      "Fuzz Testing"
-    ],
-    "answer": 3
-  },
-  {
-    "Id": 581,
-    "question": "What is the primary goal of security regression testing?",
-    "options": [
-      "To verify the functionality of the software application",
-      "To identify security vulnerabilities introduced by code changes",
-      "To test the application's performance under different conditions",
-      "To ensure compliance with coding standards"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 582,
-    "question": "What type of security attack aims to overload a system's resources, making it unavailable to users?",
-    "options": [
-      "Phishing",
-      "Denial of Service (DoS) attack",
-      "Man-in-the-Middle (MitM) attack",
-      "Ransomware attack"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 583,
-    "question": "Which security threat involves an attacker exploiting a vulnerability in a web application to execute malicious scripts in a user's browser?",
-    "options": [
-      "Phishing",
-      "Cross-Site Scripting (XSS)",
-      "SQL Injection",
-      "Spoofing"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 584,
-    "question": "What is the primary goal of a distributed denial of service (DDoS) attack?",
-    "options": [
-      "To steal sensitive information from a system",
-      "To intercept and modify communication between two parties",
-      "To disrupt the availability of a system or network",
-      "To trick users into providing their credentials"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 585,
-    "question": "Which security attack involves an attacker gaining unauthorized access to a network by pretending to be a legitimate user?",
-    "options": [
-      "Brute force attack",
-      "Spoofing attack",
-      "Phishing attack",
-      "Ransomware attack"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 586,
-    "question": "What is the primary goal of a ransomware attack?",
-    "options": [
-      "To gain unauthorized access to a system or network",
-      "To disrupt the availability of a system or data until a ransom is paid",
-      "To intercept and modify communication between two parties",
-      "To trick users into providing sensitive information"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 587,
-    "question": "Which step in the security requirements engineering process involves identifying potential threats and vulnerabilities in a system?",
-    "options": [
-      "Defining security requirements",
-      "Threat modeling",
-      "Implementing security controls",
-      "Conducting security testing"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 588,
-    "question": "What is the purpose of defining security requirements during the software development lifecycle?",
-    "options": [
-      "To ensure compliance with coding standards",
-      "To identify potential security threats and vulnerabilities",
-      "To test the application's performance under different conditions",
-      "To verify the functionality of the software application"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 589,
-    "question": "Which security requirement ensures that users can only access resources and perform actions appropriate for their roles?",
-    "options": [
-      "Authentication",
-      "Authorization",
-      "Data integrity",
-      "Encryption"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 590,
-    "question": "What does \"non-repudiation\" ensure in the context of security requirements?",
-    "options": [
-      "Only authorized users can access resources",
-      "Preventing unauthorized modification of data",
-      "Actions or transactions cannot be denied by the parties involved",
-      "Verifying the integrity and authenticity of data"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 591,
-    "question": "In security requirements engineering, what does \"confidentiality\" refer to?",
-    "options": [
-      "Ensuring that data is accurate and reliable",
-      "Ensuring that data is accessible only to authorized users",
-      "Verifying the integrity of data during transmission",
-      "Protecting data from unauthorized modification"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 592,
-    "question": "Which secure coding practice helps prevent SQL injection attacks?",
-    "options": [
-      "Using weak encryption algorithms",
-      "Implementing parameterized queries",
-      "Storing passwords in plaintext",
-      "Disabling input validation"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 593,
-    "question": "What is a best practice for secure password storage?",
-    "options": [
-      "Storing passwords in plaintext",
-      "Using weak encryption algorithms",
-      "Implementing salting and hashing techniques",
-      "Sharing passwords openly within the organization"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 594,
-    "question": "Which authentication factor is based on something the user knows?",
-    "options": [
-      "Something you have",
-      "Something you are",
-      "Something you know",
-      "Something you do"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 595,
-    "question": "What type of security attack involves an attacker sending emails with malicious attachments or links to trick recipients into revealing sensitive information?",
-    "options": [
-      "Denial of Service (DoS) attack",
-      "Man-in-the-Middle (MitM) attack",
-      "Phishing attack",
-      "Ransomware attack"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 596,
-    "question": "Which security threat involves an attacker exploiting a weakness in a software application to gain unauthorized access to a system or data?",
-    "options": [
-      "SQL Injection",
-      "Cross-Site Scripting (XSS)",
-      "Spoofing",
-      "Tailgating"
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 597,
-    "question": "What is the primary goal of a brute force attack?",
-    "options": [
-      "To trick users into providing their credentials",
-      "To disrupt the availability of a system or network",
-      "To gain unauthorized access to a system by trying different combinations of passwords",
-      "To intercept and modify communication between two parties"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 598,
-    "question": "Which security attack involves an attacker intercepting communication between two parties and altering the data exchanged between them?",
-    "options": [
-      "Denial of Service (DoS) attack",
-      "Man-in-the-Middle (MitM) attack",
-      "Phishing attack",
-      "Ransomware attack"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 599,
-    "question": "Which security requirement ensures that data remains accurate and consistent over its entire lifecycle?",
-    "options": [
-      "Authentication",
-      "Authorization",
-      "Data integrity",
-      "Encryption"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 600,
-    "question": "Which security threat involves an attacker masquerading as a trusted entity to gain unauthorized access to sensitive information?",
-    "options": [
-      "Phishing attack",
-      "DDoS attack",
-      "Spoofing attack",
-      "Brute force attack"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 601,
-    "question": "Which security attack involves an attacker flooding a network with excessive traffic to overwhelm its resources?",
-    "options": [
-      "Phishing attack",
-      "Man-in-the-Middle (MitM) attack",
-      "DDoS attack",
-      "SQL injection attack"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 602,
-    "question": "Which security attack involves an attacker exploiting vulnerabilities in a web application to execute malicious scripts on users' browsers?",
-    "options": [
-      "Phishing attack",
-      "Cross-Site Scripting (XSS) attack",
-      "SQL injection attack",
-      "Spoofing attack"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 603,
-    "question": "What is the primary focus of Lean Software Development?",
-    "options": [
-      "Maximizing productivity through extensive documentation",
-      "Minimizing waste and optimizing efficiency",
-      "Emphasizing rigid processes and procedures",
-      "Prioritizing comprehensive planning over execution"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 604,
-    "question": "In Lean Software Development, what is meant by the term \"Muda\"?",
-    "options": [
-      "A comprehensive documentation process",
-      "Any activity that consumes resources without adding value",
-      "A rapid prototyping technique",
-      "A team collaboration tool"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 605,
-    "question": "Which principle of Lean Software Development emphasizes the importance of delaying decisions until the last responsible moment?",
-    "options": [
-      "Amplify Learning",
-      "Decide as Late as Possible",
-      "Deliver as Fast as Possible",
-      "Empower the Team"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 606,
-    "question": "What is the key goal of reducing batch size in Lean Software Development?",
-    "options": [
-      "To increase the number of features developed simultaneously",
-      "To minimize the time and resources required to complete each task",
-      "To reduce the frequency of customer feedback",
-      "To maximize the efficiency of documentation processes"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 607,
-    "question": "What is the primary characteristic of Rapid Application Development (RAD)?",
-    "options": [
-      "Extensive upfront planning and design",
-      "Iterative development with minimal planning",
-      "Sequential development phases with strict control",
-      "Emphasis on comprehensive documentation"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 608,
-    "question": "Which of the following is a key advantage of Rapid Application Development (RAD)?",
-    "options": [
-      "High predictability in project timelines",
-      "Lower development costs due to reduced iteration",
-      "Minimal stakeholder involvement throughout the process",
-      "Greater emphasis on comprehensive documentation"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 609,
-    "question": "In Rapid Application Development (RAD), what is the purpose of prototyping?",
-    "options": [
-      "To produce a final, polished version of the software",
-      "To gather feedback and refine requirements iteratively",
-      "To document all aspects of the software design",
-      "To automate the testing process"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 610,
-    "question": "Which factor is essential for the success of Rapid Application Development (RAD)?",
-    "options": [
-      "Detailed and comprehensive project documentation",
-      "Extensive upfront analysis and planning",
-      "Strong collaboration and communication among team members",
-      "Sequential execution of development phases"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 611,
-    "question": "What is a core practice of Extreme Programming (XP)?",
-    "options": [
-      "Big Design Up Front (BDUF)",
-      "Continuous Integration (CI)",
-      "Minimal customer involvement",
-      "Complete reliance on individual developers"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 612,
-    "question": "In Extreme Programming (XP), what is the purpose of Test-Driven Development (TDD)?",
-    "options": [
-      "To minimize customer feedback",
-      "To write tests after implementing the code",
-      "To ensure that code meets requirements through automated testing",
-      "To skip the testing phase entirely"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 613,
-    "question": "Which of the following is a key principle of Extreme Programming (XP)?",
-    "options": [
-      "Comprehensive upfront planning and documentation",
-      "Emphasis on individual work over collaboration",
-      "Adaptability to changing requirements through continuous feedback",
-      "Rigid adherence to a predetermined project plan"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 614,
-    "question": "What is the primary role of the customer in Extreme Programming (XP)?",
-    "options": [
-      "To provide feedback and prioritize features",
-      "To write code and perform testing",
-      "To create comprehensive documentation",
-      "To manage the project schedule and budget"
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 615,
-    "question": "What is the main focus of Feature-Driven Development (FDD)?",
-    "options": [
-      "Comprehensive upfront planning and documentation",
-      "Iterative development with minimal planning",
-      "Prioritizing features and delivering them incrementally",
-      "Continuous integration and automated testing"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 616,
-    "question": "In Feature-Driven Development (FDD), what is a \"feature\"?",
-    "options": [
-      "A detailed technical requirement",
-      "A user interface component",
-      "A small, client-valued piece of functionality",
-      "A stage in the development lifecycle"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 617,
-    "question": "Which of the following is a key advantage of Feature-Driven Development (FDD)?",
-    "options": [
-      "Rigidity in responding to changing requirements",
-      "Minimal stakeholder involvement throughout the process",
-      "Emphasis on extensive upfront planning",
-      "Ability to prioritize and deliver features incrementally"
-    ],
-    "answer": 3
-  },
-  {
-    "Id": 618,
-    "question": "What is the role of the Chief Programmer in Feature-Driven Development (FDD)?",
-    "options": [
-      "To manage project schedules and budgets",
-      "To write code and perform testing",
-      "To facilitate communication among team members",
-      "To oversee the overall design and development process"
-    ],
-    "answer": 3
-  },
-  {
-    "Id": 619,
-    "question": "What is the primary objective of the Scrum Methodology?",
-    "options": [
-      "Extensive upfront planning and documentation",
-      "Continuous delivery of working software",
-      "Sequential execution of development phases",
-      "Rigid adherence to predefined project requirements"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 620,
-    "question": "What is the duration of a typical Scrum Sprint?",
-    "options": [
-      "1 week",
-      "1 month",
-      "3 months",
-      "It varies based on the project needs"
-    ],
-    "answer": 3
-  },
-  {
-    "Id": 621,
-    "question": "What is the primary responsibility of the Scrum Master?",
-    "options": [
-      "Writing code and performing testing",
-      "Managing the project schedule and budget",
-      "Facilitating the Scrum process and removing obstacles",
-      "Prioritizing features and defining requirements"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 622,
-    "question": "In Scrum, what is the purpose of the Daily Standup Meeting?",
-    "options": [
-      "To discuss detailed technical requirements",
-      "To provide progress updates and identify any obstacles",
-      "To review and prioritize user stories",
-      "To finalize the project schedule and budget"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 623,
-    "question": "What is one of the primary goals of Lean Software Development?",
-    "options": [
-      "Maximizing resource utilization",
-      "Eliminating all types of waste",
-      "Strict adherence to detailed plans",
-      "Extensive documentation at every stage"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 624,
-    "question": "Which principle of Lean Software Development emphasizes the importance of empowering teams to make decisions?",
-    "options": [
-      "Amplify Learning",
-      "Decide as Late as Possible",
-      "Build Integrity In",
-      "Empower the Team"
-    ],
-    "answer": 3
-  },
-  {
-    "Id": 625,
-    "question": "What does the principle \"Build Integrity In\" signify in Lean Software Development?",
-    "options": [
-      "Emphasizing the importance of honesty and transparency",
-      "Focusing on ensuring that software components work well together",
-      "Prioritizing building trust between team members",
-      "Maximizing the efficiency of the software development process"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 626,
-    "question": "In Lean Software Development, what is the significance of \"Fast Feedback\"?",
-    "options": [
-      "It helps in quickly identifying and rectifying errors.",
-      "It ensures that the development process is completed quickly.",
-      "It allows team members to work at a fast pace without breaks.",
-      "It prioritizes speed over quality in delivering software."
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 627,
-    "question": "What is the main advantage of Rapid Application Development (RAD)?",
-    "options": [
-      "Comprehensive upfront planning",
-      "Iterative development with minimal customer involvement",
-      "High predictability in project timelines",
-      "Quick delivery of working software with frequent feedback"
-    ],
-    "answer": 3
-  },
-  {
-    "Id": 628,
-    "question": "Which phase in Rapid Application Development (RAD) focuses on building prototypes?",
-    "options": [
-      "Requirements Planning",
-      "User Design",
-      "Construction",
-      "Cutover"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 629,
-    "question": "What is the role of the RAD team leader?",
-    "options": [
-      "Writing code and developing prototypes",
-      "Managing project schedules and budgets",
-      "Facilitating communication and resolving issues",
-      "Gathering and documenting requirements"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 630,
-    "question": "What is the primary objective of Extreme Programming (XP)?",
-    "options": [
-      "Following a sequential development process",
-      "Maximizing upfront planning and documentation",
-      "Delivering high-quality software incrementally and rapidly",
-      "Minimizing customer involvement in the development process"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 631,
-    "question": "Which practice in Extreme Programming (XP) involves writing tests before writing code?",
-    "options": [
-      "Test-Driven Development (TDD)",
-      "Pair Programming",
-      "Continuous Integration",
-      "Collective Code Ownership"
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 632,
-    "question": "What is the significance of Pair Programming in Extreme Programming (XP)?",
-    "options": [
-      "It reduces the need for comprehensive documentation.",
-      "It improves code quality and facilitates knowledge sharing.",
-      "It speeds up the development process by reducing testing efforts.",
-      "It ensures that individual developers work in isolation."
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 633,
-    "question": "What is a fundamental concept in Feature-Driven Development (FDD)?",
-    "options": [
-      "Continuous deployment of software features",
-      "Iterative development with minimal planning",
-      "Prioritization and delivery of specific software features",
-      "Extensive documentation throughout the development process"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 634,
-    "question": "In Feature-Driven Development (FDD), what is the purpose of the \"Feature List\"?",
-    "options": [
-      "To track the progress of individual developers",
-      "To provide a comprehensive overview of project requirements",
-      "To document all technical specifications of the software",
-      "To list and prioritize features to be developed"
-    ],
-    "answer": 3
-  },
-  {
-    "Id": 635,
-    "question": "What is the role of the \"Chief Architect\" in Feature-Driven Development (FDD)?",
-    "options": [
-      "Writing code and developing software features",
-      "Managing project schedules and budgets",
-      "Overseeing the overall design and architecture of the software",
-      "Facilitating communication and resolving conflicts within the team"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 636,
-    "question": "What is a Sprint in Scrum methodology?",
-    "options": [
-      "A meeting where team members provide updates on their progress",
-      "A fixed duration of time during which specific work is completed",
-      "A document outlining the detailed requirements of a software project",
-      "A stage in the development process where user stories are prioritized"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 637,
-    "question": "In Scrum, what is the primary responsibility of the Product Owner?",
-    "options": [
-      "Writing code and performing testing",
-      "Facilitating communication among team members",
-      "Prioritizing and managing the product backlog",
-      "Managing project schedules and budgets"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 638,
-    "question": "What is the purpose of the Scrum Master in the Scrum methodology?",
-    "options": [
-      "Writing code and developing software features",
-      "Managing project schedules and budgets",
-      "Facilitating the Scrum process and removing obstacles",
-      "Providing technical guidance to the development team"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 639,
-    "question": "Which Lean principle emphasizes the importance of delaying decisions until the last responsible moment?",
-    "options": [
-      "Amplify Learning",
-      "Decide as Late as Possible",
-      "Deliver as Fast as Possible",
-      "Empower the Team"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 640,
-    "question": "In Lean Software Development, what does the principle \"Amplify Learning\" emphasize?",
-    "options": [
-      "Prioritizing comprehensive planning",
-      "Encouraging continuous improvement and experimentation",
-      "Maximizing upfront analysis and documentation",
-      "Focusing solely on delivering features quickly"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 641,
-    "question": "What is the role of the \"Domain Object Modeling\" practice in Feature-Driven Development (FDD)?",
-    "options": [
-      "Defining the user interface of the software",
-      "Identifying and prioritizing software features",
-      "Creating detailed technical specifications",
-      "Establishing the core business objects and their relationships"
-    ],
-    "answer": 3
-  },
-  {
-    "Id": 642,
-    "question": "What is the significance of the \"Feature Teams\" concept in Feature-Driven Development (FDD)?",
-    "options": [
-      "Teams dedicated to implementing specific software features",
-      "Teams responsible for managing the project schedule and budget",
-      "Teams focused on documenting all aspects of the software development process",
-      "Teams specializing in user interface design and aesthetics"
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 643,
-    "question": "In Feature-Driven Development (FDD), what is the purpose of the \"Inspections\" practice?",
-    "options": [
-      "Reviewing and refining the code produced by individual developers",
-      "Conducting regular meetings to discuss project progress",
-      "Documenting all aspects of the software design and development process",
-      "Reviewing and verifying the completion of software features"
-    ],
-    "answer": 3
-  },
-  {
-    "Id": 644,
-    "question": "What is the role of the \"Product Backlog\" in Scrum methodology?",
-    "options": [
-      "Documenting all technical specifications of the software",
-      "Prioritizing and managing the features to be developed",
-      "Defining the user interface and aesthetics of the software",
-      "Facilitating communication and collaboration among team members"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 645,
-    "question": "What is the purpose of the \"Sprint Review\" in Scrum methodology?",
-    "options": [
-      "To plan and prioritize tasks for the upcoming sprint",
-      "To review and refine the software requirements",
-      "To demonstrate the completed work to stakeholders and gather feedback",
-      "To identify and address any obstacles or impediments"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 646,
-    "question": "In Scrum, what is the role of the \"Development Team\"?",
-    "options": [
-      "To prioritize and manage the product backlog",
-      "To facilitate communication and resolve issues",
-      "To develop and deliver increments of potentially shippable product functionality",
-      "To manage project schedules and budgets"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 647,
-    "question": "What is the significance of \"Pull Systems\" in Lean Software Development?",
-    "options": [
-      "Prioritizing comprehensive planning and documentation",
-      "Minimizing waste and optimizing efficiency",
-      "Empowering teams to make decisions autonomously",
-      "Encouraging continuous improvement and experimentation"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 648,
-    "question": "Which Lean principle emphasizes the importance of delivering value to customers quickly and frequently?",
-    "options": [
-      "Deliver as Fast as Possible",
-      "Decide as Late as Possible",
-      "Build Integrity In",
-      "Amplify Learning"
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 649,
-    "question": "What is the purpose of \"Just-in-Time\" in Lean Software Development?",
-    "options": [
-      "Minimizing waste by producing only what is needed when it is needed",
-      "Maximizing resource utilization through extensive planning",
-      "Documenting all aspects of the software development process",
-      "Prioritizing speed over quality in delivering software"
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 650,
-    "question": "What is the main advantage of using prototypes in Rapid Application Development (RAD)?",
-    "options": [
-      "To provide comprehensive documentation of the software",
-      "To gather feedback and refine requirements iteratively",
-      "To automate testing and verification processes",
-      "To prioritize and manage the features to be developed"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 651,
-    "question": "In Rapid Application Development (RAD), what is the purpose of the \"Joint Application Development (JAD)\" sessions?",
-    "options": [
-      "To develop prototypes and gather feedback from stakeholders",
-      "To document all technical specifications of the software",
-      "To prioritize and manage the features to be developed",
-      "To review and refine the completed work with stakeholders"
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 652,
-    "question": "What is the primary objective of Continuous Integration (CI) in Extreme Programming (XP)?",
-    "options": [
-      "To write tests before writing code",
-      "To deliver high-quality software incrementally and rapidly",
-      "To ensure that changes to the codebase are integrated and tested frequently",
-      "To facilitate collaboration and knowledge sharing among developers"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 653,
-    "question": "In Extreme Programming (XP), what is the role of the \"Customer\"?",
-    "options": [
-      "To manage project schedules and budgets",
-      "To write code and perform testing",
-      "To provide feedback and prioritize features",
-      "To oversee the overall design and architecture of the software"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 654,
-    "question": "What is the significance of \"Collective Code Ownership\" in Extreme Programming (XP)?",
-    "options": [
-      "It ensures that individual developers work in isolation.",
-      "It improves code quality and facilitates knowledge sharing.",
-      "It speeds up the development process by reducing testing efforts.",
-      "It reduces the need for comprehensive documentation."
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 655,
-    "question": "What is the significance of the \"Feature Set\" in Feature-Driven Development (FDD)?",
-    "options": [
-      "It defines the overall architecture of the software system.",
-      "It lists and prioritizes the features to be developed in the project.",
-      "It specifies the technical details of individual software components.",
-      "It documents the requirements and constraints of the project."
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 656,
-    "question": "In Feature-Driven Development (FDD), what is the role of the \"Class-Responsibility-Collaboration (CRC)\" cards?",
-    "options": [
-      "To track the progress of individual developers.",
-      "To facilitate communication and collaboration among team members.",
-      "To document the technical specifications of the software components.",
-      "To model the interactions between classes and their responsibilities."
-    ],
-    "answer": 3
-  },
-  {
-    "Id": 657,
-    "question": "What is the primary goal of the \"Domain Walkthrough\" practice in Feature-Driven Development (FDD)?",
-    "options": [
-      "To gather feedback from stakeholders on project progress.",
-      "To identify potential risks and issues in the project domain.",
-      "To document the technical requirements and constraints of the project.",
-      "To prioritize and assign features to development teams."
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 658,
-    "question": "What is the purpose of the \"Sprint Retrospective\" in Scrum methodology?",
-    "options": [
-      "To demonstrate the completed work to stakeholders and gather feedback.",
-      "To review and refine the software requirements.",
-      "To identify and address any obstacles or impediments.",
-      "To plan and prioritize tasks for the upcoming sprint."
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 659,
-    "question": "In Scrum, what is the role of the \"Product Owner\"?",
-    "options": [
-      "To prioritize and manage the product backlog.",
-      "To facilitate communication and resolve issues.",
-      "To develop and deliver increments of potentially shippable product functionality.",
-      "To manage project schedules and budgets."
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 660,
-    "question": "What is the significance of the \"Definition of Done\" in Scrum methodology?",
-    "options": [
-      "It outlines the specific tasks to be completed during a sprint.",
-      "It defines the acceptance criteria for user stories.",
-      "It establishes the roles and responsibilities of team members.",
-      "It describes the quality standards that must be met for a product increment to be considered complete."
-    ],
-    "answer": 3
-  },
-  {
-    "Id": 661,
-    "question": "What is the primary focus of \"Value Stream Mapping\" in Lean Software Development?",
-    "options": [
-      "To identify and eliminate waste in the software development process.",
-      "To prioritize and manage the features to be developed in the project.",
-      "To model the interactions between classes and their responsibilities.",
-      "To facilitate communication and collaboration among team members."
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 662,
-    "question": "What is the purpose of \"Kanban Boards\" in Lean Software Development?",
-    "options": [
-      "To track the progress of individual developers.",
-      "To facilitate communication and collaboration among team members.",
-      "To document the technical specifications of the software components.",
-      "To visualize and manage the flow of work through the development process."
-    ],
-    "answer": 3
-  },
-  {
-    "Id": 663,
-    "question": "In Rapid Application Development (RAD), what is the purpose of the \"User Design\" phase?",
-    "options": [
-      "To develop and deliver increments of potentially shippable product functionality.",
-      "To review and refine the completed work with stakeholders.",
-      "To prioritize and manage the features to be developed in the project.",
-      "To create prototypes and gather feedback from stakeholders."
-    ],
-    "answer": 3
-  },
-  {
-    "Id": 664,
-    "question": "What is the role of the \"Feature Owner\" in Feature-Driven Development (FDD)?",
-    "options": [
-      "To manage project schedules and budgets.",
-      "To facilitate communication and resolve issues.",
-      "To prioritize and manage the features to be developed in the project.",
-      "To oversee the development of a specific software feature."
-    ],
-    "answer": 3
-  },
-  {
-    "Id": 665,
-    "question": "What is the significance of \"Domain Object Modeling\" in Feature-Driven Development (FDD)?",
-    "options": [
-      "It ensures that individual developers work in isolation.",
-      "It improves code quality and facilitates knowledge sharing.",
-      "It establishes the core business objects and their relationships.",
-      "It speeds up the development process by reducing testing efforts."
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 666,
-    "question": "In Feature-Driven Development (FDD), what is the purpose of \"Feature Set Entry\"?",
-    "options": [
-      "To prioritize and assign features to development teams.",
-      "To gather feedback from stakeholders on project progress.",
-      "To review and refine the software requirements.",
-      "To document the technical specifications of the software components."
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 667,
-    "question": "What is the role of the \"Scrum Master\" in Scrum methodology?",
-    "options": [
-      "To manage project schedules and budgets.",
-      "To facilitate communication and resolve issues.",
-      "To prioritize and manage the product backlog.",
-      "To develop and deliver increments of potentially shippable product functionality."
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 668,
-    "question": "What is the purpose of the \"Daily Standup Meeting\" in Scrum methodology?",
-    "options": [
-      "To demonstrate the completed work to stakeholders and gather feedback.",
-      "To review and refine the software requirements.",
-      "To provide progress updates and identify any obstacles.",
-      "To plan and prioritize tasks for the upcoming sprint."
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 669,
-    "question": "In Scrum, what is the significance of the \"Product Backlog\" refinement?",
-    "options": [
-      "It ensures that the team completes the tasks within a sprint.",
-      "It focuses on reviewing and refining the software requirements.",
-      "It prioritizes and manages the features to be developed.",
-      "It facilitates communication and collaboration among team members."
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 670,
-    "question": "What is the primary focus of \"Kaizen\" in Lean Software Development?",
-    "options": [
-      "Minimizing waste and optimizing efficiency.",
-      "Prioritizing comprehensive planning and documentation.",
-      "Encouraging continuous improvement and experimentation.",
-      "Maximizing resource utilization."
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 671,
-    "question": "What is the role of \"Kanban\" in Lean Software Development?",
-    "options": [
-      "To manage project schedules and budgets.",
-      "To track the progress of individual developers.",
-      "To visualize and manage the flow of work through the development process.",
-      "To facilitate communication and resolve issues."
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 672,
-    "question": "What is the purpose of \"User Design\" in Rapid Application Development (RAD)?",
-    "options": [
-      "To create prototypes and gather feedback from stakeholders.",
-      "To review and refine the completed work with stakeholders.",
-      "To prioritize and manage the features to be developed in the project.",
-      "To develop and deliver increments of potentially shippable product functionality."
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 673,
-    "question": "What is the role of the \"Chief Programmer\" in Feature-Driven Development (FDD)?",
-    "options": [
-      "To prioritize and manage the product backlog.",
-      "To oversee the overall design and architecture of the software.",
-      "To lead the development team and ensure quality standards.",
-      "To facilitate communication and resolve issues within the team."
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 674,
-    "question": "What is the purpose of the \"Feature-Driven Design\" practice in Feature-Driven Development (FDD)?",
-    "options": [
-      "To define the architecture and design of individual features.",
-      "To create detailed technical specifications for the entire system.",
-      "To review and refine the software requirements iteratively.",
-      "To prioritize and manage the features to be developed."
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 675,
-    "question": "In Feature-Driven Development (FDD), what is the significance of the \"Domain Expert\" role?",
-    "options": [
-      "To manage project schedules and budgets.",
-      "To provide expertise on the business domain and requirements.",
-      "To develop and deliver increments of potentially shippable product functionality.",
-      "To facilitate communication and resolve issues within the team."
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 676,
-    "question": "What is the purpose of the \"Product Increment\" in Scrum methodology?",
-    "options": [
-      "To demonstrate the completed work to stakeholders and gather feedback.",
-      "To prioritize and manage the features to be developed.",
-      "To define the user interface and aesthetics of the software.",
-      "To plan and prioritize tasks for the upcoming sprint."
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 677,
-    "question": "What is the primary focus of user-centered design (UCD) in software engineering?",
-    "options": [
-      "Optimizing code efficiency",
-      "Prioritizing stakeholder preferences",
-      "Placing the user at the center of the design process",
-      "Maximizing software features"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 678,
-    "question": "Which of the following is a key principle of user-centered design?",
-    "options": [
-      "Rapid development cycles",
-      "Iterative design and evaluation",
-      "Strict adherence to technical specifications",
-      "Minimal user involvement"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 679,
-    "question": "In user-centered design, what is the purpose of personas?",
-    "options": [
-      "To document technical requirements",
-      "To represent different user groups and their characteristics",
-      "To define software architecture",
-      "To conduct usability testing"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 680,
-    "question": "What is the primary goal of usability testing in software development?",
-    "options": [
-      "To ensure code functionality",
-      "To validate software architecture",
-      "To assess the ease of use and effectiveness of the software from the user's perspective",
-      "To identify security vulnerabilities"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 681,
-    "question": "Which usability testing method involves observing users as they interact with the software in a controlled environment?",
-    "options": [
-      "Heuristic evaluation",
-      "Cognitive walkthrough",
-      "Contextual inquiry",
-      "User testing"
-    ],
-    "answer": 3
-  },
-  {
-    "Id": 682,
-    "question": "What is the purpose of usability metrics in usability testing?",
-    "options": [
-      "To measure code complexity",
-      "To quantify user satisfaction and performance",
-      "To assess software scalability",
-      "To determine hardware requirements"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 683,
-    "question": "What is the goal of user experience (UX) design?",
-    "options": [
-      "Maximizing software features",
-      "Creating visually appealing interfaces",
-      "Enhancing user satisfaction and usability",
-      "Optimizing code efficiency"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 684,
-    "question": "Which of the following is a key consideration in UX design?",
-    "options": [
-      "Technical feasibility",
-      "Minimizing user involvement",
-      "Prioritizing stakeholder preferences",
-      "Understanding user needs and behaviors"
-    ],
-    "answer": 3
-  },
-  {
-    "Id": 685,
-    "question": "What role does prototyping play in UX design?",
-    "options": [
-      "Documenting technical specifications",
-      "Testing software performance",
-      "Validating design concepts and gathering feedback from users",
-      "Implementing final software features"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 686,
-    "question": "What is the aim of accessibility engineering in software development?",
-    "options": [
-      "Prioritizing technical excellence",
-      "Ensuring software compatibility with multiple platforms",
-      "Enhancing the user experience for individuals with disabilities",
-      "Maximizing software performance"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 687,
-    "question": "Which of the following is an example of an accessibility feature in software?",
-    "options": [
-      "Colorblind-friendly interface options",
-      "Advanced graphical effects",
-      "Complex navigation menus",
-      "High-speed data processing"
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 688,
-    "question": "What role does compliance with accessibility standards play in software development?",
-    "options": [
-      "Ensuring regulatory compliance",
-      "Reducing development costs",
-      "Increasing software complexity",
-      "Enhancing visual aesthetics"
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 689,
-    "question": "What are human factors in software development?",
-    "options": [
-      "Technical specifications",
-      "Psychological, social, and biological aspects that influence human-computer interaction",
-      "Software architecture",
-      "Hardware requirements"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 690,
-    "question": "How do human factors contribute to software design?",
-    "options": [
-      "By prioritizing stakeholder preferences",
-      "By enhancing software scalability",
-      "By considering human capabilities and limitations in the design process",
-      "By focusing solely on technical specifications"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 691,
-    "question": "Which of the following is an example of a human factor affecting software usability?",
-    "options": [
-      "Software complexity",
-      "Code efficiency",
-      "Technical documentation",
-      "User cognitive load"
-    ],
-    "answer": 3
-  },
-  {
-    "Id": 692,
-    "question": "What is the purpose of conducting user research in user-centered design (UCD)?",
-    "options": [
-      "To prioritize technical specifications",
-      "To gather insights into user needs, behaviors, and preferences",
-      "To document software architecture",
-      "To develop prototypes"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 693,
-    "question": "In user-centered design, what is the purpose of usability testing?",
-    "options": [
-      "To gather user requirements",
-      "To assess the effectiveness and efficiency of the software interface",
-      "To document software architecture",
-      "To prioritize features"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 694,
-    "question": "Which usability testing method involves observing users as they interact with the software in their natural environment?",
-    "options": [
-      "Heuristic evaluation",
-      "Cognitive walkthrough",
-      "Contextual inquiry",
-      "User testing"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 695,
-    "question": "What is the primary goal of user experience (UX) design?",
-    "options": [
-      "Maximizing software features",
-      "Creating visually appealing interfaces",
-      "Enhancing user satisfaction and usability",
-      "Optimizing code efficiency"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 696,
-    "question": "What is the primary goal of conducting user research in user-centered design (UCD)?",
-    "options": [
-      "To gather insights into user needs, behaviors, and preferences",
-      "To prioritize technical specifications",
-      "To document software architecture",
-      "To develop prototypes"
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 697,
-    "question": "What is the primary goal of user research in user-centered design (UCD)?",
-    "options": [
-      "To prioritize technical specifications",
-      "To gather insights into user needs, behaviors, and preferences",
-      "To document software architecture",
-      "To develop prototypes"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 698,
-    "question": "What is the primary objective of user-centered design (UCD) in software engineering?",
-    "options": [
-      "Maximizing technical efficiency",
-      "Prioritizing stakeholder preferences",
-      "Placing the user at the center of the design process",
-      "Implementing cutting-edge technologies"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 699,
-    "question": "Which of the following best describes iterative design and evaluation in user-centered design?",
-    "options": [
-      "Designing software without user feedback",
-      "Continuous refinement based on user feedback and testing",
-      "Implementing all features at once",
-      "Relying solely on the designer's intuition"
-    ],
-    "answer": 1
-  },
-  {
-    "Id": 700,
-    "question": "Which usability testing method involves observing users as they perform specific tasks in a controlled environment?",
-    "options": [
-      "Contextual inquiry",
-      "Heuristic evaluation",
-      "User testing",
-      "Cognitive walkthrough"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 701,
-    "question": "What role do usability metrics play in usability testing?",
-    "options": [
-      "To measure the number of software features",
-      "To determine hardware requirements",
-      "To quantify user satisfaction and performance",
-      "To evaluate the programming languages used"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 702,
-    "question": "How does prototyping contribute to the UX design process?",
-    "options": [
-      "By documenting technical specifications",
-      "By finalizing software features",
-      "By validating design concepts and gathering feedback from users",
-      "By prioritizing stakeholder preferences"
-    ],
-    "answer": 2
-  },
-  {
-    "Id": 703,
-    "question": "Why is compliance with accessibility standards important in software development?",
-    "options": [
-      "To ensure regulatory compliance",
-      "To increase software complexity",
-      "To reduce development costs",
-      "To improve software aesthetics"
-    ],
-    "answer": 0
-  },
-  {
-    "Id": 704,
-    "question": "What is the primary goal of user-centered design (UCD) in software engineering?",
-    "options": [
-      "Maximizing technical complexity",
-      "Prioritizing stakeholder interests",
-      "Placing the user at the center of the design process",
-      "Accelerating development timelines"
-    ],
-    "answer": 2
-  }
+    {
+      "Id": 521,
+      "question": "Which technology is commonly used for implementing web services in service-oriented architecture?",
+      "options": [
+        "SOAP",
+        "JSON",
+        "XML",
+        "HTML"
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 522,
+      "question": "What is the primary advantage of adopting service-oriented architecture?",
+      "options": [
+        "Increased complexity",
+        "Reduced scalability",
+        "Improved interoperability and flexibility",
+        "Lower reusability"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 523,
+      "question": "What is a key benefit of using microservices architecture?",
+      "options": [
+        "Reduced development overhead",
+        "Tight coupling between services",
+        "Increased complexity",
+        "Improved fault isolation and resilience"
+      ],
+      "answer": 3
+    },
+    {
+      "Id": 524,
+      "question": "What does it mean for an application to be \"cloud-native\"?",
+      "options": [
+        "It can only run on traditional on-premises servers.",
+        "It is optimized for deployment on cloud platforms and leverages cloud services.",
+        "It relies solely on physical hardware for operation.",
+        "It is not designed to scale automatically based on demand."
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 525,
+      "question": "Which of the following is a characteristic of cloud-native applications?",
+      "options": [
+        "They are tightly coupled and monolithic.",
+        "They have limited scalability and cannot handle varying loads.",
+        "They leverage containerization and microservices architecture.",
+        "They rely on manual deployment and management processes."
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 526,
+      "question": "What is the primary advantage of adopting a cloud-native architecture?",
+      "options": [
+        "Increased infrastructure costs",
+        "Reduced scalability and flexibility",
+        "Improved resilience and fault tolerance",
+        "Lower security and data protection"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 527,
+      "question": "Which cloud computing service model provides fully managed software applications to users over the internet?",
+      "options": [
+        "Infrastructure as a Service (IaaS)",
+        "Platform as a Service (PaaS)",
+        "Software as a Service (SaaS)",
+        "Function as a Service (FaaS)"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 528,
+      "question": "What does \"elasticity\" refer to in the context of cloud-native architectures?",
+      "options": [
+        "The ability of an application to run on any cloud provider's infrastructure.",
+        "The ability of an application to automatically scale resources up or down based on demand.",
+        "The ability of an application to integrate with multiple cloud services seamlessly.",
+        "The ability of an application to maintain consistent performance under varying loads."
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 529,
+      "question": "What is the key principle of \"resilience\" in cloud-native architecture?",
+      "options": [
+        "Avoiding the use of cloud services to minimize dependencies.",
+        "Designing applications to recover quickly from failures and disruptions.",
+        "Using a single cloud provider to ensure consistency.",
+        "Deploying applications manually to ensure control over the environment."
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 530,
+      "question": "Which of the following is a characteristic of cloud-native applications regarding data storage?",
+      "options": [
+        "Reliance on a single monolithic database for all data storage needs.",
+        "Use of distributed and scalable data storage solutions.",
+        "Storing all data locally on each application instance.",
+        "Limited data redundancy and backup mechanisms."
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 531,
+      "question": "What is the primary goal of using containerization in cloud-native architectures?",
+      "options": [
+        "To increase application complexity and dependencies.",
+        "To ensure applications can only run on specific cloud platforms.",
+        "To package applications and their dependencies into portable and consistent units.",
+        "To eliminate the need for microservices architecture."
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 532,
+      "question": "Which of the following best describes \"scalability\" in the context of cloud-native architectures?",
+      "options": [
+        "The ability of an application to maintain consistent performance under varying loads.",
+        "The use of cloud-native services to reduce the size of an application.",
+        "The ability of an application to run on any cloud provider's infrastructure.",
+        "The process of manually adjusting the number of application instances based on demand."
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 533,
+      "question": "What is a common approach to achieving \"observability\" in cloud-native architectures?",
+      "options": [
+        "Avoiding logging and monitoring to minimize overhead.",
+        "Relying solely on manual testing and debugging.",
+        "Implementing logging, monitoring, and tracing mechanisms.",
+        "Using a single cloud provider to centralize observability tools."
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 534,
+      "question": "What does \"immutable infrastructure\" refer to in cloud-native architecture?",
+      "options": [
+        "Infrastructure that cannot be changed or updated after deployment.",
+        "Infrastructure that is manually configured and maintained.",
+        "Infrastructure that is treated as disposable and replaced rather than modified.",
+        "Infrastructure that relies on a single cloud provider for all resources."
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 535,
+      "question": "Which of the following is a key benefit of using serverless computing in cloud-native architectures?",
+      "options": [
+        "Reduced security and data protection.",
+        "Elimination of all infrastructure management responsibilities.",
+        "Dependency on a single monolithic server for application hosting.",
+        "Increased complexity in application deployment and management."
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 536,
+      "question": "What is the primary goal of implementing \"continuous deployment\" in cloud-native architectures?",
+      "options": [
+        "To manually deploy applications in controlled environments.",
+        "To automate the process of releasing application updates frequently and reliably.",
+        "To limit the frequency of application updates to reduce risk.",
+        "To rely solely on manual testing and deployment processes."
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 537,
+      "question": "Which cloud-native concept emphasizes the ability to automatically provision and configure infrastructure resources using code?",
+      "options": [
+        "Infrastructure as Code (IaC).",
+        "Immutable Infrastructure.",
+        "Continuous Integration (CI).",
+        "Serverless Computing."
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 538,
+      "question": "What is a common strategy for achieving \"high availability\" in cloud-native architectures?",
+      "options": [
+        "Deploying applications on a single server instance.",
+        "Relying on manual failover processes during outages.",
+        "Implementing redundancy and load balancing across multiple servers or regions.",
+        "Limiting application scalability to conserve resources."
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 539,
+      "question": "What is the role of \"auto-scaling\" in cloud-native architectures?",
+      "options": [
+        "To manually adjust the number of instances based on traffic patterns.",
+        "To automate the process of scaling resources up or down based on demand.",
+        "To limit the number of users accessing the application concurrently.",
+        "To eliminate the need for redundancy and fault tolerance measures."
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 540,
+      "question": "Which cloud-native concept emphasizes the ability to deploy and manage applications without worrying about underlying infrastructure?",
+      "options": [
+        "Infrastructure as Code (IaC).",
+        "Serverless Computing.",
+        "Immutable Infrastructure.",
+        "Continuous Deployment."
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 541,
+      "question": "What is the primary advantage of using \"microservices\" in cloud-native architectures?",
+      "options": [
+        "Increased complexity and tight coupling between components.",
+        "Reduced scalability and fault tolerance.",
+        "Improved modularity and flexibility in application development.",
+        "Dependency on a single monolithic application."
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 542,
+      "question": "Which cloud-native practice involves breaking down large applications into smaller, independently deployable units?",
+      "options": [
+        "Infrastructure as Code (IaC).",
+        "Continuous Integration (CI).",
+        "Microservices Architecture.",
+        "Immutable Infrastructure."
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 543,
+      "question": "What is the primary goal of \"observability\" in cloud-native architectures?",
+      "options": [
+        "To limit access to application logs and monitoring data.",
+        "To rely solely on manual debugging processes.",
+        "To gain insights into application behavior and performance.",
+        "To eliminate logging and monitoring overhead."
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 544,
+      "question": "What is the primary goal of \"containerization\" in cloud-native architectures?",
+      "options": [
+        "To limit the scalability of applications.",
+        "To isolate applications from the underlying infrastructure.",
+        "To eliminate the need for microservices architecture.",
+        "To increase the complexity of deployment processes."
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 545,
+      "question": "Which cloud-native concept emphasizes the ability to deploy applications in a consistent and reproducible manner across different environments?",
+      "options": [
+        "Immutable Infrastructure.",
+        "Infrastructure as Code (IaC).",
+        "Continuous Deployment.",
+        "Container Orchestration."
+      ],
+      "answer": 3
+    },
+    {
+      "Id": 546,
+      "question": "What is the role of \"load balancing\" in cloud-native architectures?",
+      "options": [
+        "To limit the number of users accessing the application.",
+        "To evenly distribute incoming network traffic across multiple servers.",
+        "To manually adjust the number of instances based on traffic patterns.",
+        "To eliminate the need for redundancy and fault tolerance measures."
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 547,
+      "question": "Which cloud-native practice involves automatically provisioning and configuring infrastructure resources using code?",
+      "options": [
+        "Immutable Infrastructure.",
+        "Continuous Integration (CI).",
+        "Infrastructure as Code (IaC).",
+        "Serverless Computing."
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 548,
+      "question": "What is a common approach to achieving \"fault tolerance\" in cloud-native architectures?",
+      "options": [
+        "Relying on a single monolithic server for application hosting.",
+        "Limiting redundancy and backup mechanisms to conserve resources.",
+        "Implementing distributed systems and redundancy across multiple regions.",
+        "Manually adjusting the number of instances based on traffic patterns."
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 549,
+      "question": "What is the primary advantage of using \"serverless computing\" in cloud-native architectures?",
+      "options": [
+        "Increased control over underlying infrastructure.",
+        "Reduced scalability and flexibility.",
+        "Elimination of infrastructure management responsibilities.",
+        "Dependency on a single monolithic server for application hosting."
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 550,
+      "question": "Which cloud-native concept emphasizes the ability to deploy applications as small, self-contained units that can be scaled independently?",
+      "options": [
+        "Microservices Architecture.",
+        "Immutable Infrastructure.",
+        "Infrastructure as Code (IaC).",
+        "Continuous Deployment."
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 551,
+      "question": "Which cloud-native practice involves treating infrastructure as code and managing it through version control systems?",
+      "options": [
+        "Immutable Infrastructure.",
+        "Infrastructure as Code (IaC).",
+        "Continuous Integration (CI).",
+        "Container Orchestration."
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 552,
+      "question": "What type of security attack involves an attacker intercepting and modifying communication between two parties without their knowledge?",
+      "options": [
+        "Phishing",
+        "Man-in-the-Middle (MitM) attack",
+        "SQL Injection",
+        "Denial of Service (DoS) attack"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 553,
+      "question": "Which of the following is a characteristic of a Distributed Denial of Service (DDoS) attack?",
+      "options": [
+        "It typically targets a single user or device.",
+        "It originates from a single source.",
+        "It involves multiple compromised systems flooding a target with traffic.",
+        "It aims to steal sensitive information from a database."
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 554,
+      "question": "What type of security threat involves tricking individuals into providing sensitive information by pretending to be a trustworthy entity?",
+      "options": [
+        "Spoofing",
+        "Phishing",
+        "Ransomware",
+        "Cross-Site Scripting (XSS)"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 555,
+      "question": "Which of the following is a form of social engineering attack?",
+      "options": [
+        "SQL Injection",
+        "Cross-Site Scripting (XSS)",
+        "Brute Force Attack",
+        "Tailgating"
+      ],
+      "answer": 3
+    },
+    {
+      "Id": 556,
+      "question": "What is the primary goal of a \"ransomware\" attack?",
+      "options": [
+        "To gain unauthorized access to a system.",
+        "To disrupt the availability of a system or data until a ransom is paid.",
+        "To steal sensitive information from a system.",
+        "To intercept and modify communication between two parties."
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 557,
+      "question": "What is the first step in the security requirements engineering process?",
+      "options": [
+        "Identifying security threats and vulnerabilities",
+        "Developing security controls and countermeasures",
+        "Defining security requirements based on organizational needs",
+        "Evaluating the effectiveness of security measures"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 558,
+      "question": "What is the purpose of conducting a threat modeling exercise during security requirements engineering?",
+      "options": [
+        "To identify potential security threats and vulnerabilities in a system",
+        "To implement security controls and countermeasures",
+        "To develop encryption techniques for data protection",
+        "To assess the effectiveness of security measures"
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 559,
+      "question": "Which security requirement ensures that users are granted appropriate access levels based on their roles and responsibilities?",
+      "options": [
+        "Authentication",
+        "Authorization",
+        "Encryption",
+        "Data Integrity"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 560,
+      "question": "In the context of security requirements engineering, what does \"non-repudiation\" refer to?",
+      "options": [
+        "Ensuring that only authorized users can access resources",
+        "Preventing unauthorized modification of data during transmission",
+        "Verifying the integrity and authenticity of data",
+        "Ensuring that actions or transactions cannot be denied by the parties involved"
+      ],
+      "answer": 3
+    },
+    {
+      "Id": 561,
+      "question": "Which of the following is a key consideration when defining security requirements for a system?",
+      "options": [
+        "Maximizing system performance at the expense of security",
+        "Minimizing the impact of security measures on user experience",
+        "Ignoring potential security threats to expedite development",
+        "Implementing security controls without considering organizational needs"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 562,
+      "question": "Which coding practice helps prevent SQL Injection attacks?",
+      "options": [
+        "Using weak encryption algorithms",
+        "Implementing parameterized queries",
+        "Storing passwords in plaintext",
+        "Disabling input validation"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 563,
+      "question": "What is the purpose of input validation in secure coding practices?",
+      "options": [
+        "To ensure that all input data is accepted without validation",
+        "To prevent injection attacks and other security vulnerabilities",
+        "To expose sensitive information to potential attackers",
+        "To decrease system performance by slowing down input processing"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 564,
+      "question": "Which of the following is a common security vulnerability addressed by secure coding practices?",
+      "options": [
+        "Buffer Overflow",
+        "Authentication Failure",
+        "Cross-Site Scripting (XSS)",
+        "Data Encryption"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 565,
+      "question": "What is the principle of least privilege in secure coding practices?",
+      "options": [
+        "Allowing users to access any resource within the system",
+        "Limiting user access rights to only those necessary for their role",
+        "Sharing sensitive information with unauthorized users",
+        "Providing unlimited privileges to all users by default"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 566,
+      "question": "Which of the following is a best practice for secure password storage?",
+      "options": [
+        "Storing passwords in plaintext",
+        "Using weak encryption algorithms",
+        "Implementing salting and hashing techniques",
+        "Sharing passwords openly within the organization"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 567,
+      "question": "Which of the following is an example of multi-factor authentication?",
+      "options": [
+        "Using only a password for authentication",
+        "Providing a fingerprint scan in addition to a password",
+        "Sharing login credentials with another user",
+        "Accessing a system without any authentication"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 568,
+      "question": "What is the primary purpose of authentication in a software system?",
+      "options": [
+        "To grant appropriate access levels based on user roles",
+        "To ensure data integrity during transmission",
+        "To verify the identity of users or entities",
+        "To prevent unauthorized modification of data"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 569,
+      "question": "Which authentication protocol provides a secure method for transmitting authentication credentials over a network?",
+      "options": [
+        "HTTP",
+        "Telnet",
+        "LDAP",
+        "HTTPS"
+      ],
+      "answer": 3
+    },
+    {
+      "Id": 570,
+      "question": "What does Role-Based Access Control (RBAC) determine?",
+      "options": [
+        "The authenticity of users based on their credentials",
+        "The availability of system resources based on user roles",
+        "The confidentiality of data during transmission",
+        "The integrity of data stored in the system"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 571,
+      "question": "What is the purpose of access control lists (ACLs) in the context of authorization?",
+      "options": [
+        "To encrypt sensitive data during transmission",
+        "To restrict access to specific resources based on user permissions",
+        "To verify the identity of users during authentication",
+        "To prevent SQL injection attacks"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 572,
+      "question": "Which encryption technique uses a single key for both encryption and decryption?",
+      "options": [
+        "Asymmetric Encryption",
+        "Symmetric Encryption",
+        "Public Key Infrastructure (PKI)",
+        "Digital Signature"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 573,
+      "question": "What is the primary advantage of asymmetric encryption over symmetric encryption?",
+      "options": [
+        "Faster encryption and decryption processes",
+        "Easier key management and distribution",
+        "Stronger security due to the use of separate keys for encryption and decryption",
+        "Less computational overhead"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 574,
+      "question": "Which encryption algorithm is commonly used for securing internet communications, such as web browsing?",
+      "options": [
+        "DES (Data Encryption Standard)",
+        "RSA (Rivest-Shamir-Adleman)",
+        "AES (Advanced Encryption Standard)",
+        "MD5 (Message Digest Algorithm 5)"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 575,
+      "question": "What does Public Key Infrastructure (PKI) provide in terms of encryption?",
+      "options": [
+        "It ensures the confidentiality of data during transmission.",
+        "It verifies the integrity and authenticity of digital documents.",
+        "It facilitates secure communication between parties using asymmetric encryption.",
+        "It prevents unauthorized access to sensitive information."
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 576,
+      "question": "Which of the following is a common application of encryption in software security?",
+      "options": [
+        "Preventing phishing attacks",
+        "Securing communication channels",
+        "Detecting SQL injection vulnerabilities",
+        "Preventing buffer overflow attacks"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 577,
+      "question": "What is the purpose of penetration testing in security testing?",
+      "options": [
+        "To ensure that only authorized users can access resources",
+        "To identify security vulnerabilities by simulating real-world attacks",
+        "To verify the integrity and authenticity of data",
+        "To implement encryption techniques for data protection"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 578,
+      "question": "Which security testing technique involves analyzing source code to identify potential vulnerabilities?",
+      "options": [
+        "Black Box Testing",
+        "White Box Testing",
+        "Gray Box Testing",
+        "Fuzz Testing"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 579,
+      "question": "What is the primary goal of security code review during the software development lifecycle?",
+      "options": [
+        "To ensure compliance with coding standards",
+        "To identify and fix security vulnerabilities in the source code",
+        "To verify the functionality of the software application",
+        "To test the application's performance under different conditions"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 580,
+      "question": "Which security testing technique involves simulating abnormal or unexpected inputs to a system?",
+      "options": [
+        "Black Box Testing",
+        "White Box Testing",
+        "Gray Box Testing",
+        "Fuzz Testing"
+      ],
+      "answer": 3
+    },
+    {
+      "Id": 581,
+      "question": "What is the primary goal of security regression testing?",
+      "options": [
+        "To verify the functionality of the software application",
+        "To identify security vulnerabilities introduced by code changes",
+        "To test the application's performance under different conditions",
+        "To ensure compliance with coding standards"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 582,
+      "question": "What type of security attack aims to overload a system's resources, making it unavailable to users?",
+      "options": [
+        "Phishing",
+        "Denial of Service (DoS) attack",
+        "Man-in-the-Middle (MitM) attack",
+        "Ransomware attack"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 583,
+      "question": "Which security threat involves an attacker exploiting a vulnerability in a web application to execute malicious scripts in a user's browser?",
+      "options": [
+        "Phishing",
+        "Cross-Site Scripting (XSS)",
+        "SQL Injection",
+        "Spoofing"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 584,
+      "question": "What is the primary goal of a distributed denial of service (DDoS) attack?",
+      "options": [
+        "To steal sensitive information from a system",
+        "To intercept and modify communication between two parties",
+        "To disrupt the availability of a system or network",
+        "To trick users into providing their credentials"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 585,
+      "question": "Which security attack involves an attacker gaining unauthorized access to a network by pretending to be a legitimate user?",
+      "options": [
+        "Brute force attack",
+        "Spoofing attack",
+        "Phishing attack",
+        "Ransomware attack"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 586,
+      "question": "What is the primary goal of a ransomware attack?",
+      "options": [
+        "To gain unauthorized access to a system or network",
+        "To disrupt the availability of a system or data until a ransom is paid",
+        "To intercept and modify communication between two parties",
+        "To trick users into providing sensitive information"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 587,
+      "question": "Which step in the security requirements engineering process involves identifying potential threats and vulnerabilities in a system?",
+      "options": [
+        "Defining security requirements",
+        "Threat modeling",
+        "Implementing security controls",
+        "Conducting security testing"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 588,
+      "question": "What is the purpose of defining security requirements during the software development lifecycle?",
+      "options": [
+        "To ensure compliance with coding standards",
+        "To identify potential security threats and vulnerabilities",
+        "To test the application's performance under different conditions",
+        "To verify the functionality of the software application"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 589,
+      "question": "Which security requirement ensures that users can only access resources and perform actions appropriate for their roles?",
+      "options": [
+        "Authentication",
+        "Authorization",
+        "Data integrity",
+        "Encryption"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 590,
+      "question": "What does \"non-repudiation\" ensure in the context of security requirements?",
+      "options": [
+        "Only authorized users can access resources",
+        "Preventing unauthorized modification of data",
+        "Actions or transactions cannot be denied by the parties involved",
+        "Verifying the integrity and authenticity of data"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 591,
+      "question": "In security requirements engineering, what does \"confidentiality\" refer to?",
+      "options": [
+        "Ensuring that data is accurate and reliable",
+        "Ensuring that data is accessible only to authorized users",
+        "Verifying the integrity of data during transmission",
+        "Protecting data from unauthorized modification"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 592,
+      "question": "Which secure coding practice helps prevent SQL injection attacks?",
+      "options": [
+        "Using weak encryption algorithms",
+        "Implementing parameterized queries",
+        "Storing passwords in plaintext",
+        "Disabling input validation"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 593,
+      "question": "What is a best practice for secure password storage?",
+      "options": [
+        "Storing passwords in plaintext",
+        "Using weak encryption algorithms",
+        "Implementing salting and hashing techniques",
+        "Sharing passwords openly within the organization"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 594,
+      "question": "Which authentication factor is based on something the user knows?",
+      "options": [
+        "Something you have",
+        "Something you are",
+        "Something you know",
+        "Something you do"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 595,
+      "question": "What type of security attack involves an attacker sending emails with malicious attachments or links to trick recipients into revealing sensitive information?",
+      "options": [
+        "Denial of Service (DoS) attack",
+        "Man-in-the-Middle (MitM) attack",
+        "Phishing attack",
+        "Ransomware attack"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 596,
+      "question": "Which security threat involves an attacker exploiting a weakness in a software application to gain unauthorized access to a system or data?",
+      "options": [
+        "SQL Injection",
+        "Cross-Site Scripting (XSS)",
+        "Spoofing",
+        "Tailgating"
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 597,
+      "question": "What is the primary goal of a brute force attack?",
+      "options": [
+        "To trick users into providing their credentials",
+        "To disrupt the availability of a system or network",
+        "To gain unauthorized access to a system by trying different combinations of passwords",
+        "To intercept and modify communication between two parties"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 598,
+      "question": "Which security attack involves an attacker intercepting communication between two parties and altering the data exchanged between them?",
+      "options": [
+        "Denial of Service (DoS) attack",
+        "Man-in-the-Middle (MitM) attack",
+        "Phishing attack",
+        "Ransomware attack"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 599,
+      "question": "Which security requirement ensures that data remains accurate and consistent over its entire lifecycle?",
+      "options": [
+        "Authentication",
+        "Authorization",
+        "Data integrity",
+        "Encryption"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 600,
+      "question": "Which security threat involves an attacker masquerading as a trusted entity to gain unauthorized access to sensitive information?",
+      "options": [
+        "Phishing attack",
+        "DDoS attack",
+        "Spoofing attack",
+        "Brute force attack"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 601,
+      "question": "Which type of security attack involves overwhelming a network's resources by flooding it with an excessive amount of traffic?",
+      "options": [
+        "Phishing attack",
+        "Man-in-the-Middle (MitM) attack",
+        "Distributed Denial-of-Service (DDoS) attack",
+        "SQL injection attack"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 602,
+      "question": "Which type of security attack involves injecting malicious scripts into a web application, which are then executed on users' browsers?",
+      "options": [
+        "Phishing attack",
+        "Cross-Site Scripting (XSS) attack",
+        "SQL injection attack",
+        "Spoofing attack"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 603,
+      "question": "What is the main focus of Lean Software Development?",
+      "options": [
+        "Maximizing productivity through extensive documentation",
+        "Minimizing waste and improving efficiency",
+        "Emphasizing rigid processes and procedures",
+        "Prioritizing detailed planning over execution"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 604,
+      "question": "In the context of Lean Software Development, what does the term 'Muda' refer to?",
+      "options": [
+        "A comprehensive documentation process",
+        "Any activity that consumes resources without adding value",
+        "A rapid prototyping technique",
+        "A team collaboration tool"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 605,
+      "question": "Which Lean Software Development principle advocates for delaying decisions until the last responsible moment?",
+      "options": [
+        "Amplify Learning",
+        "Decide as Late as Possible",
+        "Deliver as Fast as Possible",
+        "Empower the Team"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 606,
+      "question": "What is the primary goal of reducing batch size in Lean Software Development?",
+      "options": [
+        "To increase the number of features developed simultaneously",
+        "To reduce the time and resources needed to complete each task",
+        "To reduce the frequency of customer feedback",
+        "To maximize the efficiency of documentation processes"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 607,
+      "question": "What is the primary characteristic of Rapid Application Development (RAD)?",
+      "options": [
+        "Extensive upfront planning and design",
+        "Iterative development with minimal planning",
+        "Sequential development phases with strict control",
+        "Emphasis on comprehensive documentation"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 608,
+      "question": "Which of the following is a key advantage of Rapid Application Development (RAD)?",
+      "options": [
+        "High predictability in project timelines",
+        "Lower development costs due to reduced iteration",
+        "Minimal stakeholder involvement throughout the process",
+        "Greater emphasis on comprehensive documentation"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 609,
+      "question": "In Rapid Application Development (RAD), what is the purpose of prototyping?",
+      "options": [
+        "To produce a final, polished version of the software",
+        "To gather feedback and refine requirements iteratively",
+        "To document all aspects of the software design",
+        "To automate the testing process"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 610,
+      "question": "Which factor is essential for the success of Rapid Application Development (RAD)?",
+      "options": [
+        "Detailed and comprehensive project documentation",
+        "Extensive upfront analysis and planning",
+        "Strong collaboration and communication among team members",
+        "Sequential execution of development phases"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 611,
+      "question": "What is a core practice of Extreme Programming (XP)?",
+      "options": [
+        "Big Design Up Front (BDUF)",
+        "Continuous Integration (CI)",
+        "Minimal customer involvement",
+        "Complete reliance on individual developers"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 612,
+      "question": "In Extreme Programming (XP), what is the purpose of Test-Driven Development (TDD)?",
+      "options": [
+        "To minimize customer feedback",
+        "To write tests after implementing the code",
+        "To ensure that code meets requirements through automated testing",
+        "To skip the testing phase entirely"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 613,
+      "question": "Which of the following is a key principle of Extreme Programming (XP)?",
+      "options": [
+        "Comprehensive upfront planning and documentation",
+        "Emphasis on individual work over collaboration",
+        "Adaptability to changing requirements through continuous feedback",
+        "Rigid adherence to a predetermined project plan"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 614,
+      "question": "What is the primary role of the customer in Extreme Programming (XP)?",
+      "options": [
+        "To provide feedback and prioritize features",
+        "To write code and perform testing",
+        "To create comprehensive documentation",
+        "To manage the project schedule and budget"
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 615,
+      "question": "What is the main focus of Feature-Driven Development (FDD)?",
+      "options": [
+        "Comprehensive upfront planning and documentation",
+        "Iterative development with minimal planning",
+        "Prioritizing features and delivering them incrementally",
+        "Continuous integration and automated testing"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 616,
+      "question": "In Feature-Driven Development (FDD), what is a 'feature'?",
+      "options": [
+        "A detailed technical requirement",
+        "A user interface component",
+        "A small, client-valued piece of functionality",
+        "A stage in the development lifecycle"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 617,
+      "question": "Which of the following is a key advantage of Feature-Driven Development (FDD)?",
+      "options": [
+        "Rigidity in responding to changing requirements",
+        "Minimal stakeholder involvement throughout the process",
+        "Emphasis on extensive upfront planning",
+        "Ability to prioritize and deliver features incrementally"
+      ],
+      "answer": 3
+    },
+    {
+      "Id": 618,
+      "question": "What is the role of the Chief Programmer in Feature-Driven Development (FDD)?",
+      "options": [
+        "To manage project schedules and budgets",
+        "To write code and perform testing",
+        "To facilitate communication among team members",
+        "To oversee the overall design and development process"
+      ],
+      "answer": 3
+    },
+    {
+      "Id": 619,
+      "question": "What is the primary objective of the Scrum Methodology?",
+      "options": [
+        "Extensive upfront planning and documentation",
+        "Continuous delivery of working software",
+        "Sequential execution of development phases",
+        "Rigid adherence to predefined project requirements"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 620,
+      "question": "What is the duration of a typical Scrum Sprint?",
+      "options": [
+        "1 week",
+        "1 month",
+        "3 months",
+        "It varies based on the project needs"
+      ],
+      "answer": 3
+    },
+    {
+      "Id": 621,
+      "question": "What is the primary responsibility of the Scrum Master?",
+      "options": [
+        "Writing code and performing testing",
+        "Managing the project schedule and budget",
+        "Facilitating the Scrum process and removing obstacles",
+        "Prioritizing features and defining requirements"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 622,
+      "question": "In Scrum, what is the purpose of the Daily Standup Meeting?",
+      "options": [
+        "To discuss detailed technical requirements",
+        "To provide progress updates and identify any obstacles",
+        "To review and prioritize user stories",
+        "To finalize the project schedule and budget"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 623,
+      "question": "What is one of the primary goals of Lean Software Development?",
+      "options": [
+        "Maximizing resource utilization",
+        "Eliminating all types of waste",
+        "Strict adherence to detailed plans",
+        "Extensive documentation at every stage"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 624,
+      "question": "Which principle of Lean Software Development emphasizes the importance of empowering teams to make decisions?",
+      "options": [
+        "Amplify Learning",
+        "Decide as Late as Possible",
+        "Build Integrity In",
+        "Empower the Team"
+      ],
+      "answer": 3
+    },
+    {
+      "Id": 625,
+      "question": "What does the principle 'Build Integrity In' signify in Lean Software Development?",
+      "options": [
+        "Emphasizing the importance of honesty and transparency",
+        "Focusing on ensuring that software components work well together",
+        "Prioritizing building trust between team members",
+        "Maximizing the efficiency of the software development process"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 626,
+      "question": "In Lean Software Development, what is the significance of 'Fast Feedback'?",
+      "options": [
+        "It helps in quickly identifying and rectifying errors.",
+        "It ensures that the development process is completed quickly.",
+        "It allows team members to work at a fast pace without breaks.",
+        "It prioritizes speed over quality in delivering software."
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 627,
+      "question": "What is the main advantage of Rapid Application Development (RAD)?",
+      "options": [
+        "Comprehensive upfront planning",
+        "Iterative development with minimal customer involvement",
+        "High predictability in project timelines",
+        "Quick delivery of working software with frequent feedback"
+      ],
+      "answer": 3
+    },
+    {
+      "Id": 628,
+      "question": "Which phase in Rapid Application Development (RAD) focuses on building prototypes?",
+      "options": [
+        "Requirements Planning",
+        "User Design",
+        "Construction",
+        "Cutover"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 629,
+      "question": "What is the role of the RAD team leader?",
+      "options": [
+        "Writing code and developing prototypes",
+        "Managing project schedules and budgets",
+        "Facilitating communication and resolving issues",
+        "Gathering and documenting requirements"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 630,
+      "question": "What is the primary objective of Extreme Programming (XP)?",
+      "options": [
+        "Following a sequential development process",
+        "Maximizing upfront planning and documentation",
+        "Delivering high-quality software incrementally and rapidly",
+        "Minimizing customer involvement in the development process"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 631,
+      "question": "Which practice in Extreme Programming (XP) involves writing tests before writing code?",
+      "options": [
+        "Test-Driven Development (TDD)",
+        "Pair Programming",
+        "Continuous Integration",
+        "Collective Code Ownership"
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 632,
+      "question": "What is the significance of Pair Programming in Extreme Programming (XP)?",
+      "options": [
+        "It reduces the need for comprehensive documentation.",
+        "It improves code quality and facilitates knowledge sharing.",
+        "It speeds up the development process by reducing testing efforts.",
+        "It ensures that individual developers work in isolation."
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 633,
+      "question": "What is a fundamental concept in Feature-Driven Development (FDD)?",
+      "options": [
+        "Continuous deployment of software features",
+        "Iterative development with minimal planning",
+        "Prioritization and delivery of specific software features",
+        "Extensive documentation throughout the development process"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 634,
+      "question": "In Feature-Driven Development (FDD), what is the purpose of the 'Feature List'?",
+      "options": [
+        "To track the progress of individual developers",
+        "To provide a comprehensive overview of project requirements",
+        "To document all technical specifications of the software",
+        "To list and prioritize features to be developed"
+      ],
+      "answer": 3
+    },
+    {
+      "Id": 635,
+      "question": "What is the role of the 'Chief Architect' in Feature-Driven Development (FDD)?",
+      "options": [
+        "Writing code and developing software features",
+        "Managing project schedules and budgets",
+        "Overseeing the overall design and architecture of the software",
+        "Facilitating communication and resolving conflicts within the team"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 636,
+      "question": "What is a Sprint in Scrum methodology?",
+      "options": [
+        "A meeting where team members provide updates on their progress",
+        "A fixed duration of time during which specific work is completed",
+        "A document outlining the detailed requirements of a software project",
+        "A stage in the development process where user stories are prioritized"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 637,
+      "question": "In Scrum, what is the primary responsibility of the Product Owner?",
+      "options": [
+        "Writing code and performing testing",
+        "Facilitating communication among team members",
+        "Prioritizing and managing the product backlog",
+        "Managing project schedules and budgets"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 638,
+      "question": "What is the purpose of the Scrum Master in the Scrum methodology?",
+      "options": [
+        "Writing code and developing software features",
+        "Managing project schedules and budgets",
+        "Facilitating the Scrum process and removing obstacles",
+        "Providing technical guidance to the development team"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 639,
+      "question": "Which Lean principle emphasizes the importance of delaying decisions until the last responsible moment?",
+      "options": [
+        "Amplify Learning",
+        "Decide as Late as Possible",
+        "Deliver as Fast as Possible",
+        "Empower the Team"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 640,
+      "question": "In Lean Software Development, what does the principle 'Amplify Learning' emphasize?",
+      "options": [
+        "Prioritizing comprehensive planning",
+        "Encouraging continuous improvement and experimentation",
+        "Maximizing upfront analysis and documentation",
+        "Focusing solely on delivering features quickly"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 641,
+      "question": "What is the role of the \"Domain Object Modeling\" practice in Feature-Driven Development (FDD)?",
+      "options": [
+        "Defining the user interface of the software",
+        "Identifying and prioritizing software features",
+        "Creating detailed technical specifications",
+        "Establishing the core business objects and their relationships"
+      ],
+      "answer": 3
+    },
+    {
+      "Id": 642,
+      "question": "What is the significance of the \"Feature Teams\" concept in Feature-Driven Development (FDD)?",
+      "options": [
+        "Teams dedicated to implementing specific software features",
+        "Teams responsible for managing the project schedule and budget",
+        "Teams focused on documenting all aspects of the software development process",
+        "Teams specializing in user interface design and aesthetics"
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 643,
+      "question": "In Feature-Driven Development (FDD), what is the purpose of the \"Inspections\" practice?",
+      "options": [
+        "Reviewing and refining the code produced by individual developers",
+        "Conducting regular meetings to discuss project progress",
+        "Documenting all aspects of the software design and development process",
+        "Reviewing and verifying the completion of software features"
+      ],
+      "answer": 3
+    },
+    {
+      "Id": 644,
+      "question": "What is the role of the \"Product Backlog\" in Scrum methodology?",
+      "options": [
+        "Documenting all technical specifications of the software",
+        "Prioritizing and managing the features to be developed",
+        "Defining the user interface and aesthetics of the software",
+        "Facilitating communication and collaboration among team members"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 645,
+      "question": "What is the purpose of the \"Sprint Review\" in Scrum methodology?",
+      "options": [
+        "To plan and prioritize tasks for the upcoming sprint",
+        "To review and refine the software requirements",
+        "To demonstrate the completed work to stakeholders and gather feedback",
+        "To identify and address any obstacles or impediments"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 646,
+      "question": "In Scrum, what is the role of the \"Development Team\"?",
+      "options": [
+        "To prioritize and manage the product backlog",
+        "To facilitate communication and resolve issues",
+        "To develop and deliver increments of potentially shippable product functionality",
+        "To manage project schedules and budgets"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 647,
+      "question": "What is the significance of \"Pull Systems\" in Lean Software Development?",
+      "options": [
+        "Prioritizing comprehensive planning and documentation",
+        "Minimizing waste and optimizing efficiency",
+        "Empowering teams to make decisions autonomously",
+        "Encouraging continuous improvement and experimentation"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 648,
+      "question": "Which Lean principle emphasizes the importance of delivering value to customers quickly and frequently?",
+      "options": [
+        "Deliver as Fast as Possible",
+        "Decide as Late as Possible",
+        "Build Integrity In",
+        "Amplify Learning"
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 649,
+      "question": "What is the purpose of \"Just-in-Time\" in Lean Software Development?",
+      "options": [
+        "Minimizing waste by producing only what is needed when it is needed",
+        "Maximizing resource utilization through extensive planning",
+        "Documenting all aspects of the software development process",
+        "Prioritizing speed over quality in delivering software"
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 650,
+      "question": "What is the main advantage of using prototypes in Rapid Application Development (RAD)?",
+      "options": [
+        "To provide comprehensive documentation of the software",
+        "To gather feedback and refine requirements iteratively",
+        "To automate testing and verification processes",
+        "To prioritize and manage the features to be developed"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 651,
+      "question": "In Rapid Application Development (RAD), what is the purpose of the \"Joint Application Development (JAD)\" sessions?",
+      "options": [
+        "To develop prototypes and gather feedback from stakeholders",
+        "To document all technical specifications of the software",
+        "To prioritize and manage the features to be developed",
+        "To review and refine the completed work with stakeholders"
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 652,
+      "question": "What is the primary objective of Continuous Integration (CI) in Extreme Programming (XP)?",
+      "options": [
+        "To write tests before writing code",
+        "To deliver high-quality software incrementally and rapidly",
+        "To ensure that changes to the codebase are integrated and tested frequently",
+        "To facilitate collaboration and knowledge sharing among developers"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 653,
+      "question": "In Extreme Programming (XP), what is the role of the \"Customer\"?",
+      "options": [
+        "To manage project schedules and budgets",
+        "To write code and perform testing",
+        "To provide feedback and prioritize features",
+        "To oversee the overall design and architecture of the software"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 654,
+      "question": "What is the significance of \"Collective Code Ownership\" in Extreme Programming (XP)?",
+      "options": [
+        "It ensures that individual developers work in isolation.",
+        "It improves code quality and facilitates knowledge sharing.",
+        "It speeds up the development process by reducing testing efforts.",
+        "It reduces the need for comprehensive documentation."
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 655,
+      "question": "What is the significance of the \"Feature Set\" in Feature-Driven Development (FDD)?",
+      "options": [
+        "It defines the overall architecture of the software system.",
+        "It lists and prioritizes the features to be developed in the project.",
+        "It specifies the technical details of individual software components.",
+        "It documents the requirements and constraints of the project."
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 656,
+      "question": "In Feature-Driven Development (FDD), what is the role of the \"Class-Responsibility-Collaboration (CRC)\" cards?",
+      "options": [
+        "To track the progress of individual developers.",
+        "To facilitate communication and collaboration among team members.",
+        "To document the technical specifications of the software components.",
+        "To model the interactions between classes and their responsibilities."
+      ],
+      "answer": 3
+    },
+    {
+      "Id": 657,
+      "question": "What is the primary goal of the \"Domain Walkthrough\" practice in Feature-Driven Development (FDD)?",
+      "options": [
+        "To gather feedback from stakeholders on project progress.",
+        "To identify potential risks and issues in the project domain.",
+        "To document the technical requirements and constraints of the project.",
+        "To prioritize and assign features to development teams."
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 658,
+      "question": "What is the purpose of the \"Sprint Retrospective\" in Scrum methodology?",
+      "options": [
+        "To demonstrate the completed work to stakeholders and gather feedback.",
+        "To review and refine the software requirements.",
+        "To identify and address any obstacles or impediments.",
+        "To plan and prioritize tasks for the upcoming sprint."
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 659,
+      "question": "In Scrum, what is the role of the \"Product Owner\"?",
+      "options": [
+        "To prioritize and manage the product backlog.",
+        "To facilitate communication and resolve issues.",
+        "To develop and deliver increments of potentially shippable product functionality.",
+        "To manage project schedules and budgets."
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 660,
+      "question": "What is the significance of the \"Definition of Done\" in Scrum methodology?",
+      "options": [
+        "It outlines the specific tasks to be completed during a sprint.",
+        "It defines the acceptance criteria for user stories.",
+        "It establishes the roles and responsibilities of team members.",
+        "It describes the quality standards that must be met for a product increment to be considered complete."
+      ],
+      "answer": 3
+    },
+    {
+      "Id": 661,
+      "question": "What is the primary focus of \"Value Stream Mapping\" in Lean Software Development?",
+      "options": [
+        "To identify and eliminate waste in the software development process.",
+        "To prioritize and manage the features to be developed in the project.",
+        "To model the interactions between classes and their responsibilities.",
+        "To facilitate communication and collaboration among team members."
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 662,
+      "question": "What is the purpose of \"Kanban Boards\" in Lean Software Development?",
+      "options": [
+        "To track the progress of individual developers.",
+        "To facilitate communication and collaboration among team members.",
+        "To document the technical specifications of the software components.",
+        "To visualize and manage the flow of work through the development process."
+      ],
+      "answer": 3
+    },
+    {
+      "Id": 663,
+      "question": "In Rapid Application Development (RAD), what is the purpose of the \"User Design\" phase?",
+      "options": [
+        "To develop and deliver increments of potentially shippable product functionality.",
+        "To review and refine the completed work with stakeholders.",
+        "To prioritize and manage the features to be developed in the project.",
+        "To create prototypes and gather feedback from stakeholders."
+      ],
+      "answer": 3
+    },
+    {
+      "Id": 664,
+      "question": "What is the role of the \"Feature Owner\" in Feature-Driven Development (FDD)?",
+      "options": [
+        "To manage project schedules and budgets.",
+        "To facilitate communication and resolve issues.",
+        "To prioritize and manage the features to be developed in the project.",
+        "To oversee the development of a specific software feature."
+      ],
+      "answer": 3
+    },
+    {
+      "Id": 665,
+      "question": "What is the significance of \"Domain Object Modeling\" in Feature-Driven Development (FDD)?",
+      "options": [
+        "It ensures that individual developers work in isolation.",
+        "It improves code quality and facilitates knowledge sharing.",
+        "It establishes the core business objects and their relationships.",
+        "It speeds up the development process by reducing testing efforts."
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 666,
+      "question": "In Feature-Driven Development (FDD), what is the purpose of \"Feature Set Entry\"?",
+      "options": [
+        "To prioritize and assign features to development teams.",
+        "To gather feedback from stakeholders on project progress.",
+        "To review and refine the software requirements.",
+        "To document the technical specifications of the software components."
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 667,
+      "question": "What is the role of the \"Scrum Master\" in Scrum methodology?",
+      "options": [
+        "To manage project schedules and budgets.",
+        "To facilitate communication and resolve issues.",
+        "To prioritize and manage the product backlog.",
+        "To develop and deliver increments of potentially shippable product functionality."
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 668,
+      "question": "What is the purpose of the \"Daily Standup Meeting\" in Scrum methodology?",
+      "options": [
+        "To demonstrate the completed work to stakeholders and gather feedback.",
+        "To review and refine the software requirements.",
+        "To provide progress updates and identify any obstacles.",
+        "To plan and prioritize tasks for the upcoming sprint."
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 669,
+      "question": "In Scrum, what is the significance of the \"Product Backlog\" refinement?",
+      "options": [
+        "It ensures that the team completes the tasks within a sprint.",
+        "It focuses on reviewing and refining the software requirements.",
+        "It prioritizes and manages the features to be developed.",
+        "It facilitates communication and collaboration among team members."
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 670,
+      "question": "What is the primary focus of \"Kaizen\" in Lean Software Development?",
+      "options": [
+        "Minimizing waste and optimizing efficiency.",
+        "Prioritizing comprehensive planning and documentation.",
+        "Encouraging continuous improvement and experimentation.",
+        "Maximizing resource utilization."
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 671,
+      "question": "What is the role of \"Kanban\" in Lean Software Development?",
+      "options": [
+        "To manage project schedules and budgets.",
+        "To track the progress of individual developers.",
+        "To visualize and manage the flow of work through the development process.",
+        "To facilitate communication and resolve issues."
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 672,
+      "question": "What is the purpose of \"User Design\" in Rapid Application Development (RAD)?",
+      "options": [
+        "To create prototypes and gather feedback from stakeholders.",
+        "To review and refine the completed work with stakeholders.",
+        "To prioritize and manage the features to be developed in the project.",
+        "To develop and deliver increments of potentially shippable product functionality."
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 673,
+      "question": "What is the role of the \"Chief Programmer\" in Feature-Driven Development (FDD)?",
+      "options": [
+        "To prioritize and manage the product backlog.",
+        "To oversee the overall design and architecture of the software.",
+        "To lead the development team and ensure quality standards.",
+        "To facilitate communication and resolve issues within the team."
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 674,
+      "question": "What is the purpose of the \"Feature-Driven Design\" practice in Feature-Driven Development (FDD)?",
+      "options": [
+        "To define the architecture and design of individual features.",
+        "To create detailed technical specifications for the entire system.",
+        "To review and refine the software requirements iteratively.",
+        "To prioritize and manage the features to be developed."
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 675,
+      "question": "In Feature-Driven Development (FDD), what is the significance of the \"Domain Expert\" role?",
+      "options": [
+        "To manage project schedules and budgets.",
+        "To provide expertise on the business domain and requirements.",
+        "To develop and deliver increments of potentially shippable product functionality.",
+        "To facilitate communication and resolve issues within the team."
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 676,
+      "question": "What is the purpose of the \"Product Increment\" in Scrum methodology?",
+      "options": [
+        "To demonstrate the completed work to stakeholders and gather feedback.",
+        "To prioritize and manage the features to be developed.",
+        "To define the user interface and aesthetics of the software.",
+        "To plan and prioritize tasks for the upcoming sprint."
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 677,
+      "question": "What is the primary focus of user-centered design (UCD) in software engineering?",
+      "options": [
+        "Optimizing code efficiency",
+        "Prioritizing stakeholder preferences",
+        "Placing the user at the center of the design process",
+        "Maximizing software features"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 678,
+      "question": "Which of the following is a key principle of user-centered design?",
+      "options": [
+        "Rapid development cycles",
+        "Iterative design and evaluation",
+        "Strict adherence to technical specifications",
+        "Minimal user involvement"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 679,
+      "question": "In user-centered design, what is the purpose of personas?",
+      "options": [
+        "To document technical requirements",
+        "To represent different user groups and their characteristics",
+        "To define software architecture",
+        "To conduct usability testing"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 680,
+      "question": "What is the primary goal of usability testing in software development?",
+      "options": [
+        "To ensure code functionality",
+        "To validate software architecture",
+        "To assess the ease of use and effectiveness of the software from the user's perspective",
+        "To identify security vulnerabilities"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 681,
+      "question": "Which usability testing method involves observing users as they interact with the software in a controlled environment?",
+      "options": [
+        "Heuristic evaluation",
+        "Cognitive walkthrough",
+        "Contextual inquiry",
+        "User testing"
+      ],
+      "answer": 3
+    },
+    {
+      "Id": 682,
+      "question": "What is the purpose of usability metrics in usability testing?",
+      "options": [
+        "To measure code complexity",
+        "To quantify user satisfaction and performance",
+        "To assess software scalability",
+        "To determine hardware requirements"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 683,
+      "question": "What is the goal of user experience (UX) design?",
+      "options": [
+        "Maximizing software features",
+        "Creating visually appealing interfaces",
+        "Enhancing user satisfaction and usability",
+        "Optimizing code efficiency"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 684,
+      "question": "Which of the following is a key consideration in UX design?",
+      "options": [
+        "Technical feasibility",
+        "Minimizing user involvement",
+        "Prioritizing stakeholder preferences",
+        "Understanding user needs and behaviors"
+      ],
+      "answer": 3
+    },
+    {
+      "Id": 685,
+      "question": "What role does prototyping play in UX design?",
+      "options": [
+        "Documenting technical specifications",
+        "Testing software performance",
+        "Validating design concepts and gathering feedback from users",
+        "Implementing final software features"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 686,
+      "question": "What is the aim of accessibility engineering in software development?",
+      "options": [
+        "Prioritizing technical excellence",
+        "Ensuring software compatibility with multiple platforms",
+        "Enhancing the user experience for individuals with disabilities",
+        "Maximizing software performance"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 687,
+      "question": "Which of the following is an example of an accessibility feature in software?",
+      "options": [
+        "Colorblind-friendly interface options",
+        "Advanced graphical effects",
+        "Complex navigation menus",
+        "High-speed data processing"
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 688,
+      "question": "What role does compliance with accessibility standards play in software development?",
+      "options": [
+        "Ensuring regulatory compliance",
+        "Reducing development costs",
+        "Increasing software complexity",
+        "Enhancing visual aesthetics"
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 689,
+      "question": "What are human factors in software development?",
+      "options": [
+        "Technical specifications",
+        "Psychological, social, and biological aspects that influence human-computer interaction",
+        "Software architecture",
+        "Hardware requirements"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 690,
+      "question": "How do human factors contribute to software design?",
+      "options": [
+        "By prioritizing stakeholder preferences",
+        "By enhancing software scalability",
+        "By considering human capabilities and limitations in the design process",
+        "By focusing solely on technical specifications"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 691,
+      "question": "Which of the following is an example of a human factor affecting software usability?",
+      "options": [
+        "Software complexity",
+        "Code efficiency",
+        "Technical documentation",
+        "User cognitive load"
+      ],
+      "answer": 3
+    },
+    {
+      "Id": 692,
+      "question": "What is the purpose of conducting user research in user-centered design (UCD)?",
+      "options": [
+        "To prioritize technical specifications",
+        "To gather insights into user needs, behaviors, and preferences",
+        "To document software architecture",
+        "To develop prototypes"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 693,
+      "question": "In user-centered design, what is the purpose of usability testing?",
+      "options": [
+        "To gather user requirements",
+        "To assess the effectiveness and efficiency of the software interface",
+        "To document software architecture",
+        "To prioritize features"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 694,
+      "question": "Which usability testing method involves observing users as they interact with the software in their natural environment?",
+      "options": [
+        "Heuristic evaluation",
+        "Cognitive walkthrough",
+        "Contextual inquiry",
+        "User testing"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 695,
+      "question": "What is the primary goal of user experience (UX) design?",
+      "options": [
+        "Maximizing software features",
+        "Creating visually appealing interfaces",
+        "Enhancing user satisfaction and usability",
+        "Optimizing code efficiency"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 696,
+      "question": "What is the primary goal of conducting user research in user-centered design (UCD)?",
+      "options": [
+        "To gather insights into user needs, behaviors, and preferences",
+        "To prioritize technical specifications",
+        "To document software architecture",
+        "To develop prototypes"
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 697,
+      "question": "What is the primary goal of user research in user-centered design (UCD)?",
+      "options": [
+        "To prioritize technical specifications",
+        "To gather insights into user needs, behaviors, and preferences",
+        "To document software architecture",
+        "To develop prototypes"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 698,
+      "question": "What is the primary objective of user-centered design (UCD) in software engineering?",
+      "options": [
+        "Maximizing technical efficiency",
+        "Prioritizing stakeholder preferences",
+        "Placing the user at the center of the design process",
+        "Implementing cutting-edge technologies"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 699,
+      "question": "Which of the following best describes iterative design and evaluation in user-centered design?",
+      "options": [
+        "Designing software without user feedback",
+        "Continuous refinement based on user feedback and testing",
+        "Implementing all features at once",
+        "Relying solely on the designer's intuition"
+      ],
+      "answer": 1
+    },
+    {
+      "Id": 700,
+      "question": "Which usability testing method involves observing users as they perform specific tasks in a controlled environment?",
+      "options": [
+        "Contextual inquiry",
+        "Heuristic evaluation",
+        "User testing",
+        "Cognitive walkthrough"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 701,
+      "question": "What role do usability metrics play in usability testing?",
+      "options": [
+        "To measure the number of software features",
+        "To determine hardware requirements",
+        "To quantify user satisfaction and performance",
+        "To evaluate the programming languages used"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 702,
+      "question": "How does prototyping contribute to the UX design process?",
+      "options": [
+        "By documenting technical specifications",
+        "By finalizing software features",
+        "By validating design concepts and gathering feedback from users",
+        "By prioritizing stakeholder preferences"
+      ],
+      "answer": 2
+    },
+    {
+      "Id": 703,
+      "question": "Why is compliance with accessibility standards important in software development?",
+      "options": [
+        "To ensure regulatory compliance",
+        "To increase software complexity",
+        "To reduce development costs",
+        "To improve software aesthetics"
+      ],
+      "answer": 0
+    },
+    {
+      "Id": 704,
+      "question": "What is the primary goal of user-centered design (UCD) in software engineering?",
+      "options": [
+        "Maximizing technical complexity",
+        "Prioritizing stakeholder interests",
+        "Placing the user at the center of the design process",
+        "Accelerating development timelines"
+      ],
+      "answer": 2
+    }
 ]

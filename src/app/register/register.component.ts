@@ -12,38 +12,49 @@ import { ActivatedRoute } from '@angular/router';
 @Component({
   selector: 'app-register',
   standalone: true,
-  imports: [CommonModule, FormsModule, MatCardModule, MatButtonModule, MatLabel,  MatFormFieldModule, MatInputModule],
+  imports: [
+    CommonModule,
+    FormsModule,
+    MatCardModule,
+    MatButtonModule,
+    MatLabel,
+    MatFormFieldModule,
+    MatInputModule,
+  ],
   templateUrl: './register.component.html',
-  styleUrl: './register.component.css'
+  styleUrl: './register.component.css',
 })
 export class RegisterComponent {
   emailPattern = "^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$";
 
   constructor(
-    private quizService : QuizService,
-    private route : Router,
-    private activatedRoute: ActivatedRoute) { 
-      activatedRoute.url.subscribe((urlSegments) => {
-      const subjectCode = urlSegments[0].path; 
-      quizService.setSubject(subjectCode.toLowerCase());
+    private quizService: QuizService,
+    private route: Router,
+    private activatedRoute: ActivatedRoute
+  ) {
+    activatedRoute.url.subscribe((urlSegments) => {
+      const targetCode = urlSegments[0].path;
+      quizService.setTargetData(targetCode.toLowerCase());
     });
   }
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
-  OnSubmit(name:string){
+  OnSubmit(name: string) {
     let email: string = 'temp@ge.com';
     this.quizService.insertParticipant(name, email).subscribe(
-      (data : any) =>{
-        localStorage.clear();
-        localStorage.setItem('participant',JSON.stringify(data));
-        this.route.navigate(['/quiz']);
-      }
-    );
+    (data: any) => {
+      localStorage.clear();
+      localStorage.setItem('participant', JSON.stringify(data));
+      this.route.navigate(['/quiz']);
+    });
   }
 
   navigateToReview(): void {
-    this.route.navigate(['/revise']);  // Navigate to the /review route
+    this.route.navigate(['/revise']);
+  }
+
+  navigateToDashboard(): void {
+    this.route.navigate(['/dashboard']);
   }
 }

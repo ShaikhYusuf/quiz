@@ -18,7 +18,7 @@ export class QuizService {
   timer: any;
   qnProgress: number;
   correctAnswerCount: number;
-  subject: string
+  targetData: string;
 
   //---------------- Helper Methods---------------
   constructor(
@@ -29,15 +29,15 @@ export class QuizService {
     this.seconds = 0;
     this.qnProgress = 0;
     this.correctAnswerCount = 0;
-    this.subject = 'python';
+    this.targetData = 'en';
   }
 
-  setSubject(subject: string){
-    this.subject = subject;
+  setTargetData(targetData: string) {
+    this.targetData = targetData;
   }
 
-  getSubject(){
-    return this.subject;
+  getTargetData() {
+    return this.targetData;
   }
 
   displayTimeElapsed() {
@@ -70,7 +70,7 @@ export class QuizService {
 
   //---------------- Http Methods---------------
   getQuestions(): Observable<IQuestion[]> {
-    return this.questionCollection.get(this.subject).pipe(
+    return this.questionCollection.get(this.targetData).pipe(
       map((questions) => {
         const randomQuestions = this.getRandomQuestions(
           questions,
@@ -115,11 +115,15 @@ export class QuizService {
     var body = JSON.parse(localStorage.getItem('participant')!);
     body.Score = this.correctAnswerCount;
     body.TimeSpent = this.seconds;
+    body.TargetData = this.targetData;
     return of(body);
   }
- 
 
-  getAllQuestions(language: string): Observable<IQuestion[]> {
-    return this.questionCollection.get(language);
+  getAllQuestions(targetData: string): Observable<IQuestion[]> {
+    return this.questionCollection.get(targetData);
+  }
+
+  getSubject() {
+    return 'My Body - ' + this.targetData.toUpperCase();
   }
 }

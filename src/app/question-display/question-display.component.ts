@@ -7,42 +7,40 @@ import { IQuestion } from '../data/questionCollection';
 import { ActivatedRoute } from '@angular/router';
 import { forkJoin } from 'rxjs';
 
-
 @Component({
   selector: 'app-question-display',
   imports: [CommonModule, MatCardModule, MatListModule],
   templateUrl: './question-display.component.html',
-  styleUrl: './question-display.component.css'
+  styleUrl: './question-display.component.css',
 })
 export class QuestionDisplayComponent {
   questionsSubject!: IQuestion[];
   baseQuestions: IQuestion[];
 
   constructor(
-    private activatedRoute: ActivatedRoute, 
-    public quizService: QuizService) {
-      this.questionsSubject = [];
-      this.baseQuestions = [];
-    }
+    private activatedRoute: ActivatedRoute,
+    public quizService: QuizService
+  ) {
+    this.questionsSubject = [];
+    this.baseQuestions = [];
+  }
 
   ngOnInit() {
     this.activatedRoute.url.subscribe((urlSegments) => {
-      const lastPath = urlSegments[0]?.path; // 'revise'
+      const lastPath = urlSegments[0]?.path;
       if (lastPath === 'revise') {
         this.questionsSubject = [];
-        const selectedLanguage = this.quizService.getSubject();
-        this.quizService.getAllQuestions(selectedLanguage).subscribe(data => {
+        const targetData = this.quizService.getTargetData();
+        this.quizService.getAllQuestions(targetData).subscribe((data) => {
           this.questionsSubject = data;
           this.baseQuestions = this.questionsSubject;
         });
-        
       }
     });
   }
-    
-  
+
   getCorrectAnswerClass(indexQuestion: number, currentIndex: number): string {
-    const question =  this.questionsSubject[indexQuestion];
+    const question = this.questionsSubject[indexQuestion];
     const answerIndex = question.answer - 1;
 
     return currentIndex == answerIndex ? 'correct-answer' : '';

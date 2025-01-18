@@ -1,4 +1,3 @@
-
 <div class="register-container">
   
   <mat-card>
@@ -9,12 +8,12 @@
     </mat-card-header>
     <mat-card-content>
       <div class="logo-container">
-        <img src="/assets/img/Logo2.PNG" alt="Logo" class="logo">
+        <img src="/assets/img/logo.png" alt="Logo" class="logo">
       </div>
       <form #registerForm="ngForm" (ngSubmit)="OnSubmit(Name.value)">
         <mat-form-field appearance="outline" class="full-width">
           <mat-label>Name</mat-label>
-          <input matInput type="text" name="Name" #Name ngModel required>
+          <input matInput type="text" name="Name" #Name ngModel required />
         </mat-form-field>
 
         <!-- Uncomment for email field if needed -->
@@ -26,11 +25,29 @@
         -->
 
         <div class="button-container">
-          <button mat-raised-button color="primary" type="submit" [disabled]="!registerForm.valid">
+          <button
+            mat-raised-button
+            color="primary"
+            type="submit"
+            [disabled]="!registerForm.valid"
+          >
             Start
           </button>
-          <button mat-raised-button color="primary" type="button" (click)="navigateToReview()">
+          <button
+            mat-raised-button
+            color="primary"
+            type="button"
+            (click)="navigateToReview()"
+          >
             Revise
+          </button>
+          <button
+            mat-raised-button
+            color="primary"
+            type="button"
+            (click)="navigateToDashboard()"
+          >
+            Dashboard
           </button>
         </div>
       </form>

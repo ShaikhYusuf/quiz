@@ -1,5 +1,8 @@
 <div class="question-container">
-    <mat-card *ngFor="let question of baseQuestions; let i = index" class="question-card">
+  <mat-card
+    *ngFor="let question of baseQuestions; let i = index"
+    class="question-card"
+  >
       <mat-card-header>
         <mat-card-title>Question {{ question.Id }}</mat-card-title>
       </mat-card-header>
@@ -9,8 +12,10 @@
           <div class="question-column" *ngIf="questionsSubject.length > 0">
             <p>{{ questionsSubject[i].question }}</p>
             <mat-list>
-              <mat-list-item *ngFor="let option of questionsSubject[i].options; let k = index" 
-                  [ngClass]="getCorrectAnswerClass(i, k)">
+              <mat-list-item
+                *ngFor="let option of questionsSubject[i].options; let k = index" 
+                [ngClass]="getCorrectAnswerClass(i, k)"
+			  >
                 {{option}}
               </mat-list-item>
             </mat-list>

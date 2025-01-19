@@ -17,7 +17,7 @@ export class DashboardComponent {
   constructor(private http: HttpClient) {}
 
   ngOnInit(): void {
-    this.http.get<any[]>('/assets/dashboard.json').subscribe((response) => {
+    this.http.get<any[]>('assets/dashboard.json').subscribe((response) => {
       this.data = response;
       this.sortedData = this.data.sort(
         (a, b) => b.Score - a.Score || a.TimeSpent - b.TimeSpent
